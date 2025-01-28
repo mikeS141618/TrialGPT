@@ -4,11 +4,6 @@ __author__ = "qiao"
 TrialGPT-Ranking main functions.
 """
 
-import json
-from nltk.tokenize import sent_tokenize
-import time
-import os
-
 # from openai import AzureOpenAI
 #
 # client = AzureOpenAI(
@@ -19,9 +14,8 @@ import os
 
 import json
 import os
-from openai import OpenAI
 
-import sys
+from openai import OpenAI
 
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
