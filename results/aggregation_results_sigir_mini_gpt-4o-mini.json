@@ -1,0 +1,368 @@
+{
+    "sigir-20141": {
+        "NCT01604655": {
+            "relevance_explanation": "The patient is a 58-year-old woman presenting with chest pain, which is directly relevant to the clinical trial focused on patients with chest pain and suspected acute coronary syndrome. She meets the age criterion of being \u226545 years. However, there is insufficient information regarding the EKG and troponin I levels, which affects the overall relevance. Therefore, the relevance score is high but not perfect.",
+            "relevance_score_R": 80,
+            "eligibility_explanation": "The patient meets the inclusion criteria for chest pain and age, but there is not enough information to confirm the EKG status or troponin I levels, which are critical for full eligibility. The patient is not excluded by any exclusion criteria, and she can provide informed consent. Thus, the eligibility score reflects partial eligibility based on the available information.",
+            "eligibility_score_E": 40
+        },
+        "NCT01724996": {
+            "relevance_explanation": "The patient is a 58-year-old African-American woman presenting with episodic chest pain, which is directly relevant to the clinical trial focused on chest pain and its assessment. The trial aims to evaluate a bedside test for excluding acute coronary syndrome, which aligns with the patient's presenting symptoms. Therefore, the relevance score is high.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets the inclusion criterion of self-reported chest pain and is able to provide informed consent. However, there is uncertainty regarding her stability as she is currently in the ER with chest pain, which could potentially affect her eligibility. Since there is not enough information to confirm her stability, the eligibility score is slightly lower than the relevance score.",
+            "eligibility_score_E": 70.0
+        },
+        "NCT00373828": {
+            "relevance_explanation": "The patient presents with an acute episode of chest pain that began two days earlier, which is relevant to the trial's focus on acute chest pain. The pain is described as anterior chest pain, indicating it arises from the thorax, which aligns with the trial's target conditions. However, there is uncertainty regarding the patient's diagnosis of acute coronary syndrome and the ability to read Danish, which slightly reduces relevance. Overall, the patient is relevant to the trial due to the acute chest pain and its characteristics.",
+            "relevance_score_R": 80,
+            "eligibility_explanation": "The patient meets the inclusion criteria for having an acute episode of chest pain of less than 7 days duration and pain arising from the thorax. However, there is insufficient information to confirm the negative diagnosis of acute coronary syndrome, which leaves some uncertainty regarding eligibility. The patient is willing to provide informed consent, which is a positive factor. Given these considerations, the eligibility score reflects a strong likelihood of eligibility but acknowledges the uncertainty.",
+            "eligibility_score_E": 60
+        },
+        "NCT00462241": {
+            "relevance_explanation": "The patient presents with acute chest pain, which is the primary complaint and aligns with the target conditions of the clinical trial. She has had this pain for two days, which is within the required duration for inclusion. Additionally, she is willing to provide informed consent and comply with the trial protocol. However, there is uncertainty regarding her residency and the specific nature of her chest pain (musculoskeletal vs. other causes), which slightly reduces the relevance score. Overall, the patient is highly relevant to the trial.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets most of the inclusion criteria, including having chest pain as her primary complaint, having an acute episode of pain of less than 7 days, consenting to the evaluation program, and having pain in the thorax. However, there is insufficient information regarding her residency and the specific nature of her chest pain, which prevents full eligibility. Therefore, while she is eligible based on the criteria met, the uncertainty regarding residency and the nature of the pain leads to a slightly lower eligibility score.",
+            "eligibility_score_E": 70.0
+        },
+        "NCT00623454": {
+            "relevance_explanation": "The patient is a 58-year-old woman presenting with episodic chest pain, which aligns with the trial's focus on patients experiencing chest pain or palpitations. However, she has not been investigated at the specified clinic within the required timeframe, which affects the overall relevance. Therefore, the relevance score is moderately high due to the presence of chest pain but lower due to the lack of investigation at the specified clinic.",
+            "relevance_score_R": 70,
+            "eligibility_explanation": "The patient meets one inclusion criterion by suffering from chest pain, but does not meet the first inclusion criterion regarding prior investigation at the specified clinic. There is insufficient information to determine eligibility for the exclusion criteria. Therefore, the eligibility score reflects partial eligibility based on the inclusion criterion met, but is limited by the lack of investigation history.",
+            "eligibility_score_E": 30
+        },
+        "NCT00166231": {
+            "relevance_explanation": "The clinical trial focuses on pediatric patients experiencing chest pain, while the patient is a 58-year-old woman. The age and pediatric focus of the trial make the patient largely irrelevant to the study. Although the patient is experiencing chest pain, she does not meet the age criteria, which is a significant factor in determining relevance.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "The patient does not meet any of the inclusion criteria for the trial, as she is not a pediatric patient and the trial specifically targets children aged 8-18. While there is a possibility that she speaks English, this does not contribute to her eligibility since she is excluded based on age. Therefore, the eligibility score reflects that she is ineligible for the trial.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT02107001": {
+            "relevance_explanation": "The patient is a 58-year-old woman presenting with chest pain, which is relevant to the clinical trial focused on lung ultrasound for diagnosing conditions related to chest pain. However, the patient's chest pain is not definitively described as pleuritic, which is a key focus of the trial. Therefore, while there is some relevance due to the symptom of chest pain, the lack of clarity regarding the nature of the pain reduces the overall relevance score.",
+            "relevance_score_R": 70,
+            "eligibility_explanation": "The patient meets the age requirement but does not meet the inclusion criterion for pleuritic pain. Additionally, there is uncertainty regarding the exclusion criterion related to acute cardiovascular diseases, as the patient's symptoms could suggest such a condition. Therefore, the patient is not fully eligible for the trial, leading to a negative eligibility score that reflects the uncertainty and partial ineligibility.",
+            "eligibility_score_E": -30
+        },
+        "NCT01665521": {
+            "relevance_explanation": "The patient is a 58-year-old woman presenting with chest pain, which is a key symptom for the clinical trial focused on acute coronary syndrome and chest pain. Her age and symptoms align well with the trial's target population, indicating a high relevance. However, there are some uncertainties regarding the treating physician's assessment and vital signs, which slightly reduce the overall relevance score.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets the inclusion criteria for age and presents with symptoms consistent with possible acute coronary syndrome. However, there is insufficient information regarding the treating physician's assessment for discharge and the patient's vital signs, which prevents a full determination of eligibility. Therefore, the eligibility score reflects a positive inclusion but acknowledges the uncertainties.",
+            "eligibility_score_E": 60.0
+        },
+        "NCT00536224": {
+            "relevance_explanation": "The patient is a 58-year-old African-American woman presenting with chest pain, which is the target condition of the clinical trial. She has modifiable cardiovascular risk factors (obesity and hypertension), making her relevant to the study's focus on cardiovascular risk-related behaviors. The trial aims to assess interventions for patients with chest pain, and the patient's symptoms align with this focus. Therefore, the relevance score is high.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets the inclusion criterion of having at least one modifiable cardiovascular risk factor (obesity and hypertension). She is not excluded by any of the exclusion criteria, as there is no evidence of myocardial ischemia, she is not terminally ill, and she is able to provide informed consent. Thus, the eligibility score reflects her inclusion in the trial.",
+            "eligibility_score_E": 85.0
+        },
+        "NCT02608255": {
+            "relevance_explanation": "The patient presents with symptoms that are compatible with acute coronary syndrome, including chest pain, nausea, and diaphoresis. She is a woman over 18 years old, which aligns with the trial's inclusion criteria. Additionally, she has not received any anticoagulation treatment and is willing to provide informed consent. Therefore, the relevance score is high.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The patient meets all the inclusion criteria for the trial, including having compatible symptoms, being a woman, not having received anticoagulation, and agreeing to participate. There are no exclusion criteria that apply to her. Thus, the eligibility score is equal to the relevance score, indicating full eligibility.",
+            "eligibility_score_E": 90.0
+        },
+        "NCT01660594": {
+            "relevance_explanation": "The patient presents with episodic chest pain that is non-acute, which aligns with the trial's focus on stable chest pain. However, the patient has not undergone CT calcium scoring, which is a requirement for inclusion in the trial. The patient has relevant risk factors (hypertension and obesity) that are considered in the trial, but the lack of CT calcium scoring affects the overall relevance. Therefore, the relevance score is moderate.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient meets the inclusion criteria for non-acute chest pain and the availability of relevant risk factor information. However, the patient does not meet the inclusion criterion of having undergone CT calcium scoring. Since the patient is not excluded by any exclusion criteria, the eligibility score reflects the partial eligibility based on the inclusion criteria met.",
+            "eligibility_score_E": 20
+        },
+        "NCT00990262": {
+            "relevance_explanation": "The patient presents with episodic chest pain, which is a key symptom relevant to the clinical trial focused on acute coronary syndrome. However, the note does not specify the duration of the chest pain episodes, which is critical for inclusion in the trial. Therefore, while there is a connection to the trial's focus, the lack of specific details about the chest pain episodes limits the overall relevance.",
+            "relevance_score_R": 70,
+            "eligibility_explanation": "The patient meets some of the relevance criteria for the trial, particularly regarding the presentation of chest pain. However, the uncertainty regarding the duration of the chest pain episodes means that we cannot definitively conclude eligibility. The patient is not excluded by any of the exclusion criteria, but the lack of information regarding the inclusion criterion leads to a neutral eligibility score.",
+            "eligibility_score_E": 0
+        },
+        "NCT00823563": {
+            "relevance_explanation": "The patient presents with episodic chest pain, which aligns with the target conditions of the clinical trial. She has a reasonable clinical suspicion of coronary ischemia, as indicated by her symptoms and the need for potential coronary angiography. Therefore, the relevance score is high.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The patient meets all inclusion criteria and is not excluded by any of the exclusion criteria. She has a reasonable suspicion of coronary ischemia and experiences angina-like symptoms. Additionally, she is capable of providing informed consent and complying with the trial protocol. Thus, the eligibility score is equal to the relevance score.",
+            "eligibility_score_E": 90.0
+        },
+        "NCT01682096": {
+            "relevance_explanation": "The patient presents with episodic chest pain, which is relevant to the clinical trial focused on diagnosing acute coronary syndrome in patients with chest pain. However, there are uncertainties regarding the duration of the chest pain, the patient's heart rhythm, and the pre-test probability of significant coronary artery disease. These factors affect the overall relevance score, as the patient does not fully meet the criteria for inclusion or exclusion based on the provided information.",
+            "relevance_score_R": 70,
+            "eligibility_explanation": "The patient is likely relevant to the trial due to her presentation of chest pain and risk factors for coronary artery disease. However, there is insufficient information to confirm her eligibility, particularly regarding the ECG findings and the duration of chest pain. The patient is not excluded by any criteria, but the lack of definitive information leads to a neutral eligibility score.",
+            "eligibility_score_E": 0
+        },
+        "NCT01084239": {
+            "relevance_explanation": "The patient is a 58-year-old African-American woman presenting with chest pain, which is relevant to the clinical trial focused on acute coronary syndrome and myocardial infarction. She has experienced chest pain consistent with the trial's inclusion criteria and has multiple cardiac risk factors, including hypertension and obesity. Additionally, she is able to provide informed consent and falls within the appropriate age range. However, there are some uncertainties regarding her ability to hold her breath and her BMI, which slightly reduces the relevance score. Overall, the patient is highly relevant to the trial.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets all the inclusion criteria except for the ability to hold breath for at least 10 seconds and sinus rhythm, for which there is no information available. She is also potentially excluded based on her obesity, as her BMI may exceed 40 kg/m2, but this is not definitively known. Therefore, while she is eligible based on the inclusion criteria, the uncertainties regarding her eligibility criteria lead to a score that reflects partial eligibility. The patient is not excluded by any criteria, but the lack of information on certain criteria affects her overall eligibility score.",
+            "eligibility_score_E": 60.0
+        },
+        "NCT01494870": {
+            "relevance_explanation": "The patient is a 58-year-old woman presenting with chest pain, which is relevant to the clinical trial focused on Acute Coronary Syndrome (ACS). However, the patient's specific symptoms and EKG findings do not clearly indicate a diagnosis of ACS or LBBB, which are critical for the trial. Therefore, while there is some relevance due to her age and symptoms, the lack of definitive evidence for ACS or LBBB reduces the overall relevance score.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient meets the age criterion but does not meet the ischemic discomfort criterion, and there is no evidence of LBBB on the EKG. The information regarding urgent coronary angiography is insufficient to determine eligibility. Therefore, the patient is not fully eligible for the trial, leading to a negative eligibility score reflecting the lack of inclusion in key criteria.",
+            "eligibility_score_E": -30
+        },
+        "NCT01284179": {
+            "relevance_explanation": "The patient is a 58-year-old woman presenting with chest pain, which is relevant to the clinical trial focused on functional chest pain. However, the patient has only experienced symptoms for two days and does not meet several inclusion criteria, particularly the requirement for symptoms lasting at least three months. Therefore, while there is some relevance due to the nature of her symptoms, the lack of fulfillment of key criteria reduces the overall relevance score.",
+            "relevance_score_R": 40.0,
+            "eligibility_explanation": "The patient does not meet the inclusion criteria for the trial, particularly the requirement for chronic symptoms and the specific nature of the chest pain. While she is within the age range and has no contraindications for participation, the lack of evidence for fulfilling the Rome III criteria and the absence of a cardiac evaluation lead to a negative eligibility score. Thus, the eligibility score reflects that the patient is not eligible for the trial.",
+            "eligibility_score_E": -40.0
+        },
+        "NCT02015858": {
+            "relevance_explanation": "The patient presents with chest pain, which is relevant to the clinical trial focused on pain evaluation during chest tube withdrawal. However, the patient is not undergoing chest tube removal, which is a key aspect of the trial. Therefore, while there is some relevance due to the target condition (chest pain), the lack of direct applicability to the trial's specific procedure reduces the overall relevance score.",
+            "relevance_score_R": 40,
+            "eligibility_explanation": "The patient does not meet any of the inclusion criteria, as she is not undergoing chest tube removal. Additionally, there is insufficient information to determine her ability to indicate a pain score. All exclusion criteria are not applicable based on the information provided. Therefore, the eligibility score reflects that the patient is not eligible for the trial.",
+            "eligibility_score_E": -40
+        },
+        "NCT00000501": {
+            "relevance_explanation": "The patient is a 58-year-old African-American woman with hypertension and obesity, which are relevant to the target conditions of the clinical trial. However, she does not meet the age criteria of 25 to 49 years, which significantly affects her relevance to the trial. Overall, the patient has some relevance due to her conditions but is not a perfect match due to the age exclusion.",
+            "relevance_score_R": 40.0,
+            "eligibility_explanation": "The patient does not meet the inclusion criteria due to her age being outside the specified range of 25 to 49 years. Therefore, she is ineligible for the trial as she does not satisfy any of the inclusion criteria. The eligibility score reflects this ineligibility.",
+            "eligibility_score_E": -40.0
+        },
+        "NCT00952744": {
+            "relevance_explanation": "The patient is a 58-year-old woman presenting with symptoms consistent with acute coronary syndromes, including chest pain, nausea, and diaphoresis. However, she does not meet the inclusion criterion of presenting within 6 hours of symptom onset, which affects her overall relevance to the trial. Despite this, her age and symptom presentation align well with the trial's focus on acute myocardial infarction, leading to a high relevance score.",
+            "relevance_score_R": 80,
+            "eligibility_explanation": "The patient meets most inclusion criteria, including age, symptom presentation, and willingness to comply with the trial protocol. However, she does not meet the criterion of presenting within 6 hours of symptom onset, which results in her being ineligible for the trial. Therefore, the eligibility score reflects this ineligibility while still considering her overall relevance.",
+            "eligibility_score_E": 40
+        }
+    },
+    "sigir-201410": {
+        "NCT01121510": {
+            "relevance_explanation": "The patient is highly relevant to the clinical trial as she has undergone a cardiac catheterization, which is a diagnostic procedure that aligns with the trial's focus on patients undergoing angiographic procedures. Additionally, she is willing to provide informed consent and comply with the trial protocol. However, she is experiencing symptomatic leg ischemia and loss of distal pulses, which are concerning signs that may affect her eligibility. Overall, the relevance is strong due to the alignment with the trial's target population.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets several inclusion criteria, such as providing informed consent, undergoing a relevant procedure, and willingness to comply with follow-up requirements. However, she is excluded based on the presence of symptomatic leg ischemia and absent pedal pulse, which directly violate the exclusion criteria. Therefore, while she is relevant to the trial, her eligibility is negatively impacted by these exclusion factors.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00533156": {
+            "relevance_explanation": "The patient is a 67-year-old woman who underwent cardiac catheterization, which is relevant to the clinical trial focused on coronary procedures. She meets all inclusion criteria except for one, which lacks sufficient information, and is excluded based on symptomatic leg ischemia. Overall, the patient is highly relevant to the trial as she is undergoing a procedure that aligns with the trial's purpose.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets all inclusion criteria except for the femoral artery diameter criterion, which lacks information. However, she is excluded due to symptomatic leg ischemia, which directly impacts her eligibility. Therefore, while she is relevant to the trial, her exclusion leads to a negative eligibility score.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT00667381": {
+            "relevance_explanation": "The patient is a 67-year-old woman who underwent cardiac catheterization, which is relevant to the trial focused on vascular access complications during cardiac catheterization. However, she underwent the procedure via the right femoral artery, which does not meet the specific inclusion criterion for the left heart catheterization or peripheral arterial angiography from the retrograde femoral approach. Overall, the patient is relevant to the trial but does not fully meet all inclusion criteria.",
+            "relevance_score_R": 70,
+            "eligibility_explanation": "The patient meets the age requirement and is willing to provide informed consent, which are both included in the eligibility criteria. However, she does not meet the inclusion criterion for undergoing the specified type of catheterization and is excluded due to nonpalpable femoral pulses. Therefore, the patient is not eligible for the trial.",
+            "eligibility_score_E": -30
+        },
+        "NCT01001663": {
+            "relevance_explanation": "The patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery, which is directly relevant to the clinical trial that focuses on femoral artery access closure after coronary angiography. She meets the age requirement and has the necessary procedure background, making her highly relevant to the trial's target conditions.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The patient meets three inclusion criteria: she is over 18 years old, she underwent femoral access coronary angiography, and she is competent to provide informed consent. However, there is insufficient information regarding the size of the sheath used, which affects her eligibility. Since she is not excluded by any of the exclusion criteria, her eligibility score reflects her partial eligibility based on the inclusion criteria met.",
+            "eligibility_score_E": 70.0
+        },
+        "NCT00736086": {
+            "relevance_explanation": "The patient is a 67-year-old woman who underwent cardiac catheterization, which is relevant to the trial focusing on vascular closure systems post-percutaneous procedures. However, she is currently experiencing complications that may indicate a need for emergent surgery, which could affect her suitability for the trial. Overall, her age and the procedure she underwent align with the trial's focus, but her current condition introduces some uncertainty regarding her eligibility.",
+            "relevance_score_R": 75.0,
+            "eligibility_explanation": "The patient meets the age requirement and has undergone a relevant procedure. She has also agreed to comply with the trial protocol and provide informed consent. However, her current complications suggest she may not be an acceptable candidate for the trial, as she may require emergent surgery. Therefore, while she meets several inclusion criteria, the complications reduce her overall eligibility score.",
+            "eligibility_score_E": 25.0
+        },
+        "NCT00471289": {
+            "relevance_explanation": "The patient is a 67-year-old woman with symptoms consistent with critical limb ischemia, which is the target condition of the clinical trial. She is willing to provide informed consent and comply with the trial protocol. However, there are several inclusion criteria for which there is insufficient information to determine eligibility, particularly regarding the specifics of her condition and the status of her arteries. Overall, the patient is relevant to the trial due to her age, willingness to participate, and symptoms, but the lack of complete information on her condition affects the relevance score.",
+            "relevance_score_R": 70,
+            "eligibility_explanation": "The patient meets some inclusion criteria, such as age and willingness to provide informed consent, but is excluded due to the presence of acute limb ischemia. Additionally, there are several criteria for which there is not enough information to determine eligibility. Given that the patient is excluded based on acute limb ischemia, the eligibility score reflects this exclusion while still considering the relevance of the patient to the trial.",
+            "eligibility_score_E": -50
+        },
+        "NCT01600482": {
+            "relevance_explanation": "The patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery, which is relevant to the trial that focuses on patients undergoing percutaneous interventions involving the common femoral artery. She is willing to provide informed consent and complies with the trial protocol, further enhancing her relevance to the study. Overall, the patient meets all inclusion criteria and has no disqualifying information regarding exclusion criteria, leading to a high relevance score.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The patient meets all inclusion criteria: she is over 18 years old, willing to provide informed consent, and has undergone a clinically indicated intra-arterial procedure through the common femoral artery. However, there are several exclusion criteria for which there is insufficient information to determine eligibility, particularly regarding potential coagulopathy and other health conditions. Therefore, while the patient is highly relevant to the trial, the uncertainty regarding some exclusion criteria leads to a slightly lower eligibility score.",
+            "eligibility_score_E": 70.0
+        },
+        "NCT02241642": {
+            "relevance_explanation": "The patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery, which is directly relevant to the clinical trial focused on the closure of femoral arterial puncture sites. She is willing to provide informed consent and comply with the trial protocol. However, there is some uncertainty regarding her pregnancy status and other medical conditions, which slightly reduces the relevance score.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets all the inclusion criteria and is not excluded by any of the exclusion criteria that can be determined from the provided information. However, there are several exclusion criteria for which there is insufficient information to confirm eligibility. Therefore, while the patient is likely eligible, the uncertainty regarding some criteria leads to a slightly lower eligibility score.",
+            "eligibility_score_E": 70.0
+        },
+        "NCT02237430": {
+            "relevance_explanation": "The patient is a 67-year-old woman who underwent cardiac catheterization, which is relevant to the trial that focuses on closure methods after femoral access angiography. She meets all inclusion criteria and does not have any clear exclusions based on the information provided. Therefore, the relevance score is high.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The patient meets all inclusion criteria and is not excluded by any of the known exclusion criteria, although there are some areas where information is lacking (e.g., potential pseudoaneurysm). However, since she is not explicitly excluded by any criteria, the eligibility score is close to the relevance score but slightly lower due to the uncertainties.",
+            "eligibility_score_E": 80.0
+        },
+        "NCT02214030": {
+            "relevance_explanation": "The patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery, which is relevant to the trial that focuses on femoral artery injuries and complications. However, there is uncertainty regarding whether her procedure was an elective PCI, which is a key inclusion criterion. The patient is experiencing complications (pulsatile mass and cool foot), which are directly relevant to the trial's focus on vascular adverse events. Overall, the patient is relevant to the trial but not perfectly aligned with all criteria.",
+            "relevance_score_R": 75.0,
+            "eligibility_explanation": "The patient meets the age and procedural criteria for inclusion but is excluded due to the presence of complications (pulsatile mass and loss of distal pulses). These complications fall under the exclusion criteria for the trial. Therefore, while the patient is relevant to the trial, she is not eligible due to these complications.",
+            "eligibility_score_E": -50.0
+        },
+        "NCT01943344": {
+            "relevance_explanation": "The patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery, which is directly relevant to the clinical trial focused on percutaneous closure of arteriotomy in the common femoral artery. She meets the age requirement, is willing to provide informed consent, and is clinically indicated for the endovascular procedure. However, there is uncertainty regarding her pregnancy status, which slightly reduces the relevance score. Overall, the patient is highly relevant to the trial.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The patient meets all the inclusion criteria except for the pregnancy status, which is not explicitly stated. She is not excluded by any of the exclusion criteria based on the information provided. Therefore, while she is highly relevant to the trial, the lack of information regarding her pregnancy status prevents full eligibility. Thus, the eligibility score is slightly lower than the relevance score.",
+            "eligibility_score_E": 80.0
+        },
+        "NCT00481741": {
+            "relevance_explanation": "The patient is a 67-year-old woman who underwent cardiac catheterization, which qualifies as a coronary intervention. This aligns with the target conditions of the clinical trial, which focuses on coronary artery disease and peripheral vascular disease. However, there are some uncertainties regarding the size of the arterial sheath used and the patient's hospitalization status, which slightly reduces the relevance score. Overall, the patient is relevant to the trial due to her age and the procedure she underwent.",
+            "relevance_score_R": 80,
+            "eligibility_explanation": "The patient meets the age and intervention criteria for inclusion in the trial. However, there are several unknowns regarding the size of the arterial sheath, hospitalization status, and potential bleeding complications, which prevent a full confirmation of eligibility. The patient is not excluded by any criteria, but the lack of information on certain criteria leads to a neutral eligibility score. Therefore, the eligibility score reflects the uncertainties while acknowledging the relevant inclusion criteria met.",
+            "eligibility_score_E": 40
+        },
+        "NCT02217501": {
+            "relevance_explanation": "The patient is a 67-year-old woman who has undergone cardiac catheterization and is experiencing symptoms consistent with peripheral arterial disease, such as a pulsatile mass and loss of distal pulses. This aligns with the target condition of the clinical trial, which focuses on patients with peripheral arterial disease undergoing endovascular treatment. However, the specific details regarding the patient's condition and treatment are not fully aligned with the trial's inclusion criteria, leading to a moderate relevance score.",
+            "relevance_score_R": 70,
+            "eligibility_explanation": "The patient meets the general inclusion criteria of providing informed consent and being over 18 years old. However, she is excluded due to the presence of a pulsatile mass and loss of distal pulses, which suggests a complicated qualifying procedure. This exclusion significantly impacts her eligibility score, as she does not meet all the necessary criteria for participation in the trial.",
+            "eligibility_score_E": -50
+        },
+        "NCT01133119": {
+            "relevance_explanation": "The patient is a 67-year-old woman who underwent cardiac catheterization, which is relevant to the trial's focus on cardiac procedures. However, the trial specifically targets pediatric patients aged 7-18 years, making the patient largely irrelevant to the trial despite her relevant procedure. Therefore, the relevance score is low due to the age mismatch.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "The patient meets one inclusion criterion (undergoing cardiac catheterization) but fails to meet the age requirement, which is a critical exclusion. There is insufficient information to confirm her eligibility regarding language comprehension and cognitive function, and no exclusions apply based on the available information. Thus, the eligibility score reflects the partial inclusion and exclusion criteria.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT02051088": {
+            "relevance_explanation": "The patient is a 67-year-old woman exhibiting symptoms consistent with critical limb ischemia, such as a cool right foot and loss of distal pulses, which aligns with the target conditions of the clinical trial. However, there are concerns regarding possible acute thromboembolic disease and the potential for infrainguinal aneurysmal disease, which could affect eligibility. Overall, the patient is highly relevant to the trial due to her symptoms and age.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets the inclusion criteria for age and symptomatic PAD, but is excluded due to the potential acute thromboembolic disease indicated by her symptoms. The uncertainty regarding infrainguinal aneurysmal disease and the lack of information about her Swedish personal identification number further complicate her eligibility. Therefore, while she is relevant, her eligibility is negatively impacted by the exclusion criterion.",
+            "eligibility_score_E": -15.0
+        },
+        "NCT02389023": {
+            "relevance_explanation": "The patient is a 67-year-old woman who underwent a vascular procedure involving a groin incision, which is relevant to the clinical trial focused on patients undergoing vascular surgery with groin incisions. She is willing to comply with the trial protocol and provide informed consent. However, there are some uncertainties regarding specific eligibility criteria related to the type of vascular procedure she underwent. Overall, the patient is relevant to the trial due to her age, procedure, and willingness to participate.",
+            "relevance_score_R": 80,
+            "eligibility_explanation": "The patient meets several inclusion criteria, such as age and willingness to comply with the protocol. However, she is excluded due to having undergone a groin incision within 12 weeks prior to treatment initiation and has a pulsatile mass in her groin, which indicates a complication. Therefore, while she is relevant to the trial, her eligibility is negatively impacted by the exclusion criteria.",
+            "eligibility_score_E": -20
+        },
+        "NCT00838175": {
+            "relevance_explanation": "The patient is a 67-year-old woman who underwent cardiac catheterization, which is directly related to the target conditions of the clinical trial. She meets the age requirement and has provided informed consent, making her relevant to the trial. However, her current medical condition (pulsatile mass and loss of distal pulses) raises concerns about her overall health status in relation to the trial's requirements.",
+            "relevance_score_R": 80,
+            "eligibility_explanation": "The patient meets the inclusion criterion of being over 18 and able to provide consent. However, her medical condition (pulsatile mass and loss of distal pulses) raises questions about potential contraindications for participation, leading to uncertainty regarding her eligibility. Therefore, while she is included in the consent and age criteria, the medical condition creates ambiguity, resulting in a neutral eligibility score.",
+            "eligibility_score_E": 40
+        },
+        "NCT01599195": {
+            "relevance_explanation": "The patient is a 67-year-old woman who has undergone cardiac catheterization and presents with a pulsatile mass and bruit over the right femoral artery. This is directly relevant to the clinical trial, which focuses on detecting femoral bruit and stenosis. The patient's age and clinical condition align well with the trial's target conditions, making her highly relevant to the study.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The patient meets all inclusion criteria: she is within the age range of 19-90 years and has had a clinical ultrasound evaluation of the femoral artery, as indicated by the presence of a bruit. There are no exclusion criteria that apply to her. Therefore, she is fully eligible for the trial.",
+            "eligibility_score_E": 90.0
+        },
+        "NCT00883246": {
+            "relevance_explanation": "The patient is a 67-year-old woman who has undergone cardiac catheterization and is experiencing symptoms that suggest significant vascular issues, such as a pulsatile mass and loss of distal pulses. However, there is no specific information regarding the Rutherford Clinical Category Score or the presence of \u2265 50% stenosis or occlusion, which are critical for determining relevance to the trial. Overall, the patient has some relevant symptoms but lacks specific details that directly connect her to the trial's target conditions.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient is excluded from the trial due to having undergone a surgical procedure (cardiac catheterization) on the target vessel within 14 days prior to the index procedure, which meets one of the exclusion criteria. Other criteria remain indeterminate due to lack of information, but the exclusion criterion is definitive. Therefore, the eligibility score reflects this exclusion.",
+            "eligibility_score_E": -60
+        },
+        "NCT00753025": {
+            "relevance_explanation": "The patient is a 67-year-old woman with symptoms indicative of lower extremity ischemia, such as a pulsatile mass and loss of distal pulses. However, there is insufficient information to confirm the specific type of ischemia or the presence of obliterating lower extremity atherosclerosis IIB stage, which is a key inclusion criterion. Overall, the patient's condition aligns with the target condition of the trial, but the lack of complete information on several inclusion criteria limits the relevance score.",
+            "relevance_score_R": 70.0,
+            "eligibility_explanation": "The patient meets one of the inclusion criteria regarding pulse absence on relevant arteries, but there is not enough information to confirm her eligibility for the other inclusion criteria. Additionally, she is not excluded by any of the exclusion criteria based on the available information. Therefore, while she has some eligibility based on the inclusion criteria, the lack of complete information leads to a neutral eligibility score.",
+            "eligibility_score_E": 20.0
+        }
+    },
+    "sigir-201411": {
+        "NCT02230865": {
+            "relevance_explanation": "The patient is a 40-year-old woman presenting with acute pain, which is relevant to the clinical trial focused on postoperative pain. However, she is not undergoing the specific type of surgery (elective minimally invasive surgical correction of funnel chest) that the trial targets. Therefore, while there is some relevance due to her experience of pain, it is limited by the mismatch in surgical context.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient meets the age criterion of being \u226515 years, which is an inclusion criterion. However, she does not meet the specific surgical requirement of the trial, and there are no exclusion criteria that definitively disqualify her. Thus, she is partially eligible based on the inclusion criteria but not fully eligible due to the surgical mismatch.",
+            "eligibility_score_E": 30
+        },
+        "NCT01723137": {
+            "relevance_explanation": "The patient is a 40-year-old woman presenting with excruciating pain, which aligns well with the clinical trial's focus on measuring acute pain in the emergency department. Her age and ability to provide informed consent further support her relevance to the trial. Overall, the patient is highly relevant to the trial's objectives.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The patient meets all inclusion criteria, reporting pain likely greater than 3/10, and does not meet any exclusion criteria. She is of the appropriate age, has a clear level of consciousness, and is capable of answering questions. Therefore, she is fully eligible for participation in the trial.",
+            "eligibility_score_E": 90.0
+        },
+        "NCT00462241": {
+            "relevance_explanation": "The patient presents with excruciating pain in her right arm, which is not chest pain. The clinical trial specifically targets patients with acute chest pain, making the patient largely irrelevant to the trial. While she is compliant and can provide informed consent, the primary complaint of arm pain does not align with the trial's focus on chest pain. Therefore, the relevance score is low.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "The patient does not meet the inclusion criteria for having chest pain as her primary complaint, nor does she have pain in the thorax or neck. She is excluded based on the criterion that requires pain to be related to the joints and muscles of the neck and/or thorax. Although she can provide consent, the lack of relevant pain makes her ineligible for the trial. Thus, the eligibility score reflects this exclusion.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT01308385": {
+            "relevance_explanation": "The patient is a 40-year-old woman presenting with acute pain, which is relevant to the clinical trial focused on postoperative pain management. However, there is no indication that she is undergoing minimally invasive repair of pectus excavatum, which is a key inclusion criterion for the trial. Therefore, while there is some relevance due to her age and pain presentation, the lack of specific surgical context reduces the overall relevance score.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient meets the age criterion and does not have any exclusion criteria that would disqualify her from the trial. However, she does not meet the inclusion criterion of undergoing minimally invasive repair of pectus excavatum, which is critical for eligibility. Therefore, while she is not excluded based on the other criteria, her lack of alignment with the primary inclusion criterion leads to a neutral eligibility score.",
+            "eligibility_score_E": 0
+        },
+        "NCT02399150": {
+            "relevance_explanation": "The patient presents with excruciating pain in her right arm, which is not related to acute abdominal pain as specified in the clinical trial. Therefore, the relevance of this patient to the trial is low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "The patient is not eligible for the trial because she does not meet the inclusion criterion of presenting with acute abdominal pain. Although she meets the exclusion criteria by providing informed consent, her lack of alignment with the inclusion criteria results in ineligibility.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT02608255": {
+            "relevance_explanation": "The patient presents with excruciating pain in her right arm, which could be interpreted as compatible symptoms with acute coronary syndrome, but there is no mention of chest pain or other symptoms listed in the inclusion criteria. Therefore, the relevance is moderate but not definitive. The patient is a woman, which meets the gender criterion, and she has agreed to participate in the study. However, the lack of clear symptoms related to acute coronary syndrome lowers the overall relevance score.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient meets the inclusion criteria for gender and has agreed to participate in the study by providing informed consent. However, there is insufficient information to determine if she meets the symptom-related inclusion criterion or the heparin administration criterion. Therefore, while she is included in some criteria, the lack of information on critical aspects leads to a neutral eligibility score.",
+            "eligibility_score_E": 20
+        },
+        "NCT02355483": {
+            "relevance_explanation": "The patient is a 40-year-old woman presenting with right arm pain, which is not relevant to the clinical trial focused on elderly patients with acute abdominal pain. The age and type of pain do not align with the trial's target population and conditions, leading to a low relevance score.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "The patient does not meet the inclusion criteria for age and type of pain, although she can provide informed consent. Since she is not included by the primary inclusion criteria, her eligibility score reflects that she is not eligible for the trial despite being able to provide consent.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00952744": {
+            "relevance_explanation": "The patient is a 40-year-old woman presenting with severe pain in her right arm, which is not a typical symptom of acute coronary syndromes. However, she meets the age requirement and presents within the appropriate time frame. The relevance is somewhat diminished due to the atypical symptom presentation, leading to a relevance score of 60.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient meets the age requirement, presents within the required time frame, and agrees to comply with the trial protocol. However, she does not present with symptoms that align with acute coronary syndromes, which affects her overall eligibility. Therefore, the eligibility score is 20, indicating partial eligibility based on the inclusion criteria met.",
+            "eligibility_score_E": 20.0
+        },
+        "NCT00673374": {
+            "relevance_explanation": "The clinical trial focuses on patients with abdominal pain and tenderness, while the patient presents with right arm pain. Although the patient is in the emergency department, her condition does not align with the target conditions of the trial, leading to a low relevance score.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "The patient does not meet the inclusion criteria for abdominal pain and tenderness, as her pain is localized to the right arm and not the abdomen. Therefore, she is not eligible for the trial. The exclusion criteria do not apply to her, but since she does not meet the inclusion criteria, her eligibility score is negative.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT02107001": {
+            "relevance_explanation": "The patient is a 40-year-old woman presenting with acute pain, but the pain is in her right arm and not thoracic or pleuritic, which is a key focus of the clinical trial. While she meets the age requirement, the lack of thoracic pleuritic pain significantly reduces relevance to the trial's target conditions. Therefore, the overall relevance score is moderate.",
+            "relevance_score_R": 40,
+            "eligibility_explanation": "The patient meets the age requirement but does not have thoracic pleuritic pain, which is a critical inclusion criterion. Additionally, there is uncertainty regarding the exclusion criteria related to acute cardiovascular diseases. Given these factors, the patient is not fully eligible for the trial, leading to a negative eligibility score reflecting the lack of inclusion in the primary criterion.",
+            "eligibility_score_E": -20
+        },
+        "NCT00373828": {
+            "relevance_explanation": "The patient presents with excruciating pain in her right arm, which is not chest pain. The clinical trial focuses on evaluating chest pain, particularly from the musculoskeletal system. Since the patient's pain is not in the chest area, the relevance to the trial is low. However, there is some relevance due to the potential for musculoskeletal pain being related to the study's target conditions, but it is not directly applicable.",
+            "relevance_score_R": 30,
+            "eligibility_explanation": "The patient does not meet the inclusion criteria for the trial, as her pain does not arise from the thorax or neck, and there is insufficient information regarding her admission to a chest pain clinic. However, she is not excluded by any of the exclusion criteria, particularly since she can provide informed consent and does not have any known disqualifying conditions. Therefore, the eligibility score reflects a neutral position.",
+            "eligibility_score_E": 0
+        },
+        "NCT00108381": {
+            "relevance_explanation": "The patient presents with acute pain in her right arm, which is not related to the target condition of chronic back pain specified in the clinical trial. Therefore, the relevance of the patient to the trial is very low, as the trial focuses on chronic back pain and psychological treatments for it.",
+            "relevance_score_R": 5.0,
+            "eligibility_explanation": "The patient does not meet any of the inclusion criteria for the trial, as she does not have chronic back pain and there is no mention of treatment for back pain. While she is not excluded by the exclusion criteria related to substance abuse or psychosis, the lack of relevant inclusion criteria leads to a negative eligibility score. Thus, the eligibility score reflects that the patient is not eligible for the trial.",
+            "eligibility_score_E": -5.0
+        },
+        "NCT01604655": {
+            "relevance_explanation": "The patient presents with excruciating pain in her right arm, which does not indicate chest pain or shortness of breath, making her less relevant to the trial focused on chest pain and suspected acute coronary syndrome. Additionally, she is under the age of 45, which does not meet the age inclusion criterion. Overall, the patient's condition does not align well with the trial's target conditions.",
+            "relevance_score_R": 20.0,
+            "eligibility_explanation": "The patient does not meet the inclusion criteria for chest pain or shortness of breath, nor does she meet the age requirement of being 45 or older. There is insufficient information regarding other inclusion criteria, and while she is able to provide informed consent, this does not compensate for the lack of alignment with the trial's requirements. Therefore, the eligibility score reflects that she is not eligible for the trial.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT02018497": {
+            "relevance_explanation": "The patient is a 40-year-old woman presenting with hypotension and pain, which aligns with the trial's focus on blood pressure disorders. The trial includes any patient regardless of age or gender, and the patient's symptoms are relevant to the target conditions of the trial, particularly concerning blood pressure. Therefore, the relevance score is high.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets all inclusion criteria and does not meet any exclusion criteria, indicating full eligibility for the trial. She has no past medical history that would disqualify her, and she has expressed her willingness to comply with the trial protocol. Thus, the eligibility score is equal to the relevance score.",
+            "eligibility_score_E": 85.0
+        },
+        "NCT00262470": {
+            "relevance_explanation": "The patient is a 40-year-old woman presenting with tachycardia, which is relevant to the trial targeting tachycardia and chronic orthostatic intolerance. However, the trial requires chronic symptoms lasting more than 6 months, which the patient does not have. Therefore, while there is some relevance due to the tachycardia, the lack of chronic symptoms reduces the overall relevance score.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient does not meet the inclusion criterion of having chronic symptoms for more than 6 months, which makes her ineligible for the trial. Although she is not excluded by the exclusion criteria, the lack of inclusion means she cannot participate. Therefore, the eligibility score reflects this ineligibility.",
+            "eligibility_score_E": -60
+        },
+        "NCT00870766": {
+            "relevance_explanation": "The patient is a 40-year-old woman presenting with severe pain, but the pain is in her right arm, not the abdomen. The clinical trial focuses on patients with acute abdomen, which makes the patient's condition not directly relevant to the trial. However, the patient's age meets the inclusion criterion. Overall, the relevance is low due to the mismatch in the target condition.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "The patient meets the age inclusion criterion but does not present with abdominal pain, which is a key requirement for the trial. While she is not excluded by any criteria, the lack of abdominal pain means she cannot be considered eligible for the trial. Therefore, the eligibility score reflects a neutral position since she does not meet the primary inclusion criterion.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00807976": {
+            "relevance_explanation": "The patient is a 40-year-old woman with no past medical history, presenting with acute pain and hypotension. The clinical trial focuses on elderly patients (70 years and older) with diabetes mellitus type 2, which is not applicable to this patient. Therefore, the relevance score is low as the patient does not fit the target population of the trial.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "The patient does not meet any of the inclusion criteria (specifically, age and diabetes mellitus) and is not excluded by any of the exclusion criteria. However, since the patient is not included in the inclusion criteria, the eligibility score reflects that she is ineligible for the trial.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00986180": {
+            "relevance_explanation": "The patient presents with acute pain in her right arm, which is not relevant to the clinical trial focused on acute low back pain. Therefore, the relevance score is low.",
+            "relevance_score_R": 10.0,
+            "eligibility_explanation": "The patient does not meet the inclusion criteria for the trial, particularly because she does not have low back pain. While she meets some of the exclusion criteria, her overall eligibility is affected by the lack of relevant pain condition. Thus, the eligibility score is negative, indicating ineligibility.",
+            "eligibility_score_E": -10.0
+        },
+        "NCT00021476": {
+            "relevance_explanation": "The patient presents with severe pain in her right arm, but there is no indication of a whiplash injury or a motor vehicle accident, which are central to the clinical trial's focus. Therefore, while the patient's condition involves pain, it does not align with the specific target conditions of the trial. The relevance score is low due to the lack of connection to whiplash injuries.",
+            "relevance_score_R": 20,
+            "eligibility_explanation": "The patient does not meet the inclusion criterion of having a whiplash injury following a motor vehicle accident, as she denies any trauma. Consequently, she is ineligible for the trial. The eligibility score reflects this ineligibility, being negative in relation to the relevance score.",
+            "eligibility_score_E": -20
+        },
+        "NCT00413855": {
+            "relevance_explanation": "The patient is a 40-year-old woman, which fits within the age range specified in the trial. However, her presenting symptoms are related to her right arm and not to chronic or recurrent abdominal pain, which is the focus of the trial. Therefore, while there is some relevance due to age, the lack of relevant symptoms significantly reduces the overall relevance score.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "The patient does not meet the inclusion criteria as she does not have chronic or recurrent right lower abdominal quadrant pain. Therefore, she is not eligible for the trial. Since there is no inclusion and the patient is not excluded based on other criteria, the eligibility score reflects this ineligibility.",
+            "eligibility_score_E": -30.0
+        }
+    }
+}

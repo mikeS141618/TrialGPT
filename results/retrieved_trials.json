@@ -1,0 +1,43 @@
+[
+  {
+    "patient_id": "sigir-20141",
+    "patient": "0. A 58-year-old African-American woman presents to the ER with episodic pressing/burning anterior chest pain that began two days earlier for the first time in her life. 1. The pain started while she was walking, radiates to the back, and is accompanied by nausea, diaphoresis and mild dyspnea, but is not increased on inspiration. 2. The latest episode of pain ended half an hour prior to her arrival. 3. She is known to have hypertension and obesity. 4. She denies smoking, diabetes, hypercholesterolemia, or a family history of heart disease. 5. She currently takes no medications. 6. Physical examination is normal. 7. The EKG shows nonspecific changes. 8. The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",
+    "0": [],
+    "1": [],
+    "2": []
+  },
+  {
+    "patient_id": "sigir-201410",
+    "patient": "0. A physician is called to see a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning. 1. She is now complaining of a cool right foot. 2. Upon examination she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered. 3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",
+    "0": [],
+    "1": [],
+    "2": []
+  },
+  {
+    "patient_id": "sigir-201411",
+    "patient": "0. A 40-year-old woman with no past medical history presents to the ER with excruciating pain in her right arm that had started 1 hour prior to her admission. 1. She denies trauma. 2. On examination she is pale and in moderate discomfort, as well as tachypneic and tachycardic. 3. Her body temperature is normal and her blood pressure is 80/60. 4. Her right arm has no discoloration or movement limitation. 5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",
+    "0": [],
+    "1": [],
+    "2": [
+      {
+        "nct_id": "NCT01723137",
+        "brief_title": "Measuring Changes in Acute Pain in the Emergency Department Using Patient Reported Scales",
+        "phase": "",
+        "drugs": "",
+        "drugs_list": [],
+        "diseases": "['Acute Pain']",
+        "diseases_list": [
+          "Acute Pain"
+        ],
+        "enrollment": "3630.0",
+        "inclusion_criteria": "inclusion criteria: \n\n Reported pain greater than or equal to 3 out of 10 \n\n ",
+        "exclusion_criteria": ": \n\n Less than 18 years of age \n\n Decreased level of consciousness \n\n Inability to answer questions \n\n Prisoner",
+        "brief_summary": "Patient reported pain, stress, and anxiety measures have been found to be inter-related, but it is not known if they are all associated with receiving opiate medications. The objective of this study is to determine if patients' degree of reported pain, stress, or anxiety is associated with receiving opiate pain medications in the emergency department or at discharge. Alert patients at least 18 years of age and who report pain greater than 3/10 are eligible to participate in the study. Consenting patients complete Visual Analog Scales describing their perceived pain, stress, and anxiety from enrollment until discharge. Demographic data and administration of pain medication is also recorded. Visual Analog Scale scores among patients who received an opioid pain medicine in the emergency department and at discharge will be compared to those who did not.",
+        "NCTID": "NCT01723137",
+        "total_score": 0.09307359307359307,
+        "bm25_score": 0.047619047619047616,
+        "medcpt_score": 0.045454545454545456
+      }
+    ]
+  }
+]

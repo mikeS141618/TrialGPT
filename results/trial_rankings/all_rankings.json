@@ -1,224 +1,377 @@
 {
   "sigir-20141": {
-    "NCT00149227": 2.5999999995,
-    "NCT01397994": 0.39999999984
-  },
-  "sigir-20142": {
-    "NCT02618655": 0.09999999974999996,
-    "NCT00711399": -5.000000413701855e-10
-  },
-  "sigir-20143": {
-    "NCT01452971": 2.7999999989999997,
-    "NCT02490059": 2.6999999995
-  },
-  "sigir-20144": {
-    "NCT02390596": 1.84999999988,
-    "NCT00841789": 1.7999999996666667
-  },
-  "sigir-20145": {
-    "NCT00163709": 1.2
-  },
-  "sigir-20146": {
-    "NCT02512159": 1.84999999988,
-    "NCT00015626": -0.26666666677777784
-  },
-  "sigir-20147": {
-    "NCT00845988": 1.749999999875,
-    "NCT01863628": -1.0
-  },
-  "sigir-20148": {
-    "NCT01519271": -1.0,
-    "NCT01628315": -1.0
-  },
-  "sigir-20149": {
-    "NCT01950026": 0.3,
-    "NCT02615912": -1.0
+    "patient_summary": "A 58-year-old African-American woman with a history of hypertension and obesity presents with new-onset episodic anterior chest pain, radiating to the back, accompanied by nausea, diaphoresis, and mild dyspnea. The pain is not worsened by inspiration, and her EKG shows nonspecific changes.",
+    "trials": {
+      "NCT02608255": {
+        "matching_score": 0.99999999975,
+        "agg_score": 1.8,
+        "trial_score": 2.79999999975,
+        "brief_summary": "A Single-center prospective pilot study enrolling chest pain patients. CD 26 measurement will be performed and compared to troponin \u00b5s for early triage of these patients. This novel biomarker of myocardial ischemia (CD26) will be measured at the time of first medical contact (T0) and after 30 min simultaneously o troponin Ic.~All patients aged over 18 years with chest pain which may be related to acute coronary syndrome requiring pre hospital medical contact through the Emergency Medical Service."
+      },
+      "NCT00823563": {
+        "matching_score": 0.9999999995,
+        "agg_score": 1.8,
+        "trial_score": 2.7999999995,
+        "brief_summary": "This is a research study evaluating possible causes of chest pain (or an anginal equivalent, such as fatigue resulting in a decrease in exercise tolerance, shortness of breath, or back, shoulder, neck, or jaw pain) in people with no evidence of significant coronary artery disease on their coronary angiogram (pictures of the blood vessels in the heart). The purpose of the research study is to determine if there is diffuse atherosclerosis (plaque) not appreciated by angiography, or if the coronary endothelium (lining of the blood vessels in the heart) and/or microcirculation (small vessels in the heart that are not easily seen with an angiogram) are not functioning properly in those who have chest pain (or an anginal equivalent), but normal coronary arteries on angiography. Specifically, we are interested if these findings are more common in women than men."
+      },
+      "NCT00536224": {
+        "matching_score": 0.9999999989999999,
+        "agg_score": 1.7,
+        "trial_score": 2.699999999,
+        "brief_summary": "The purpose of this study is to determine whether a brief counseling intervention initiated in the chest pain observation unit has a significant impact upon the health attitudes (readiness to change) and cardiovascular risk-related behaviors (diet, exercise, and smoking) of emergency department patients."
+      },
+      "NCT01724996": {
+        "matching_score": 0.9999999998,
+        "agg_score": 1.55,
+        "trial_score": 2.5499999998,
+        "brief_summary": "To determine the significance of a simple bedside clinical test (chest wall tenderness) to exclude myocardial ischemia in different demographic groups."
+      },
+      "NCT00462241": {
+        "matching_score": 0.8888888888395061,
+        "agg_score": 1.55,
+        "trial_score": 2.4388888888395064,
+        "brief_summary": "Acute chest pain is a common cause of hospital admission. Active approaches are directed towards diagnosis and treatment of potentially life threatening conditions, especially acute coronary syndrome and coronary artery disease. However, a considerable number of patients may have chest pain caused by biomechanical dysfunction of muscles and joints of the chest wall or the cervical and thoracic spine (20%). The diagnostic approaches and treatment options for this group of patients are scarce and there is a lack of formal clinical studies and validated outcome measures addressing the effect of manual treatment approaches.~Objective: This single blind randomized clinical trial investigates whether chiropractic treatment can reduce pain and improve function in a population of patients with acute, musculoskeletal chest pain when compared to advice directed towards promoting self-management.~Methods: Among patients admitted to a chest pain clinic in a university hospital under suspicion of acute coronary syndrome, 120 patients with an episode of acute chest pain of musculoskeletal origin are included in the study. All patients have completed the chest pain clinic diagnostic procedures, and acute coronary syndrome and other obvious reasons for chest pain have been excluded. After completion of the study evaluation program, the patients are randomized into one of two groups: A) advice promoting self-management and individual instructions focusing on posture and muscle stretch; B) a course of chiropractic therapy of up to ten treatment sessions focusing on high velocity, low amplitude manipulation of the cervical and thoracic spine together with a choice of mobilisation and soft tissue techniques. In order to establish suitable outcome measures, two pilot studies were conducted. Outcome measures are pain, function, overall health, and patient-rated treatment effect measured at 4, 12, and 52 weeks following treatment."
+      },
+      "NCT01084239": {
+        "matching_score": 0.6666666665555555,
+        "agg_score": 1.45,
+        "trial_score": 2.1166666665555556,
+        "brief_summary": "The growing availability of cardiac computed tomography (CT)* in emergency departments (EDs) across the U.S. expands the opportunities for its clinical application, but also heightens the need to define its appropriate use in the evaluation of patients with acute chest pain. To address this need, we performed a randomized diagnostic trial (RDT) to determine whether integrating cardiac CT, along with the information it provides on coronary artery disease (CAD) and left ventricular (LV) function, can improve the efficiency of the management of these patients (i.e. shorten length of hospital stay, increase direct discharge rates from the ED, decreasing healthcare costs and improving cost effectiveness while being safe)."
+      },
+      "NCT01665521": {
+        "matching_score": 0.6666666664444444,
+        "agg_score": 1.45,
+        "trial_score": 2.1166666664444445,
+        "brief_summary": "Our research will examine a chest pain care strategy, called the HEART pathway, which is designed to correctly identify Emergency Department patients at high-risk for cardiovascular events, likely to benefit from further testing, and patients at very-low-risk for cardiovascular events, who may be safely discharged home. By using an individual's risk assessment to determining testing, we hope to improve the quality and efficiency of the care delivered to Emergency Department patients with chest pain. Our study will determine if the HEART pathway, which combines a clinical decision rule, the HEART score, and two serial troponin measurements, will reduce stress testing and cardiovascular imaging, decrease hospital length of stay, and reduce cost compared to usual care, while maintaining safety."
+      },
+      "NCT00623454": {
+        "matching_score": 0.9999999989999999,
+        "agg_score": 1.0,
+        "trial_score": 1.999999999,
+        "brief_summary": "All Patients between 18 and 65 years are asked 6 month after investigation for chest pain or palpitation at Cardiological Out-patient Clinic, Molde Hospital, about if they still have symptoms of chest pain or palpitation. If they still have some of the symptoms they are invited to participate in a coping course to learn a better way to deal with their symptoms.~The coping course consist of three sessions of cognitive behaviour therapy."
+      },
+      "NCT00373828": {
+        "matching_score": 0.499999999875,
+        "agg_score": 1.4,
+        "trial_score": 1.899999999875,
+        "brief_summary": "The overall aim of the project is to evaluate diagnosis and treatment of chest pain originating from the musculoskeletal system. Specifically, we wish to investigate prevalence and character of such chest pain in a population of patients with acute chest pain, admitted to a university hospital based acute chest pain clinic, and undergoing evaluation of acute coronary syndrome (Part 1). Then, to test a manually-based treatment protocol to patients with diagnosed musculoskeletal chest pain in a randomized clinical trial (Part 2).~The specific purpose of this study (Part 1) is to determine the exact number of patients with acute chest pain origination from the musculoskeletal system, and to describe their cardiac status with respect to ischemic heart disease. Further, we wish to evaluate the decision making process of the chiropractor."
+      },
+      "NCT01604655": {
+        "matching_score": 0.499999999875,
+        "agg_score": 1.2,
+        "trial_score": 1.699999999875,
+        "brief_summary": "The purpose of this study is to determine the best initial test in patients admitted to the hospital complaining of chest pain."
+      },
+      "NCT00952744": {
+        "matching_score": -0.2500000001875,
+        "agg_score": 1.2,
+        "trial_score": 0.9499999998124999,
+        "brief_summary": "While troponin is not detectable until several hours after an Acute Myocardial Infarction (AMI), copeptin is expected to be elevated very early after an AMI. A combination of both markers for the diagnosis of AMI early after the event is therefore expected to be advantageous."
+      },
+      "NCT00990262": {
+        "matching_score": 0.0,
+        "agg_score": 0.7,
+        "trial_score": 0.7,
+        "brief_summary": "The goal of this research is to determine noninvasively whether detection of coronary stenosis and plaque by multidetector computed tomography (MDCT) in patients with acute chest pain suspected of acute coronary syndrome (ACS) enhances triage, reduces cost and is cost effective. Among the 5.6 million patients with ACP presenting annually in emergency departments (ED) in the United States, a subgroup of two million patients is hospitalized despite normal initial cardiac biomarker tests and electrocardiogram (ECG). This subgroup is at low (20%) risk for ACS during the index hospitalization. Most (80-94%) patients with a diagnosis of ACS have a significant epicardial coronary artery stenosis ( >50% luminal narrowing). However, in -10% of patients non-stenotic coronary plaque triggers events, i.e. vasospasms, leading to myocardial ischemia. Since the absence of plaque excludes a coronary cause of chest pain, these patients could in theory be discharged earlier reducing unnecessary hospital admissions. Recent publications demonstrate high sensitivity and specificity of MDCT for the detection of significant coronary stenosis compared with coronary angiography and the detection of coronary plaque as validated with intravascular ultrasound. Using 64- slice MDCT we propose to study 400 patients with ACP, negative initial cardiac biomarkers and non-diagnostic ECG. We will analyze MDCT images for the presence of significant coronary artery stenosis and plaque and correlate the data with the clinical diagnosis of ACS (AHA guidelines) during the index hospitalization to determine the sensitivity and specificity. MDCT data, risk factors, and the results of standard diagnostic tests available at the time of MDCT will be used to generate a multivariate prediction function and derive a clinical decision rule. Based on this decision rule we will compare the diagnostic accuracies and cost effectiveness of competing strategies. We hypothesize that an MDCT- based diagnostic strategy will reduce the time to diagnosis of ACS, number of hospitalizations, and absolute cost of management of patients with acute chest pain compared to standard clinical care and is cost effective."
+      },
+      "NCT01660594": {
+        "matching_score": -0.3333333335555556,
+        "agg_score": 0.8,
+        "trial_score": 0.46666666644444443,
+        "brief_summary": "Patients with stable chest pain presenting to general practitioners in UK are routinely referred to the chest pain clinics in the hospitals. They are assessed by clinical history including risk factors, cardiovascular exam, resting ECG, chest x-ray, and exercise ECG. CT calcium scoring (CTCS) is a technique that is very sensitive in identifying and quantifying calcified atherosclerotic plaques. Recent guidance from the National Institute of Clinical Excellence (NICE, citation 1) proposes the use of CTCS in patients with stable chest pain who have low likelihood of coronary artery disease (CAD). They recommend that patients with low likelihood (10-30%) have a CTCS and if the score is 0, they can be considered to have non-cardiac chest pain. However, there is controversy regarding relationship of absent calcification with significant CAD and its prognostic value.~At our institution, we have been performing CTCS in this patient cohort since 2003. We plan to retrospectively review the usefulness in CTCS in patients with different likelihood for significant CAD, particularly in patients with absent calcium and compare with the traditional assessment. We also plan to follow-up these patients for any myocardial infarction and death from any cause."
+      },
+      "NCT02015858": {
+        "matching_score": 0.0,
+        "agg_score": 0.0,
+        "trial_score": 0.0,
+        "brief_summary": "Pain evaluation remains a clinical problem. Pain Monitor allows pain evaluation using the measurement of skin conductance.~Withdrawal of chest tube can be painful and the purpose of the study was to compare auto-evaluation of pain (visual analogic scale) and the index measured by the Pain Monitor."
+      },
+      "NCT00166231": {
+        "matching_score": 0.0,
+        "agg_score": 0.0,
+        "trial_score": 0.0,
+        "brief_summary": "The causes of pediatric pain are often not the same for every child. Most children who visit a cardiology specialist with complaints of chest or other somatic pain have no known medical diagnosis to explain their symptoms. These children and their families often leave with no explanation for the child's distress.~This early study will ask parents and children specific questions related to the stress in their lives, their emotional well-being and the children's physical functioning. The investigators want children who experience chest and other somatic pain, and those who do not, to be in their study so that they can look at both groups.~The investigators hope to use these answers to better inform cardiologists who often work with children with non-cardiac pain and, in turn, help them to better serve their patients. Ultimately, the investigators hope that the answers they get will provide answers to these families. They also hope to use the results of this study to put together a short screener for the cardiologist to give to pediatric patients with complaints of chest or other somatic pain to help the cardiologists better understand their patients' symptoms."
+      },
+      "NCT02107001": {
+        "matching_score": -0.50000000025,
+        "agg_score": 0.4,
+        "trial_score": -0.10000000025,
+        "brief_summary": "Chest pain is an alarming symptom and one of the most frequent causes of access to the Emergency Departement. Although chest X-ray remains an essential step in the diagnostic process, several studies showed numerous limitations of radiography which frequently is inconclusive. Ultrasonography is a non-radiating imaging technique. Albeit a wide use of ultrasound, the utilization of ultrasound in the study of the lung has only recently been introduced in the clinical practice. Several studies proved that lung ultrasound is useful in the diagnosis of lung consolidation in community acquired pneumonia. Nowadays, ultrasound is not routinely used in the presence of chest pain. Our hypothesis based on clinical experience is that, in patients with pleuritic chest pain, lung ultrasound is very sensitive in detecting pneumonia and other lung diseases (such as pneumothorax) thus performing better than radiography. The primary aim of this study is to verify, in patients affected by pleuritic chest pain, the accuracy of lung ultrasound compared to chest-X-ray. The secondary aim is to evaluate the accuracy of lung ultrasound consolidations in distinguishing lung consolidation in pneumonia, atelectasis, pulmonary infarction, or tumors."
+      },
+      "NCT01682096": {
+        "matching_score": -1.0,
+        "agg_score": 0.7,
+        "trial_score": -0.30000000000000004,
+        "brief_summary": "The Diagnosis of acute coronary syndrome in patients presenting with acute chest pain is problematic when both, electrocardiogram and serum troponins are normal. Multidetector row computed tomography angiography (CTA) allows direct and rapid non-invasive visualization of coronary artery disease.~The investigator's aim is to assess the diagnostic accuracy and safety of a novel diagnostic strategy based on MDCT as compared to a strategy using stress echocardiography in the workup of patient with chest pain, normal electrocardiogram, normal troponins and suspected coronary artery disease. Additionally, the cost associated with both strategies will be compared.~Methods. A total of 150 patients with acute chest pain coming to the emergency room with intermediate probability of significant coronary artery disease, normal ECG and troponins will be prospectively randomized to MDCT or stress echocardiography with exercise. Patients showing coronary stenosis >50% at MDCT or abnormal stress echocardiography or inconclusive results will be admitted for further study. The primary endpoint of the study is the detection of an acute coronary syndrome, defined as typical or atypical angina with documented significant coronary artery disease (>50% stenosis) on invasive coronariography, a positive stress test or the occurrence of cardiac death, myocardial infarction or need for revascularization during 6 month follow-up. All MDCT angiograms and echocardiograms will be evaluated by an experienced radiologist and cardiologist."
+      },
+      "NCT01494870": {
+        "matching_score": -0.7500000000625,
+        "agg_score": 0.3,
+        "trial_score": -0.4500000000625,
+        "brief_summary": "The primary objective of this study is to propose new treatment algorithm (strategy) for patients with Acute Coronary Syndrome (ACS) and left bundle-branch block (LBBB)."
+      },
+      "NCT01284179": {
+        "matching_score": -0.90000000001,
+        "agg_score": 0.0,
+        "trial_score": -0.90000000001,
+        "brief_summary": "The primary aim is to develop and test the feasibility of a standardized digital audio home-hypnotherapy (HHT) program for patients with refractory functional chest pain (FCP).~The secondary aims of this study are:~To obtain pilot data to assess the magnitude of the treatment effect of self-hypnosis in refractory FCP for an anticipated future, larger treatment trial;~To determine the stability of the treatment effect of HHT in refractory FCP;~To assess the relationship between response to HHT and psychological factors; and~To assess the relationship between response to HHT and symptomatic dimensions of chest pain (severity, frequency, and duration).~To assess the difference"
+      },
+      "NCT00000501": {
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
+        "brief_summary": "To test the feasibility and the efficacy of nutritional interventions in the primary prevention of hypertension in individuals predisposed to the development of hypertension; specifically, to test the hypothesis that reduction of weight and/or decreased sodium intake in obese individuals, or decreased sodium intake with or without increased potassium intake (in men and women, regardless of weight) would prevent the elevation of blood pressure and the incidence of hypertension."
+      }
+    }
   },
   "sigir-201410": {
-    "NCT02097186": -0.3666666667222223,
-    "NCT02264964": -0.500000000125
+    "patient_summary": "The patient is a 67-year-old woman who has undergone cardiac catheterization and is now experiencing a cool right foot, a pulsatile mass in the right groin, loss of distal pulses, and a bruit over the right femoral artery entry point, indicating possible vascular complications such as hematoma, pseudoaneurysm, or arterial occlusion.",
+    "trials": {
+      "NCT01599195": {
+        "matching_score": 0.9999999995,
+        "agg_score": 1.8,
+        "trial_score": 2.7999999995,
+        "brief_summary": "The purpose of the study is to test a new amplified stethoscope(AudioDoc) that can detect the presence of bruit by using an acoustic signal to represent the bruit. This pilot study will address two questions: is there a detectable difference in recorded sound signal of carotid and femoral bruit when compared to sound signals captured when there is no bruit present; is the use of a visual recorded signal more accurate in identifying carotid and femoral bruit when compared to traditional auscultation with a regular stethoscope and ultrasound."
+      },
+      "NCT02237430": {
+        "matching_score": 0.9999999996666666,
+        "agg_score": 1.7,
+        "trial_score": 2.699999999666667,
+        "brief_summary": "Is the MynxGrip (test device) non-inferior to manuel compression (standard comparator) in the incidence of adverse access site related events in-hospital, at 30 days and at 6 months."
+      },
+      "NCT01600482": {
+        "matching_score": 0.9999999996666666,
+        "agg_score": 1.6,
+        "trial_score": 2.5999999996666667,
+        "brief_summary": "The objective of the CELT ACD\u00ae Vascular Closure Device study is to evaluate the safety and effectiveness of the CELT ACD\u00ae device to achieve hemostasis of the common femoral artery access site in patients on anticoagulation who are undergoing a percutaneous intervention (PCI) procedure using a 6F sheath."
+      },
+      "NCT01943344": {
+        "matching_score": 0.7499999998125,
+        "agg_score": 1.7,
+        "trial_score": 2.4499999998125,
+        "brief_summary": "The purpose of this Clinical Investigation is to gather feasibility data on the clinical use of the VIVASURE CLOSURE DEVICE\u2122 in relation to safety, and to confirm its performance to percutaneously close femoral arterial puncture sites in the range of 18-24 F, post endovascular procedures."
+      },
+      "NCT01001663": {
+        "matching_score": 0.7499999998125,
+        "agg_score": 1.6,
+        "trial_score": 2.3499999998125,
+        "brief_summary": "Is the FemoSeal\u00ae closure device safer and more comfortable than manual compression for femoral artery access closure after coronary angiography?"
+      },
+      "NCT02241642": {
+        "matching_score": 0.7499999998125,
+        "agg_score": 1.55,
+        "trial_score": 2.2999999998125,
+        "brief_summary": "The purpose of this Clinical Investigation is to validate that the clinical use of the VIVASURE CLOSURE DEVICE\u2122 is safe for the operator, patient and third parties, and to confirm its performance to percutaneously close femoral arterial puncture sites in the range of 18-24 F, post endovascular procedures.~This is a non-inferiority study based on safety. Safety will be assessed by incidence and severity of major complication rates directly related to the VIVASURE CLOSURE DEVICE\u2122 up to 3 months from implantation is no worse than those associated with cut-down and sutured close."
+      },
+      "NCT00838175": {
+        "matching_score": 0.9999999989999999,
+        "agg_score": 1.2,
+        "trial_score": 2.199999999,
+        "brief_summary": "Suture-mediated closure devices are effective and safe for achieving rapid hemostasis in femoral venous access site and reducing the incidence of complications associated with traditional closure methods. Furthermore, there are predictive factors(such as sheath size, obesity, procedure duration, and anticoagulation status)that we can use to assess the procedure's likelihood of success in various patients."
+      },
+      "NCT00481741": {
+        "matching_score": 0.499999999875,
+        "agg_score": 1.2,
+        "trial_score": 1.699999999875,
+        "brief_summary": "We seek to determine if the use of the SafeSeal(TM) topical hemostasis patch is associated with reductions in time to hemostasis and time to ambulation compared to standard manual compression after arterial sheath removal following percutaneous coronary and peripheral intervention. We further seek to assess the safety of the SafeSeal patch compared to manual compression."
+      },
+      "NCT00753025": {
+        "matching_score": 0.1428571428367347,
+        "agg_score": 0.9,
+        "trial_score": 1.0428571428367348,
+        "brief_summary": "The purpose of this study is to determine whether autologous bone marrow derived cells and isolated CD133+ fraction are effective in the treatment limb ischemia"
+      },
+      "NCT00736086": {
+        "matching_score": -2.000000165480742e-10,
+        "agg_score": 1.0,
+        "trial_score": 0.9999999998,
+        "brief_summary": "To evaluate early ambulation in patients who receive the StarClose\u2122 VCS post-percutaneous diagnostic procedure."
+      },
+      "NCT02051088": {
+        "matching_score": -5.000000413701855e-10,
+        "agg_score": 0.7,
+        "trial_score": 0.6999999994999999,
+        "brief_summary": "Peripheral arterial disease (PAD) causes reduced blood flow to the lower limb(s) due to stenosis or occlusion in the supplying arteries. Symptoms of PAD range from ischemic rest pain and/or ischemic ulcers/gangrene (critical limb ischemia), putting the extremity at risk of amputation, to exercise-induced pain (intermittent claudication), limiting the patients daily activities. Invasive treatments are often indicated to prevent amputations and to alleviate symptoms. More than two thirds of these procedures are presently performed with endovascular techniques (i.e. percutaneous transluminal angioplasty, PTA with or without stent implantation).~In coronary artery disease, stents eluting anti-proliferative drugs (drug eluting stents, DES) reduce restenosis and improve clinical results for the majority of patients. Drug eluting balloons (DEB) are a promising alternative, but there is still little evidence that DES or DEB technology improve clinical outcome in PAD. However, promising results utilizing these new technologies in PAD have been reported in a few studies.~In this trial, we test the hypothesis that drug eluting (DE) technology is superior to conventional endovascular treatment (no-DE) in terms of important clinical outcomes, when applied on infrainguinal (femoropopliteal and/or infrapopliteal) obstructive vascular lesions. The trial consists of 2 separate parallel studies, SWEDEPAD 1 and SWEDEPAD 2, each defined by the severity of peripheral arterial disease. Patients with critical limb ischemia are allocated to SWEDEPAD 1 and patients with intermittent claudication are allocated to SWEDEPAD 2."
+      },
+      "NCT00533156": {
+        "matching_score": -0.2500000001875,
+        "agg_score": 0.7,
+        "trial_score": 0.44999999981249994,
+        "brief_summary": "The purpose of this study is to assess the safety and feasibility of the 7F Ensure Medical Vascular Closure Devices to facilitate hemostasis in patients undergoing diagnostic or interventional coronary procedures using a standard 7F introducer sheath."
+      },
+      "NCT01121510": {
+        "matching_score": -0.20000000015999997,
+        "agg_score": 0.55,
+        "trial_score": 0.3499999998400001,
+        "brief_summary": "The QuickClose Design 9 is a prospective, non randomized study, to evaluate the safety and efficacy of the QuickClose design 9 closure device.~patient undergoing a diagnostic or therapeutic angiogram procedure will be treated with the QuickClose Design 9. Patients will be monitored until 30 days after the procedure."
+      },
+      "NCT02389023": {
+        "matching_score": -0.2500000001875,
+        "agg_score": 0.6,
+        "trial_score": 0.34999999981249996,
+        "brief_summary": "The purpose of this study is to evaluate the effectiveness of negative pressure incision management system (Prevena\u2122 Incision Management System (PIMS) or ActiVAC\u00ae with the Prevena\u2122 Dressings (Peel and Place\u2122 or Customizable\u2122), KCI) in the prevention of wound complications including surgical site infection (SSI) and non-infectious complications in patients undergoing vascular surgery with groin incisions."
+      },
+      "NCT01133119": {
+        "matching_score": 0.3333333332222222,
+        "agg_score": 0.0,
+        "trial_score": 0.3333333332222222,
+        "brief_summary": "In the Cardiac Diagnostic and Interventional Unit (CDIU) at the Hospital for Sick Children (SickKids), minimally invasive procedures are performed to diagnose and treat a variety of congenital heart defects. Procedures are performed under general anesthetic and involve inserting a catheter through the skin and into the femoral vein or artery in the groin. In addition, the use of local anesthetic as a pain control regimen just prior to the removal of femoral artery or vein sheaths is used by some but not all cardiac interventionalists. Local anesthetic is infiltrated near the sheath insertion site, at the end of the procedure while the child is under general anesthetic, with the goal of decreasing pain at the insertion site and promoting comfort in the post-operative period. The use of local anesthetic depends on the choice of the individual practitioner and is not currently a routine practice for all patients.~The investigators proposed research seeks to investigate whether the use of subcutaneous bupivacaine reduces pain levels in the post-operative period in children having cardiac catheterization procedures."
+      },
+      "NCT02214030": {
+        "matching_score": -0.3333333335555556,
+        "agg_score": 0.25,
+        "trial_score": -0.08333333355555561,
+        "brief_summary": "This study was performed to evaluate the safety and efficacy of a locally designed Assiut Femoral Compression Device (AFCD) versus manual compression (MC). Femoral compression devices have been developed thorough the past decades without being strongly implemented in the catheterization laboratory. Their limited adoption reflects concerns of high cost and conflicting data regarding their safety"
+      },
+      "NCT00471289": {
+        "matching_score": -0.6666666667037038,
+        "agg_score": 0.2,
+        "trial_score": -0.46666666670370377,
+        "brief_summary": "The purpose of this study is to investigate the performance of paclitaxel-coated balloon expandable stainless steel coronary stent for the treatment of infrapopliteal stenoses and occlusions in patients with critical limb ischemia compared to percutaneous transluminal balloon angioplasty (PTA)."
+      },
+      "NCT02217501": {
+        "matching_score": -0.75000000003125,
+        "agg_score": 0.2,
+        "trial_score": -0.5500000000312499,
+        "brief_summary": "The purpose of this study is to evaluate whether clopidogrel 75 mg daily on a background of aspirin 75-100 mg/d for clinically indicated duration or for an additional 12 months will lead to an increased rate of primary patency, limb salvage, non-fatal myocardial infarction (MI), ischemic stroke, and survival, in patients receiving endovascular treatment of PAD at end of study treatment."
+      },
+      "NCT00883246": {
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
+        "brief_summary": "The purpose of the study is to evaluate the intermediate and long-term effectiveness of stand-alone atherectomy treatment of peripheral arterial disease in the legs."
+      },
+      "NCT00667381": {
+        "matching_score": -1.500000000125,
+        "agg_score": 0.4,
+        "trial_score": -1.100000000125,
+        "brief_summary": "This study is designed to evaluate the routine use of vascular ultrasound as an aid for proper placement of a femoral arterial sheath during cardiac catheterization and peripheral arterial angiography."
+      }
+    }
   },
   "sigir-201411": {
-    "NCT01723137": 2.7999999989999997,
-    "NCT01526382": -0.15000000003125002
-  },
-  "sigir-201412": {
-    "NCT01551498": 1.2333333332222223,
-    "NCT01197183": 0.39999999975,
-    "NCT00271427": -1.0
-  },
-  "sigir-201413": {
-    "NCT02264769": -0.3333333335555556,
-    "NCT00163709": -1.0
-  },
-  "sigir-201414": {
-    "NCT01624545": -0.3333333335555556,
-    "NCT01869855": -1.0
-  },
-  "sigir-201415": {
-    "NCT00180739": 0.9111111110987655,
-    "NCT00277680": -1.0
-  },
-  "sigir-201416": {
-    "NCT02374814": 0.050000000000000044,
-    "NCT02238756": -1.150000000125
-  },
-  "sigir-201417": {
-    "NCT02556359": 1.59999999975,
-    "NCT01745731": 0.2727272727024793
-  },
-  "sigir-201418": {
-    "NCT00557219": 0.5666666664444444,
-    "NCT01260883": -1.000000082740371e-09
-  },
-  "sigir-201419": {
-    "NCT00256529": 2.3666666664444445,
-    "NCT02509286": 0.8818181818016528
-  },
-  "sigir-201420": {
-    "NCT02255487": 2.79999999975,
-    "NCT01594385": 1.6666666664444443,
-    "NCT02418169": -1.0
-  },
-  "sigir-201421": {
-    "NCT01520155": 2.999999999,
-    "NCT00997100": 2.336363636305785
-  },
-  "sigir-201422": {
-    "NCT00723788": 2.899999999,
-    "NCT00236912": -1.0
-  },
-  "sigir-201423": {
-    "NCT00170222": 2.8999999996666666,
-    "NCT02219360": 1.94999999975
-  },
-  "sigir-201424": {
-    "NCT01594385": 2.7999999996666665,
-    "NCT02229695": 2.249999999,
-    "NCT02378311": 0.6666666664444444,
-    "NCT01771861": -0.09999999999999998
-  },
-  "sigir-201425": {
-    "NCT02378311": 2.89999999975,
-    "NCT00282269": 0.5333333332222221,
-    "NCT01869855": -1.0
-  },
-  "sigir-201427": {
-    "NCT01713881": 1.4999999995,
-    "NCT01187901": 0.49999999996875
-  },
-  "sigir-201429": {
-    "NCT01978834": 2.7999999995,
-    "NCT00703417": -1.0
-  },
-  "sigir-201430": {
-    "NCT02097186": 1.1333333332777777,
-    "NCT02273232": 0.9,
-    "NCT00721006": 0.39999999992
-  },
-  "sigir-20151": {
-    "NCT01142245": 1.499999999875,
-    "NCT00843063": -0.7500000000625
-  },
-  "sigir-20152": {
-    "NCT02532452": 2.09999999988,
-    "NCT00034437": -3.33333360913457e-10
-  },
-  "sigir-20153": {
-    "NCT01935141": 0.9,
-    "NCT01326507": -0.65
-  },
-  "sigir-20154": {
-    "NCT00844987": 2.89999999975,
-    "NCT01243255": -1.0
-  },
-  "sigir-20155": {
-    "NCT02118818": -1.0,
-    "NCT02407106": -1.0
-  },
-  "sigir-20156": {
-    "NCT02375451": 0.9999999989999999,
-    "NCT01717352": -0.16666666677777786
-  },
-  "sigir-20157": {
-    "NCT01632319": 0.399999999875,
-    "NCT02633449": -0.30000000000000004
-  },
-  "sigir-20158": {
-    "NCT00393913": 2.7999999995,
-    "NCT02562040": 1.0666666666388889
-  },
-  "sigir-20159": {
-    "NCT01766830": -5.000000413701855e-10
-  },
-  "sigir-201510": {
-    "NCT02340533": 2.7999999989999997,
-    "NCT01377519": -0.2500000001875
-  },
-  "sigir-201511": {
-    "NCT01197183": 0.39999999975,
-    "NCT01862510": -1.0
-  },
-  "sigir-201512": {
-    "NCT02418169": 2.699999999,
-    "NCT02467309": 0.0
-  },
-  "sigir-201513": {
-    "NCT01255670": 0.19999999996,
-    "NCT00315042": -1.625000000046875
-  },
-  "sigir-201514": {
-    "NCT00827463": 1.2,
-    "NCT01308112": -5.000000413701855e-10
-  },
-  "sigir-201515": {
-    "NCT00932425": 1.8666666664444445,
-    "NCT01550588": -0.2500000001875
-  },
-  "sigir-201516": {
-    "NCT00711399": 2.7999999995,
-    "NCT00930826": -1.0,
-    "NCT00839124": -1.0
-  },
-  "sigir-201517": {
-    "NCT01231945": 2.1999999998,
-    "NCT01446198": -0.7
-  },
-  "sigir-201518": {
-    "NCT00534066": 2.2166666664444445,
-    "NCT00344513": 0.7,
-    "NCT00149227": 0.54999999975
-  },
-  "sigir-201519": {
-    "NCT00806091": 1.29999999975,
-    "NCT02219360": -0.50000000025,
-    "NCT02213809": -1.0
-  },
-  "sigir-201520": {
-    "NCT00182832": 2.1499999998124997,
-    "NCT00880347": 0.4999999999722222
-  },
-  "sigir-201521": {
-    "NCT02105714": 0.19999999974999993,
-    "NCT01959048": -1.3333333335555557
-  },
-  "sigir-201522": {
-    "NCT01207128": 1.6666666664444443,
-    "NCT02534727": 1.04999999993
-  },
-  "sigir-201523": {
-    "NCT02334514": -0.5,
-    "NCT00084240": -2.0
-  },
-  "sigir-201524": {
-    "NCT00711399": 2.7999999995,
-    "NCT00540072": 1.065384615337278
-  },
-  "sigir-201525": {},
-  "sigir-201526": {},
-  "sigir-201527": {},
-  "sigir-201528": {},
-  "sigir-201529": {
-    "NCT00315042": -1.875000000015625
+    "patient_summary": "A 40-year-old woman with no past medical history presents with sudden onset of severe right arm pain, tachycardia, tachypnea, hypotension, and moderate discomfort, without any visible signs of trauma or arm injury.",
+    "trials": {
+      "NCT01723137": {
+        "matching_score": 0.9999999989999999,
+        "agg_score": 1.8,
+        "trial_score": 2.7999999989999997,
+        "brief_summary": "Patient reported pain, stress, and anxiety measures have been found to be inter-related, but it is not known if they are all associated with receiving opiate medications. The objective of this study is to determine if patients' degree of reported pain, stress, or anxiety is associated with receiving opiate pain medications in the emergency department or at discharge. Alert patients at least 18 years of age and who report pain greater than 3/10 are eligible to participate in the study. Consenting patients complete Visual Analog Scales describing their perceived pain, stress, and anxiety from enrollment until discharge. Demographic data and administration of pain medication is also recorded. Visual Analog Scale scores among patients who received an opioid pain medicine in the emergency department and at discharge will be compared to those who did not."
+      },
+      "NCT02018497": {
+        "matching_score": 0.9999999989999999,
+        "agg_score": 1.7,
+        "trial_score": 2.699999999,
+        "brief_summary": "The essential arterial hypotension and allostasis registry is a prospective, observational research that has the purpose of demonstrating that essential blood pressure (BP) disorders and the associated comorbidities are a result of the inappropriate allostatic response to daily life stress. This required a functioning brain orchestrating the evaluation of the threat and choosing the response, this is a mind-mediated phenomenon. If the response is excessive it contributes to high BP, if deficient to low BP, and the BP itself will identify the allostatic pattern, which in turn will play an important role in the development of the comorbidities.~To do so, consecutive patients of any age and gender that visit a cardiologist's office in Medellin, Colombia, are recruited. Individuals are classified according to their arterial BP and allostasis and follow them in time to see what kind of diseases develops the most (including BP) in the follow up according to the categorization of the characteristic chosen and after adjustment for confounder's variables. In addition, stress events with their date are registered.~HYPOTHESIS~The causes of the diseases are multifactorial.~Physical, biochemical, psychological, social, and cultural dimensions of development dynamically interact to shape the health development process.~A person\u00b4s health depends on their:~Biological and physiologic systems~External and internal environment (a) physical, b) internal behavioural and arousal state as registered by the brain.~Their interaction.~The allostatic mechanisms to the internal and external stressors (allostatic load) involves a network composed by:~Functional systems; mediated by:~The Autonomic Nervous System~The endocrine system~The immune system~Structural changes: whenever the internal and/or external stressors are long lasting and/or strength enough, they may induce changes in:~Epigenetic, endophenotypes, polyphenism.~Plasticity~The interaction between a) and b).~The network response do not affect exclusively the BP, propitiating the development of comorbidities, which may prompt strategies for prevention, recognition and ultimately, treatment.~The allostatic model defines health as a state of responsiveness.~The concept of psycho-biotype: The allostasis is the result of both: biological (allostasis) and psychological (psychostasis) abilities. It is proposed that both components behave in similar direction and magnitude.~Immune disorders may be associated with the development of cancer. High BP population has a higher sympathetic and lower vagal tone, this has been associated with a decrease in the immune\u00b4s system function.~Resources and energy depletion: Terms like weathering have been used to describe how exposures to different allostatic loads gradually scrape away at the protective coating that keeps people healthy. It is postulated that High BP individuals have more resources and energy."
+      },
+      "NCT02230865": {
+        "matching_score": 0.9999999989999999,
+        "agg_score": 0.9,
+        "trial_score": 1.8999999989999998,
+        "brief_summary": "Pain is an expected part of surgical recovery but effective pain management remains challenging. The high variability in postoperative pain experience and analgesic treatment response between patients is part of the challenge. Few studies have yet combined preoperative assessment of responses to experimental pain with measurements of cognitive and emotional processes in the prediction of postoperative pain.~We hypothesize, that preoperative evoked brain potentials (using standard electroencephalographic brain imaging), endogenous pain inhibition capacity (conditioned pain modulation), responses to pressure/thermal pain stimulation, and/or situational pain-related catastrophic thinking are useful clinical predictors of postoperative pain and analgesic consumption."
+      },
+      "NCT01308385": {
+        "matching_score": 0.9999999989999999,
+        "agg_score": 0.6,
+        "trial_score": 1.599999999,
+        "brief_summary": "Despite enormous progress insufficient postoperative pain management remains a frequent problem in the early postoperative phase after surgery. Furthermore, the pain that persists after healing of the surgical wound is a large, but often unrecognized, clinical problem and it is estimated that 5-10% of those undergoing surgery will develop severe persistent pain leading to chronic disability and psychosocial distress.~Conditioned Pain Modulation (CPM), also known as the phenomenon pain-inhibits-pain, is a reduction in pain somewhere on the body in response to the application of a second painful stimulus outside the painful area. In recent years, the CPM has been identified as a psycho-physical measure with clinical relevance in characterizing the individual's ability to modulate pain and consequently the individual's disposition to acquire painful conditions.~The purpose of this study is primarily to assess the relationship between CPM efficacy and clinical postoperative pain (postoperative pain intensity, use of analgesics, the intensity of secondary hyperalgesia and allodynia, and the incidence of persistent postoperative pain) associated with minimally invasive repair of pectus excavatum. In addition, the study aims at identifying other patient- and/or surgery-related factors affecting the course of postoperative pain.~Hypothesis:~- The greater the positive difference between the experimental pressure pain threshold (kPa) measured before and after application of a second painful stimulus (Cold Pressor Test), the lower the risk of developing persistent postoperative pain.~Secondary hypotheses~The greater the positive difference between the experimental pressure pain threshold (kPa) measured before and after application of a different experimental painful stimulus (Cold Pressor Test) lower the pain intensity in the early postoperative period.~The greater the positive difference between the experimental pressure pain threshold (kPa) measured before and after application of a different experimental painful stimulus (Cold Pressor Test), the shorter duration of early postoperative pain.~The greater the positive difference between the experimental pressure pain threshold (kPa) measured before and after application of a different experimental painful stimulus (Cold Pressor Test), the lower the usage of epidural analgesia (mg / ml).~The larger the positive difference between the experimental pressure pain threshold (kPa) measured before and after application of a different experimental painful stimulus (Cold Pressor Test) the lower consumption of oral analgesics (mg / day).~Severe acute pain in the early postoperative period (postoperative days 0-3) is positively associated with the development of persistent postoperative pain (6 months postoperatively).~Presence of preoperative pain and / or high postoperative use of analgesics and / or high pain intensity during the first 6-8 weeks postoperatively predicts pain 6 months postoperatively.~The higher pain intensity and discomfort associated with brush-evoked allodynia and / or pinprick (Von Frey) secondary hyperalgesia the greater the risk for developing persistent postoperative pain (6 months postoperatively).~High levels of preoperative catastrophizing (assessed on the day of admission) is related to the severity of acute pain (rated third postoperative day) and chronic pain (assessed 6 months postoperatively), even if controlled for depression and anxiety.~The degree of preoperative positive and negative emotions (as assessed on the day of admission) is related to the degree of acute pain (rated third postoperative day) and chronic pain (assessed 6 months postoperatively) so that negative emotions are associated with high levels of pain, while positive feelings are related to low levels of pain.~The study population does not differ significantly from the normal population in terms of personality traits (emotional reactions, extraversion, openness to experience, friendliness, conscientiousness).~The study population does not experience a significant change in personality traits during the first 6 months after surgery.~The quality of life and self-esteem is lower among patients who develop persistent postoperative pain compared with pain patients.~Quality of life and self-esteem improve as a result of minimally invasive repair of pectus excavatum."
+      },
+      "NCT02608255": {
+        "matching_score": 0.499999999875,
+        "agg_score": 0.8,
+        "trial_score": 1.299999999875,
+        "brief_summary": "A Single-center prospective pilot study enrolling chest pain patients. CD 26 measurement will be performed and compared to troponin \u00b5s for early triage of these patients. This novel biomarker of myocardial ischemia (CD26) will be measured at the time of first medical contact (T0) and after 30 min simultaneously o troponin Ic.~All patients aged over 18 years with chest pain which may be related to acute coronary syndrome requiring pre hospital medical contact through the Emergency Medical Service."
+      },
+      "NCT00870766": {
+        "matching_score": 0.9999999989999999,
+        "agg_score": 0.0,
+        "trial_score": 0.9999999989999999,
+        "brief_summary": "The purpose of this study is to determine the impact of routinely performed early CT scanning in terms of diagnostic accuracy, patient management and cost-effectiveness compared to current imaging practice in patients suffering from acute abdomen."
+      },
+      "NCT00952744": {
+        "matching_score": -0.2500000001875,
+        "agg_score": 0.8,
+        "trial_score": 0.5499999998125,
+        "brief_summary": "While troponin is not detectable until several hours after an Acute Myocardial Infarction (AMI), copeptin is expected to be elevated very early after an AMI. A combination of both markers for the diagnosis of AMI early after the event is therefore expected to be advantageous."
+      },
+      "NCT00108381": {
+        "matching_score": 0.0,
+        "agg_score": 0.0,
+        "trial_score": 0.0,
+        "brief_summary": "This clinical trial compares two psychological treatments for back pain."
+      },
+      "NCT02107001": {
+        "matching_score": -0.50000000025,
+        "agg_score": 0.2,
+        "trial_score": -0.30000000025,
+        "brief_summary": "Chest pain is an alarming symptom and one of the most frequent causes of access to the Emergency Departement. Although chest X-ray remains an essential step in the diagnostic process, several studies showed numerous limitations of radiography which frequently is inconclusive. Ultrasonography is a non-radiating imaging technique. Albeit a wide use of ultrasound, the utilization of ultrasound in the study of the lung has only recently been introduced in the clinical practice. Several studies proved that lung ultrasound is useful in the diagnosis of lung consolidation in community acquired pneumonia. Nowadays, ultrasound is not routinely used in the presence of chest pain. Our hypothesis based on clinical experience is that, in patients with pleuritic chest pain, lung ultrasound is very sensitive in detecting pneumonia and other lung diseases (such as pneumothorax) thus performing better than radiography. The primary aim of this study is to verify, in patients affected by pleuritic chest pain, the accuracy of lung ultrasound compared to chest-X-ray. The secondary aim is to evaluate the accuracy of lung ultrasound consolidations in distinguishing lung consolidation in pneumonia, atelectasis, pulmonary infarction, or tumors."
+      },
+      "NCT02355483": {
+        "matching_score": -0.6666666667777779,
+        "agg_score": 0.0,
+        "trial_score": -0.6666666667777779,
+        "brief_summary": "The purpose of this study is to determine whether non-contrast abdominal computed tomography (CT) impacts management (diagnosis, need for surgery and treatment) in elderly patients admitted to the emergency department with abdominal pain."
+      },
+      "NCT00373828": {
+        "matching_score": -1.0,
+        "agg_score": 0.3,
+        "trial_score": -0.7,
+        "brief_summary": "The overall aim of the project is to evaluate diagnosis and treatment of chest pain originating from the musculoskeletal system. Specifically, we wish to investigate prevalence and character of such chest pain in a population of patients with acute chest pain, admitted to a university hospital based acute chest pain clinic, and undergoing evaluation of acute coronary syndrome (Part 1). Then, to test a manually-based treatment protocol to patients with diagnosed musculoskeletal chest pain in a randomized clinical trial (Part 2).~The specific purpose of this study (Part 1) is to determine the exact number of patients with acute chest pain origination from the musculoskeletal system, and to describe their cardiac status with respect to ischemic heart disease. Further, we wish to evaluate the decision making process of the chiropractor."
+      },
+      "NCT00986180": {
+        "matching_score": -0.7500000000625,
+        "agg_score": 0.0,
+        "trial_score": -0.7500000000625,
+        "brief_summary": "Evaluate how NUCYNTA (tapentadol) immediate release (IR) compares with oxycodone IR in the treatment of acute low back pain."
+      },
+      "NCT00673374": {
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
+        "brief_summary": "To determine the correlation between the region of abdominal tenderness determined by the examining physician and the location of acute pathology diagnosed on abdominal CT. We hypothesize that the acute pathology diagnosed by CT will lie within the region marked on the abdominal wall by the examining physician prior to CT."
+      },
+      "NCT01604655": {
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
+        "brief_summary": "The purpose of this study is to determine the best initial test in patients admitted to the hospital complaining of chest pain."
+      },
+      "NCT00262470": {
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
+        "brief_summary": "This trial is designed to study the effects of various mechanistically unique medications in controlling excessive increases in heart rate with standing and in improving the symptoms of orthostatic intolerance in patients with this disorder."
+      },
+      "NCT00807976": {
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
+        "brief_summary": "Rationale: Orthostatic hypotension increases with age and is associated with increased vascular and all-cause mortality. The prevalence of orthostatic hypotension is also increased in diabetic subjects. In order to prevent related adverse events and vascular mortality it is of great interest to examine the prevalence of orthostatic hypotension in elderly diabetic subjects.~Objective: To examine the prevalence of orthostatic hypotension and associated adverse events in type 2 diabetic elderly subjects.~Study design: Cross-sectional observational study.~Study population: Elderly type 2 diabetic subjects (70 years and older)."
+      },
+      "NCT00021476": {
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
+        "brief_summary": "This study is aimed at developing ways to prevent acute pain from becoming chronic pain--specifically, pain associated with whiplash-associated disorders (WADs) from motor vehicle accidents. Research on the development of chronic pain due to musculoskeletal injury suggests that a person's initial emotional reactions, particularly fear of reinjury and subsequent avoidance of activity, contribute significantly to chronic pain and persistent disability. This study will treat people with WADs during the first three months after a motor vehicle accident with a behavioral and physical exercise program designed to encourage activity and discourage continued fear of movement, pain, and disability. The study will compare the effectiveness of two anxiety-reduction treatments to standard care in reducing pain and activity limitations in people with WADs in the 2 to 3 months after motor vehicle accidents."
+      },
+      "NCT00413855": {
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
+        "brief_summary": "It is questionable whether elective appendectomy can effectively reduce pain in persistent or recurrent lower abdominal quadrant pain due to chronic appendicitis.~A single centre randomised double-blind sham surgery controlled clinical trial studied the effects of elective laparoscopic appendectomy on postoperative pain perception in patients with persistent or recurrent lower abdominal quadrant pain on abdominal pain at 6 months postoperatively. Secondary outcome was the relation between clinical response and the appendix' histopathology. The analysis was performed on an intention-to-treat basis. Pain scores were compared using a Fisher's exact test."
+      },
+      "NCT02399150": {
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
+        "brief_summary": "Background: In the emergency setting, acute abdominal pain is a diagnostic challenge, as pain is a subjective measure, and serious causes needing surgical intervention do not always meet the clinical picture. Biomarkers measuring the individual stress or pain level may aid in identifying surgical emergencies, but there are many influencing factors that have to be taken into account.~Objective: To evaluate defined stress biomarkers for their diagnostic and prognostic utility in measuring pain, and to evaluate potential influencing or confounding factors.~Design: Prospective observational study in 200 patients presenting to the emergency department with acute abdominal pain.~Estimated duration: May 2015 - May 2016 Location Setting: Emergency Department (ED) of the H\u00f4pital Universitaire Piti\u00e9-Salp\u00e9tri\u00e8re, Paris, France.~Study population: 200 patients presenting to the ED with acute abdomen~Eligibility criteria:~Inclusion criteria: Presentation at ED with acute abdominal pain, aged at least 18 years~Exclusion criteria: no informed consent, pregnancy, homeless, no social assurance~Procedure:~Patients presenting to the ED with acute abdominal pain will be included after informed consent is given. Blood and saliva samples will be drawn initially and after 4 hours, and baseline data assessed. All diagnostic procedures results and diagnosis made by the treating physicians as well as initiated treatment will be recorded Final diagnosis and outcome will be assessed by 2-week-telephone interview.~Measurement of candidate biomarkers will be performed in collected material. Copeptin and SAA will be measured as potential biomarkers, as a control value, cortisol will be obtained. Other biomarkers will be in consideration, depending upon availability and financial aspects.~Safety evaluations: All recommendations outlined in the ICH Guidelines for Good Clinical Practice will be adhered to throughout this trial.~Sample size considerations: The number of patients of this pilote study is based on the estimate of 25 % or 50 of acute abdomen patients to have a surgical emergency.~Significance of the study: If a biomarker is found that safely discriminates between surgical urgency and harmless abdominal pain, this will spare radiologic exposure in often young patients and will aid in optimized allocation of health care resources."
+      },
+      "NCT00462241": {
+        "matching_score": -1.875000000015625,
+        "agg_score": 0.0,
+        "trial_score": -1.875000000015625,
+        "brief_summary": "Acute chest pain is a common cause of hospital admission. Active approaches are directed towards diagnosis and treatment of potentially life threatening conditions, especially acute coronary syndrome and coronary artery disease. However, a considerable number of patients may have chest pain caused by biomechanical dysfunction of muscles and joints of the chest wall or the cervical and thoracic spine (20%). The diagnostic approaches and treatment options for this group of patients are scarce and there is a lack of formal clinical studies and validated outcome measures addressing the effect of manual treatment approaches.~Objective: This single blind randomized clinical trial investigates whether chiropractic treatment can reduce pain and improve function in a population of patients with acute, musculoskeletal chest pain when compared to advice directed towards promoting self-management.~Methods: Among patients admitted to a chest pain clinic in a university hospital under suspicion of acute coronary syndrome, 120 patients with an episode of acute chest pain of musculoskeletal origin are included in the study. All patients have completed the chest pain clinic diagnostic procedures, and acute coronary syndrome and other obvious reasons for chest pain have been excluded. After completion of the study evaluation program, the patients are randomized into one of two groups: A) advice promoting self-management and individual instructions focusing on posture and muscle stretch; B) a course of chiropractic therapy of up to ten treatment sessions focusing on high velocity, low amplitude manipulation of the cervical and thoracic spine together with a choice of mobilisation and soft tissue techniques. In order to establish suitable outcome measures, two pilot studies were conducted. Outcome measures are pain, function, overall health, and patient-rated treatment effect measured at 4, 12, and 52 weeks following treatment."
+      }
+    }
   }
 }

@@ -49,7 +49,7 @@ echo "PyTorch installation complete"
 
 # Install additional required packages
 echo "Installing additional packages..."
-pip install transformers==4.48.1 nltk==3.8.1 openai==1.59.7 rank_bm25==0.2.2 accelerate bitsandbytes tqdm==4.67.1 beir==2.0.0
+pip install transformers==4.48.1 nltk==3.8.1 openai==1.59.7 rank_bm25==0.2.2 accelerate bitsandbytes tqdm==4.67.1
 
 echo ""
 echo "Environment $ENV_NAME has been created and packages have been installed."

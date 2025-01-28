@@ -4,27 +4,13 @@ __author__ = "qiao"
 generate the search keywords for each patient
 """
 
-# import json
-# import os
-# from openai import AzureOpenAI
-#
-# import sys
-#
-# client = AzureOpenAI(
-# 	api_version="2023-09-01-preview",
-# 	azure_endpoint=os.getenv("OPENAI_ENDPOINT"),
-# 	api_key=os.getenv("OPENAI_API_KEY"),
-# )
-
 import json
-import os
 import sys
 
 from openai import OpenAI
+from tqdm import tqdm
 
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY"),
-)
+client = OpenAI()
 
 
 def get_keyword_generation_messages(note):
@@ -49,8 +35,13 @@ if __name__ == "__main__":
 
     outputs = {}
 
+    # First, count the total number of lines
     with open(f"dataset/{corpus}/queries.jsonl", "r") as f:
-        for line in f.readlines():
+        total_lines = sum(1 for _ in f)
+
+    # Now process the file with tqdm
+    with open(f"dataset/{corpus}/queries.jsonl", "r") as f:
+        for line in tqdm(f, total=total_lines, desc=f"Processing {corpus} queries"):
             entry = json.loads(line)
             messages = get_keyword_generation_messages(entry["text"])
 
@@ -65,5 +56,8 @@ if __name__ == "__main__":
 
             outputs[entry["_id"]] = json.loads(output)
 
-            with open(f"results/retrieval_keywords_{model}_{corpus}.json", "w") as f:
-                json.dump(outputs, f, indent=4)
+    # Write the final results
+    with open(f"results/retrieval_keywords_{model}_{corpus}.json", "w") as f:
+        json.dump(outputs, f, indent=4)
+
+    print(f"Results saved to results/retrieval_keywords_{model}_{corpus}.json")
