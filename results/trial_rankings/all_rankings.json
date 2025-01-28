@@ -1,6 +1,6 @@
 {
   "sigir-20141": {
-    "patient_summary": "A 58-year-old African-American woman with a history of hypertension and obesity presents with new-onset episodic chest pain, nausea, diaphoresis, and mild dyspnea. The pain is pressing/burning, radiates to the back, and is not worsened by inspiration. EKG shows nonspecific changes.",
+    "patient_summary": "58-year-old African-American woman with episodic chest pain, hypertension, and obesity.",
     "trials": {
       "NCT00149227": {
         "matching_score": 0.9999999995,
@@ -9,66 +9,66 @@
         "brief_summary": "The KYOTO HEART Study is to assess the add-on effect of valsartan, an Angiotensin-Receptor Blocker, on top of the conventional treatment in high risk patients in Japan with hypertension in terms of the morbidity and mortality."
       },
       "NCT01397994": {
-        "matching_score": 0.99999999975,
+        "matching_score": -0.20000000015999997,
         "agg_score": 0.0,
-        "trial_score": 0.99999999975,
+        "trial_score": -0.20000000015999997,
         "brief_summary": "This study is to determine the anti-anginal and anti-ischemic effect of k-channel opener, nicorandil in patients of chronic stable angina."
       }
     }
   },
   "sigir-20142": {
-    "patient_summary": "An 8-year-old male with fever, dyspnea, cough, and loose stools, presenting with respiratory distress and bilateral lung infiltrates after returning from a vacation in Colorado.",
+    "patient_summary": "8-year-old male with fever, dyspnea, cough, loose stools, and bilateral lung infiltrates after returning from Colorado.",
     "trials": {
-      "NCT00711399": {
-        "matching_score": -5.000000413701855e-10,
-        "agg_score": 1.2,
-        "trial_score": 1.1999999995,
-        "brief_summary": "The study goal is to create a database of respiratory sounds recordings, to evaluate and validate the WIM technology and to evaluate the efficacy of a specific treatment by comparing the severity of the respiratory symptoms before and after the administration of the treatment."
-      },
       "NCT02618655": {
         "matching_score": -0.6666666667777779,
-        "agg_score": 1.0,
-        "trial_score": 0.33333333322222214,
+        "agg_score": 0.8,
+        "trial_score": 0.13333333322222218,
         "brief_summary": "The study will use several laboratory diagnoses in the diagnosis of patients with fever\uff0cto find out which will be more helpful for making an accurate diagnosis in the early period of Tickborne Diseases."
+      },
+      "NCT00711399": {
+        "matching_score": -5.000000413701855e-10,
+        "agg_score": 0.0,
+        "trial_score": -5.000000413701855e-10,
+        "brief_summary": "The study goal is to create a database of respiratory sounds recordings, to evaluate and validate the WIM technology and to evaluate the efficacy of a specific treatment by comparing the severity of the respiratory symptoms before and after the administration of the treatment."
       }
     }
   },
   "sigir-20143": {
-    "patient_summary": "The patient is a 58-year-old nonsmoker white female presenting with mild exertional dyspnea and occasional cough, leading to the discovery of a left lung mass. Additionally, a CT scan reveals a solitary mass in the right frontal lobe, although she is otherwise asymptomatic and has an unremarkable neurologic examination.",
+    "patient_summary": "A 58-year-old nonsmoker white female with a left lung mass and a solitary mass in the right frontal lobe, experiencing mild exertional dyspnea and occasional cough.",
     "trials": {
-      "NCT01452971": {
-        "matching_score": 0.9999999989999999,
-        "agg_score": 1.25,
-        "trial_score": 2.249999999,
-        "brief_summary": "Environmental carcinogens such as polycyclic aromatic hydrocarbons (PAHs) were reviewed as the major risk factors for lung cancer development. In this proposal, the investigators collected fifteen kinds of major PAHs and the investigators would like to perform the following studies:~Study the gene expression and subcellular localization of GNMT in the normal-tumor tissue pairs of lung cancer patients.~Study the associations of the polymorphisms of GNMT in lung cancer patients and the susceptibility to lung cancer;~To assess the allelic loss at GNMT and determined the LOH rate of GNMT in the normal-tumor tissue pairs of lung cancer patients.~Study the associations of the copy number variation (CNV) of GNMT and the susceptibility to lung cancer;~Study the interaction between GNMT and polycyclic aromatic hydrocarbons (PAHs) in lung cancer cell lines."
-      },
       "NCT02490059": {
         "matching_score": 0.0,
-        "agg_score": 0.4,
-        "trial_score": 0.4,
+        "agg_score": 0.5,
+        "trial_score": 0.5,
         "brief_summary": "The evaluation of solitary pulmonary nodules (SPN) requires a balance between procedure-related morbidity and diagnostic yield, particularly in areas where tuberculosis is endemic. Data on ultrathin bronchoscopy (UB) for this purpose is limited. In this prospective randomised trial we compared diagnostic yield and adverse events of UB with standard-size bronchoscopy (SB) in a cohort of patients with SPN located beyond the visible range of SB."
+      },
+      "NCT01452971": {
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
+        "brief_summary": "Environmental carcinogens such as polycyclic aromatic hydrocarbons (PAHs) were reviewed as the major risk factors for lung cancer development. In this proposal, the investigators collected fifteen kinds of major PAHs and the investigators would like to perform the following studies:~Study the gene expression and subcellular localization of GNMT in the normal-tumor tissue pairs of lung cancer patients.~Study the associations of the polymorphisms of GNMT in lung cancer patients and the susceptibility to lung cancer;~To assess the allelic loss at GNMT and determined the LOH rate of GNMT in the normal-tumor tissue pairs of lung cancer patients.~Study the associations of the copy number variation (CNV) of GNMT and the susceptibility to lung cancer;~Study the interaction between GNMT and polycyclic aromatic hydrocarbons (PAHs) in lung cancer cell lines."
       }
     }
   },
   "sigir-20144": {
-    "patient_summary": "A 2-year-old boy presents with high fever, irritability, conjunctivitis, strawberry tongue, hand and foot inflammation, skin desquamation, cervical lymphadenopathy, abdominal tenderness, and elevated liver enzymes. Laboratory tests indicate leukocytosis, low albumin, elevated inflammatory markers, mild anemia, and urinary leukocytes. An echocardiogram reveals moderate coronary artery dilation and possible aneurysm, suggesting a diagnosis consistent with Kawasaki disease.",
+    "patient_summary": "The patient is a 2-year-old boy presenting with symptoms and laboratory findings suggestive of Kawasaki disease, including high fever, conjunctivitis, strawberry tongue, extremity changes, cervical lymphadenopathy, and coronary artery involvement.",
     "trials": {
       "NCT00841789": {
         "matching_score": 0.9999999996666666,
-        "agg_score": 1.6,
-        "trial_score": 2.5999999996666667,
+        "agg_score": 1.8,
+        "trial_score": 2.7999999996666665,
         "brief_summary": "The purpose of this study is to determine whether Etanercept (Enbrel) when used in conjunction with IVIG and aspirin, improves treatment response to IVIG in patients with Kawasaki Disease. Funding Source- FDA/OOPD"
       },
       "NCT02390596": {
-        "matching_score": -0.60000000008,
-        "agg_score": 0.0,
-        "trial_score": -0.60000000008,
+        "matching_score": 0.59999999988,
+        "agg_score": 1.5,
+        "trial_score": 2.09999999988,
         "brief_summary": "The study is designed to assess the efficacy and safety of anakinra, an interleukin 1 receptor antagonist, in patients with Kawasaki disease who failed to respond to standard treatment:e.g. one infusion of 2g/kg of intravenous immunoglobulins."
       }
     }
   },
   "sigir-20145": {
-    "patient_summary": "A 56-year-old female, 20 days post-left mastectomy, presents with shortness of breath, malaise, tenderness in the left upper thoracic wall and right calf, and elevated D-dimer levels, indicating potential complications such as pulmonary embolism or deep vein thrombosis.",
+    "patient_summary": "56-year-old female post-left mastectomy with shortness of breath, malaise, tenderness on left thoracic wall and right calf, decreased breath sounds, and elevated D-dimer.",
     "trials": {
       "NCT00163709": {
         "matching_score": 0.9999999989999999,
@@ -78,172 +78,172 @@
       },
       "NCT01935141": {
         "matching_score": 0.9999999989999999,
-        "agg_score": 1.55,
-        "trial_score": 2.5499999989999997,
+        "agg_score": 1.65,
+        "trial_score": 2.649999999,
         "brief_summary": "With the improvement in CT scanners and injectors, diagnostic chest CT can now be performed in less than 10 seconds. It was hypothesized that diagnostic CT pulmonary angiograms could be done with less than the usual 80-120 ml of contrast used. We have developed a method of performing diagnostic CT pulmonary angiograms with 30 ml of intravenous contrast in most patients. The long-term objective of this study is to show that there is no difference in the diagnostic efficacy of this low dose 30 ml technique when compared to the more traditional full-dose technique."
       }
     }
   },
   "sigir-20146": {
-    "patient_summary": "64-year-old obese female with diabetes mellitus, persistently elevated HbA1c, non-compliance with medication and exercise, and a painful, worsening skin lesion on the left lower leg.",
+    "patient_summary": "64-year-old obese female with diabetes mellitus, non-compliance with medication and exercise, persistently elevated HbA1c, and a painful, oozing skin lesion on the left lower leg.",
     "trials": {
       "NCT02512159": {
-        "matching_score": -0.60000000008,
+        "matching_score": -0.40000000012000003,
         "agg_score": 1.0,
-        "trial_score": 0.39999999992,
+        "trial_score": 0.59999999988,
         "brief_summary": "The aim of this study was to evaluate the efficacy of a handicraft topical device of negative pressure versus traditional healing treatment for skin ulcers in lower limbs; in patients with diabetes mellitus, venous stasis and arterial insufficiency."
       },
       "NCT00015626": {
-        "matching_score": -0.3333333335555556,
-        "agg_score": 0.5,
-        "trial_score": 0.1666666664444444,
+        "matching_score": -1.7500000000625,
+        "agg_score": 0.0,
+        "trial_score": -1.7500000000625,
         "brief_summary": "The goal of this study is to aggressively treat insulin resistance and its clinical manifestations when they first appear in childhood, and to prevent the subsequent progression towards impaired glucose tolerance and type-2 diabetes. In the process of this clinical trial, we will learn more about the early manifestations of insulin resistance, its treatment, and its relationship to obesity and type-2 diabetes through parallel in-vivo and in-vitro studies."
       }
     }
   },
   "sigir-20147": {
-    "patient_summary": "A 26-year-old obese woman with a history of bipolar disorder is experiencing weight struggles, depression, anxiety, agitation, sleep difficulties, suicidal thoughts, restlessness, and increased irritability. She is currently on lithium carbonate and zolpidem.",
+    "patient_summary": "A 26-year-old obese woman with bipolar disorder experiencing depression, anxiety, agitation, insomnia, suicidal thoughts, and irritability. She is currently on lithium carbonate and zolpidem.",
     "trials": {
       "NCT00845988": {
         "matching_score": 0.7499999998125,
-        "agg_score": 1.6,
-        "trial_score": 2.3499999998125,
+        "agg_score": 1.5,
+        "trial_score": 2.2499999998125,
         "brief_summary": "The primary goal of this study is to investigate metabolic changes and maintaining efficacy in stabilized patients with bipolar disorders who have pharmacologically induced weight gain."
       },
       "NCT01863628": {
-        "matching_score": -1.0,
+        "matching_score": -0.50000000025,
         "agg_score": 0.0,
-        "trial_score": -1.0,
+        "trial_score": -0.50000000025,
         "brief_summary": "Background and study hypothesis:~Many studies including prospective studies have been demonstrated that a long symptomatic prodromal phase exists prior to the onset of full-brown bipolar disorder, lasting for 9-12 years (Egeland et al., 2000). During the prodromal stage, there are three main clusters of syndromes, including hypomania/mania symptoms, depressive symptoms, and signs of attention deficit hyperactivity disorders (Correll et al., 2007; Tillman et al., 2003; Mantere et al., 2008). Of the hypomania/mania symptoms, decreased sleep, elevated mood, irritability, mood lability, increased energy, and psychomotor agitation are present most frequently. The prodromal depressive symptoms are reported to be depressed mood, anhedonia, insomnia, feelings of worthlessness. Among patients with bipolar disorders, 22.5% reported to comorbid with pediatric ADHD. In addition, some symptoms are considered as non-specific such as decreased functioning, anger outburst, social isolation, and anxiety (Egeland et al., 2000).~Offspring of parents with bipolar disorders are much likely to present prodromal symptoms compared to offspring of healthy parents. In a 10-year longitudinal study using 55 prodromal symptoms checklist, , Egeland et al.(2002) found that 38% offspring of parents with bipolar disorder were considered as at risk compared to 17% in children of healthy parents. In a 15-year follow-up study, Duffy et al.,(2009) found that 32.7% offspring (aged 8-25 years old) of parents with bipolar disorder met the criteria of major mood episode.~Objectives:~One primary objective of this study is to prospectively identify the prodromal stage of bipolar disorder.~Another primary objective is to conduct a randomized, place-controlled trial of aerobic exercise on people who suffering from prodromal symptoms to the extent of significantly impaired function, with attempt at delaying or preventing the onset of a full-blown bipolar disorder.~Design of study and the procedures:~The study will consist of two phases: one-week screening period and a randomized, placebo-controlled, 3-month trial. During the screening period, offspring of parents with bipolar disorder will undergo systematically clinical evaluations. The offspring will be evaluated with clinical symptoms assessing scales, neuropsychological tests, magnetic resonance imaging. During the 3-month trial period, the offspring who meet the inclusion criteria will be randomly assigned to receive treatment of aerobic exercise, placebo, or wait-list group. Psychiatrists are scheduled to assess mood, treatment outcome during the 3-month trial.~Subjects and treatment It is expected that 120 offspring of parents with bipolar disorder aged between 10-25 years, meeting the inclusion of prodromal stage, will be included in the study. All of the offspring will undertake the Kiddie Sads Present and Lifetime Version (K-SADS-PL), and a 70 checklist items of potential prodromal symptoms suggest by us as well as by Dr. Correll et al. (2007). The parents of these offspring are to have a DSM-IV (Diagnostic and Statistical Manual of Mental Disorders)-defined bipolar disorder (bipolar I or II), confirmed by the Chinese version of Structured Clinical interview for DSM-IV-TR Axis I Disorders patient edition (SCID-I/P) [First et al., 2002]. The offspring are to be recruited through the referrals by their parents who will receive psychiatric services in the Guangzhou psychiatric Hospital.~The offspring will be randomly assigned to aerobic exercise and placebo controlled groups. The aerobic exercise would include cycling, jogging,table tennis, and playing badminton for 40 mins at least 3 times a week for 3 months. In each exercise, participants are supposed to exercise to the extent of getting sweaty. In the placebo group, participants will receive general psychoeducation, including delivering knowledge on symptoms, discussion of the suffering mental difficulties, and general coping techniques.~Significance:~Bipolar disorder is a common, chronic, and recurrent mental disorder. The recognition of prodromal stage of bipolar disorder and the early intervention on it may help delay or prevent the onset of bipolar disorder."
       }
     }
   },
   "sigir-20148": {
-    "patient_summary": "The patient is a 62-year-old man experiencing progressive memory loss and jerking movements in the lower extremities, with confirmed severe cognitive deficits. Neuroimaging indicates moderately advanced cerebral atrophy, and a cortical biopsy reveals diffuse vacuolar changes in the gray matter with reactive astrocytosis, suggesting a neurodegenerative process.",
+    "patient_summary": "The patient is a 62-year-old man with progressive memory loss, jerking movements of the lower extremities, severe cognitive deficits, and memory dysfunction. EEG shows generalized periodic sharp waves, and neuroimaging reveals cerebral atrophy. A cortical biopsy indicates diffuse vacuolar changes and reactive astrocytosis.",
     "trials": {
-      "NCT01628315": {
-        "matching_score": 0.0,
-        "agg_score": 0.0,
-        "trial_score": 0.0,
-        "brief_summary": "To examine short- and long-term value of appearance of new active lesions in predicting extent of cortical and subcortical deep gray matter (SDGM) atrophy over 5 years in ASA (Avonex- Steroid-Azathioprine)study.~To explore how accumulation of cortical and SDGM atrophy over 5 years differs with respect to the number of new active lesions or amount of disease activity, in early relapsing-remitting multiple sclerosis (RRMS) patients who did or did not develop sustained disability progression.~To examine the relationship between development of cortical and SDGM atrophy and regional likelihood of development of new active lesions over 5 years."
-      },
       "NCT01519271": {
         "matching_score": -1.0,
         "agg_score": 0.0,
         "trial_score": -1.0,
         "brief_summary": "Mild cognitive impairment, including difficulty with solving problems, planning, attention, or recalling information, can be a significant problem for individuals with Parkinson's disease. Even mild cognitive difficulties can lead to worse functioning, quality of life, depression, and difficulty for caregivers. Thus, ideally treatment at this stage would improve both cognitive symptoms and some of the other problems associated with these symptoms.~Despite the fact that mild cognitive impairment is a serious problem for Parkinson's disease patients little is known about how best to treat it. This study is a 24-week clinical trial to see if a Food and Drug Administration (FDA)-approved drug, the Exelon (rivastigmine) Patch, is useful in treating mild cognitive impairment in patients with Parkinson's disease. Currently, the Exelon (rivastigmine) Patch is FDA-approved for the treatment of mild to moderate dementia in Alzheimer and Parkinson's disease patients."
+      },
+      "NCT01628315": {
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
+        "brief_summary": "To examine short- and long-term value of appearance of new active lesions in predicting extent of cortical and subcortical deep gray matter (SDGM) atrophy over 5 years in ASA (Avonex- Steroid-Azathioprine)study.~To explore how accumulation of cortical and SDGM atrophy over 5 years differs with respect to the number of new active lesions or amount of disease activity, in early relapsing-remitting multiple sclerosis (RRMS) patients who did or did not develop sustained disability progression.~To examine the relationship between development of cortical and SDGM atrophy and regional likelihood of development of new active lesions over 5 years."
       }
     }
   },
   "sigir-20149": {
-    "patient_summary": "The patient is a 43-year-old woman presenting with multiple small, soft, pedunculated lesions on her neck, varying in color from flesh-colored to slightly hyperpigmented. The largest lesion measures approximately 4 mm in diameter.",
+    "patient_summary": "The patient is a 43-year-old woman with multiple small, soft, pedunculated lesions on her neck, varying in color from flesh-colored to slightly hyperpigmented.",
     "trials": {
       "NCT01950026": {
         "matching_score": 0.0,
-        "agg_score": 0.6,
-        "trial_score": 0.6,
+        "agg_score": 0.5,
+        "trial_score": 0.5,
         "brief_summary": "The aim of this study was to reheat the skin in different ethnic groups after application of cryotherapy."
       },
       "NCT02615912": {
-        "matching_score": -2.0,
+        "matching_score": -1.0,
         "agg_score": 0.0,
-        "trial_score": -2.0,
+        "trial_score": -1.0,
         "brief_summary": "The purpose of this study is to understand the changes in skin microflora, skin barrier function, and skin biochemical constituents in response to direct contact with model surfactants used in personal care articles. The results from this study will provide insights into the complex interaction between the skin microbiome and the epidermis after exposure to surfactants."
       }
     }
   },
   "sigir-201410": {
-    "patient_summary": "The patient is a 67-year-old woman who has undergone cardiac catheterization and is now experiencing a cool right foot, a pulsatile mass in the right groin, loss of distal pulses, and a bruit over the right femoral artery entry point, indicating possible vascular complications.",
+    "patient_summary": "67-year-old woman with a pulsatile mass in the right groin, loss of distal pulses, and a bruit over the right femoral artery following cardiac catheterization.",
     "trials": {
       "NCT02097186": {
         "matching_score": -0.6666666667222223,
-        "agg_score": 0.3,
-        "trial_score": -0.3666666667222223,
+        "agg_score": 0.0,
+        "trial_score": -0.6666666667222223,
         "brief_summary": "Major vascular surgery involves operations to repair swollen blood vessels, clear debris from blocked arteries or bypass blocked blood vessels. Patients with these problems are a high-risk surgical group as they have generalized blood vessel disease. These puts them at risk of major complications around the time of surgery such as heart attacks , strokes and death. The mortality following repair of a swollen main artery in the abdomen is about 1 in 20. This contrasts poorly with the 1 per 100 risk of death following a heart bypass. Simple and cost-effective methods are needed to reduce the risks of major vascular surgery. Remote ischaemic preconditioning (RIPC) may be such a technique. To induce RIPC, the blood supply to muscle in the patient's arm is interrupted for about 5 minutes. It is then restored for a further five minutes. This cycle is repeated three more times. The blood supply is interrupted simply by inflating a blood pressure cuff to maximum pressure. This repeated brief interruption of the muscular blood supply sends signals to critical organs such as the brain and heart, which are rendered temporarily resistant to damage from reduced blood supply. Several small randomized clinical trials in patients undergoing different types of major vascular surgery have demonstrated a potential benefit. This large, multi-centre trial aims to determine whether RIPC can reduce complications in routine practice."
       },
       "NCT02264964": {
-        "matching_score": -1.6666666667777779,
-        "agg_score": 0.1,
-        "trial_score": -1.5666666667777778,
+        "matching_score": -0.7500000000625,
+        "agg_score": 0.0,
+        "trial_score": -0.7500000000625,
         "brief_summary": "The duration and adverse events of non-cuffed catheter in patients with hemodialysis will be investigated by multicenter prospective cohort. Totally, 1,400 patients with chronic renal failure requiring hemodialysis will be enrolled. 900 patients will be given right internal jugular catheterization, and the other 500 patients unsuitable for right internal jugular catheterization will receive femoral catheterizations. Every patient will be followed-up for six months. During following-up period, the duration time and adverse events of non-cuffed catheter will be recorded in details, including inadequate hemodialysis blood flow, venous stenosis, venous thrombosis, infection, catheter thrombosis and so on. The central vein will be evaluated by CT Angiography to identify its stenosis at last visit after 6 months. This multicentre trial will provide evidence to develop guideline for duration time of using non-cuffed catheter."
       }
     }
   },
   "sigir-201411": {
-    "patient_summary": "A 40-year-old woman with no past medical history presents with sudden onset of severe right arm pain, tachycardia, tachypnea, hypotension, and pallor, without any visible signs of trauma or arm injury.",
+    "patient_summary": "A 40-year-old woman with sudden onset of excruciating right arm pain, hypotension, tachycardia, and tachypnea, with no past medical history or trauma.",
     "trials": {
       "NCT01723137": {
         "matching_score": 0.9999999989999999,
-        "agg_score": 1.8,
-        "trial_score": 2.7999999989999997,
+        "agg_score": 1.9,
+        "trial_score": 2.899999999,
         "brief_summary": "Patient reported pain, stress, and anxiety measures have been found to be inter-related, but it is not known if they are all associated with receiving opiate medications. The objective of this study is to determine if patients' degree of reported pain, stress, or anxiety is associated with receiving opiate pain medications in the emergency department or at discharge. Alert patients at least 18 years of age and who report pain greater than 3/10 are eligible to participate in the study. Consenting patients complete Visual Analog Scales describing their perceived pain, stress, and anxiety from enrollment until discharge. Demographic data and administration of pain medication is also recorded. Visual Analog Scale scores among patients who received an opioid pain medicine in the emergency department and at discharge will be compared to those who did not."
       },
       "NCT01526382": {
-        "matching_score": -1.0,
-        "agg_score": 0.2,
-        "trial_score": -0.8,
+        "matching_score": -0.7142857143265307,
+        "agg_score": 0.6,
+        "trial_score": -0.11428571432653067,
         "brief_summary": "PiCCO has been widely used in critical care settings for several decades. Together with pulmonary artery catheter, it is regarded as the important tool for guiding fluid management in patients with shock or acute respiratory distress syndrome. However, its effects on patients' outcome remain untested. The investigators study is a pilot study that is designed to test whether the use of PiCCO will improve patients' outcome, as compared to those without PiCCO monitoring."
       }
     }
   },
   "sigir-201412": {
-    "patient_summary": "The patient is a 25-year-old woman experiencing prolonged fatigue, hair loss, voice changes, weight gain, and cold intolerance. Examination reveals a prominent, soft, uniform anterior cervical mass at the midline, suggesting possible thyroid dysfunction.",
+    "patient_summary": "The patient is a 25-year-old woman with symptoms of prolonged fatigue, hair loss, voice change, weight gain, and cold intolerance. She has a prominent, soft, uniform anterior cervical mass at the midline, suggestive of a thyroid disorder, likely hypothyroidism or goiter.",
     "trials": {
       "NCT01551498": {
-        "matching_score": 0.3333333332222222,
+        "matching_score": -0.6666666667777779,
         "agg_score": 0.7,
-        "trial_score": 1.033333333222222,
+        "trial_score": 0.033333333222222095,
         "brief_summary": "This is a study to evaluate the safety, tolerability, and potential effects of Anatabloc dietary supplementation on antithyroid autoantibodies, thyroid structure, and thyroid function in subjects with autoimmune thyroiditis."
       },
       "NCT00271427": {
-        "matching_score": 0.0,
-        "agg_score": 0.7,
-        "trial_score": 0.7,
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
         "brief_summary": "Selenium suppresses autoimmune destruction of thyrocytes and decreases titers of serum TPOAb in AIT patients. Older 4 clinical trials approved the efficacy of the daily dose of 200micg. It's believed that Se saturates the deficient stores of GPX so GPX saves the thyrocytes against to oxidative stresses. Although less than 70 micg/d is sufficient to maximize GPX activity, none of the authors tested the doses less than 200 micg/d. Our hypothesis was that If 100 micg/d can not suppress the TPOAb titers,it means autoimmune destruction can not be blocked by saturation of deficient stores of GPX solely and the mechanism of action requires more than repletion of deficient stores. It's important not only to estimate the optimal dose but to understand the mechanism of action. High dose therapy may also suppress TPOAb levels in Se-non-deficient AIT patients, if it is so, Se therapy may becomes the solely treatment modality which can suppress the autoimmunity in more than 400 million AIT patients. Because there've been no way to suppress autoimmune war and replacement of LT4 had been the only treatment modality for palliation. An other independent part of the study is to test the effect of Se in adolescent AIT patients."
       }
     }
   },
   "sigir-201413": {
-    "patient_summary": "A 30-year-old generally healthy woman presents with acute shortness of breath, tachypnea, and tachycardia, following a recent childbirth. She has a history of two natural abortions but no significant past health issues. Current examination shows normal chest x-ray and CBC.",
+    "patient_summary": "A 30-year-old woman with recent childbirth presents with acute shortness of breath, tachypnea, tachycardia, and low oxygen saturation. She has a history of two natural abortions and no other significant health issues.",
     "trials": {
-      "NCT02264769": {
-        "matching_score": 0.6666666664444444,
-        "agg_score": 1.25,
-        "trial_score": 1.9166666664444443,
-        "brief_summary": "PostPartum hemorrhage (PPH) is a major cause of maternal death worldwide. Oxytocin is the most commonly used uterotonic drug to prevent and treat PPH in North America. However oxytocin has a very short duration of action, requiring a continuous infusion to achieve sustained uterotonic activity. Moreover large doses are associated with adverse effects like hypotension, nausea, vomiting, dysrhythmias and ST changes. The Society of Obstetricians and Gynecologists of Canada (SOGC) has recommended a single dose of 100 mcg of carbetocin at elective cesarean delivery to promote uterine contraction. In three studies recently performed at Mount Sinai Hospital, the investigators have found no difference in uterine contractility between the doses of 20- 120 mcg carbetocin and that the ED90 is 14.8 mcg. Thus a larger trial comparing the minimum effective dose determined in the previous three trials with the standard 100 mcg dose is necessary to confirm these findings."
-      },
       "NCT00163709": {
-        "matching_score": -1.0,
+        "matching_score": 0.0,
         "agg_score": 0.0,
-        "trial_score": -1.0,
+        "trial_score": 0.0,
         "brief_summary": "A trial to examine whether a new heart failure blood test can improve the outcome of patients presenting to the Emergency Department with shortness of breath.~We hypothesise that a BNP test performed in real-time in patients presenting to the Emergency Department with shortness of breath will help identify additional patients with CHF and consequently to change practice and allow more patients to recieve correct treatment earlier."
+      },
+      "NCT02264769": {
+        "matching_score": -0.3333333335555556,
+        "agg_score": 0.0,
+        "trial_score": -0.3333333335555556,
+        "brief_summary": "PostPartum hemorrhage (PPH) is a major cause of maternal death worldwide. Oxytocin is the most commonly used uterotonic drug to prevent and treat PPH in North America. However oxytocin has a very short duration of action, requiring a continuous infusion to achieve sustained uterotonic activity. Moreover large doses are associated with adverse effects like hypotension, nausea, vomiting, dysrhythmias and ST changes. The Society of Obstetricians and Gynecologists of Canada (SOGC) has recommended a single dose of 100 mcg of carbetocin at elective cesarean delivery to promote uterine contraction. In three studies recently performed at Mount Sinai Hospital, the investigators have found no difference in uterine contractility between the doses of 20- 120 mcg carbetocin and that the ED90 is 14.8 mcg. Thus a larger trial comparing the minimum effective dose determined in the previous three trials with the standard 100 mcg dose is necessary to confirm these findings."
       }
     }
   },
   "sigir-201414": {
-    "patient_summary": "An 85-year-old man with a gradual decrease in consciousness, loss of mobility and appetite, with a recent history of a car accident and a normal head CT.",
+    "patient_summary": "An 85-year-old man with decreased level of consciousness, inability to walk or eat independently, and recent history of a car accident with a normal head CT.",
     "trials": {
       "NCT01624545": {
-        "matching_score": 0.9999999995,
-        "agg_score": 0.2,
-        "trial_score": 1.1999999995,
+        "matching_score": -0.3333333335555556,
+        "agg_score": 0.1,
+        "trial_score": -0.2333333335555556,
         "brief_summary": "Chronic subdural hematoma (CSH) is one of the most common bleedings of the head. These hematomas develop after minor head trauma and increase in size over weeks. Patients usually present with headaches, gait disturbances, language problems or confusion. The state of the art treatment of a symptomatic chronic subdural hematoma is to remove the hematoma by burr hole trepanation.~The optimal follow-up for operated patients remains controversial. Due to the known high rate of a second hematoma at the same place (usually within weeks), one strategy is to perform serial computer tomography scans in order to identify recurrent hematomas early. The radiologic evidence of a second hematoma often leads to reoperation, even if the patient has no, or just slight symptoms. Another strategy after surgical hematoma evacuation is to closely follow the patient with neurological examinations and perform neuroimaging only in case of new symptoms. Advocators of this strategy argue that a follow-up with routine CT scans may be harmful due to additional and maybe unnecessary surgeries and hospital days in a patient population marked by advanced age and fragility.~The aim of the current study is to evaluate the role of computer tomography scanning in the postoperative follow-up after removal of a chronic subdural hematoma. Participants of this study will be allocated by chance to one of two study groups: Patients allocated to group A will receive a computer tomography scan on day 2 and again on day 30 after surgery in addition to a clinical examination. Patients allocated to group B will be examined clinically on day 2 and day 30 without computer tomography. All patients will undergo a final clinical examination after 6 months. The study will recruit 400 patients."
       },
       "NCT01869855": {
-        "matching_score": -0.50000000025,
-        "agg_score": 0.4,
-        "trial_score": -0.10000000025,
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
         "brief_summary": "The aim of our study is to investigate in randomized controlled fashion whether the recurrence and complication rate, after insertion of subperiosteal drainage in the treatment of chronic subdural haematoma, is higher compared to insertion of subdural drainage.~We hypothesize that patients treated with a subperiosteal drainage do not show higher recurrence rates than those treated with a subdural drainage, and suffer less complications."
       }
     }
   },
   "sigir-201415": {
-    "patient_summary": "The patient is a 36-year-old woman with 12 weeks of amenorrhea, increased vaginal spotting, lower abdominal tenderness, nausea, and vomiting. Physical examination shows a tender abdomen and cervical dilation. Ultrasound reveals an enlarged uterus with multiple cystic areas, raising concerns for a vesicular mole or fibroid degeneration.",
+    "patient_summary": "A 36-year-old woman with 12 weeks of amenorrhea, vaginal spotting, lower abdominal tenderness, nausea, vomiting, enlarged uterus with multiple cystic areas, and negative pregnancy test. Differential diagnosis includes vesicular mole and fibroid degeneration.",
     "trials": {
       "NCT00180739": {
-        "matching_score": 0.09999999999,
-        "agg_score": 0.6,
-        "trial_score": 0.69999999999,
+        "matching_score": 0.11111111109876542,
+        "agg_score": 0.9,
+        "trial_score": 1.0111111110987654,
         "brief_summary": "The study objective is to develop data for the safety of pregnancies after thermal ablation of uterine fibroids by MR guided Focused Ultrasound using the Ex Ablate 2000 system."
       },
       "NCT00277680": {
@@ -255,46 +255,46 @@
     }
   },
   "sigir-201416": {
-    "patient_summary": "A 28-year-old female presents with neck and shoulder pain, left hand and arm paresthesias, tremors, spasticity, and severe symptoms including spastic arm movements, sweating, agitation, malaise, difficulty swallowing, and hydrophobia after attending a stray animal recovery campaign.",
+    "patient_summary": "The patient is a 28-year-old female presenting with neck and shoulder pain, left hand and arm paresthesias, spastic arm movements, sweating, agitation, anxiety, malaise, difficulty swallowing, and marked hydrophobia. Symptoms developed after returning from a trip where she attended a stray animal recovery campaign.",
     "trials": {
       "NCT02374814": {
-        "matching_score": -0.3333333335555556,
-        "agg_score": 1.2,
-        "trial_score": 0.8666666664444443,
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
         "brief_summary": "The purpose of this study is to compare the effectiveness of a two dose versus a three dose schedule and intramuscular versus intradermal injection for pre-exposure prophylaxis."
       },
       "NCT02238756": {
         "matching_score": -1.7500000000625,
-        "agg_score": 0.4,
-        "trial_score": -1.3500000000624999,
+        "agg_score": 0.0,
+        "trial_score": -1.7500000000625,
         "brief_summary": "The purpose of this clinical trial is to investigate the safety and tolerability of IM administered CV8102 and an IM administered combination of CV8102 and rabies vaccine in humans."
       }
     }
   },
   "sigir-201417": {
-    "patient_summary": "The patient is a 48-year-old white male with a history of common variable immunodeficiency (CVID) who presented with acute abdominal pain, fever, dehydration, and signs of shock. He underwent exploratory laparotomy due to a ruptured liver abscess, which was surgically drained, and is currently in the ICU.",
+    "patient_summary": "A 48-year-old male with common variable immunodeficiency (CVID) and a ruptured liver abscess, presenting with acute abdominal pain, fever, and hemodynamic instability.",
     "trials": {
+      "NCT01745731": {
+        "matching_score": 0.35714285711734695,
+        "agg_score": 1.2,
+        "trial_score": 1.557142857117347,
+        "brief_summary": "This is a randomized controlled trial in which the safety and feasibility of cell therapy medicinal product shall be measured by comparing the variables of the response after treatment compared to baseline prior to implementation. Secondarily the results obtained are compared with each of the study groups.~Patients will receive concomitant basic pharmacological treatment for maintaining liver function.~All patients will be equally medically treated. The hypothetic test is to propose mononuclear cells from the bone marrow infused in the territory hepatic portal remaining segments (II and III) to be performed while contralateral portal embolization provides progenitor cells hepatic regenerative capacity that would shorten the time of liver regeneration and increase residual volume, facilitating the realization of an extended hepatectomy with greater assurance of maintaining proper residual function and adequate surgical margins."
+      },
       "NCT02556359": {
         "matching_score": 0.49999999975,
-        "agg_score": 1.4,
-        "trial_score": 1.89999999975,
+        "agg_score": 1.05,
+        "trial_score": 1.54999999975,
         "brief_summary": "The molecular mechanisms participating in the various aspects of the DNA Damage Response (DDR) are absolutely essential to maintain the genome dynamics essential to all living organisms. The most commonly studied consequence of faulty DDR is genome instability participating in cancer onset. In the present proposal, we wish to explore another aspect of DDR, not relevant to cancer, which is its absolute requirement at several key steps of the development, maturation, and function of the immune system.~The most spectacular consequences of faulty DNA repair processes with respect to the immuno-hematopoietic tissue are the complete block of B and T lymphocytes maturation owing to defective DNA joining phase during V(D)J recombination resulting in patients with Severe Combined Immune Deficiency (SCID).~The objectives of this study are to increase our knowledge on the role of the various DNA repair processes in the development, the maintenance, and the function of the immune system and thus, to better understand why and how dysfunctions of these DNA repair processes result in human severe conditions such as CVID, LOCID or other manifestations of immune disorders such as autoimmunity.~The explorations of DNA repair mechanisms in the patients will allow us to establish the genetic diagnosis in some patients with until now undefined molecular diagnosis. This is of immediate importance for the patients and their families, as it not only contributes to a better understanding of the patients' condition, but also allows providing genetic counseling for the families."
-      },
-      "NCT01745731": {
-        "matching_score": 0.3333333332962963,
-        "agg_score": 1.0,
-        "trial_score": 1.3333333332962962,
-        "brief_summary": "This is a randomized controlled trial in which the safety and feasibility of cell therapy medicinal product shall be measured by comparing the variables of the response after treatment compared to baseline prior to implementation. Secondarily the results obtained are compared with each of the study groups.~Patients will receive concomitant basic pharmacological treatment for maintaining liver function.~All patients will be equally medically treated. The hypothetic test is to propose mononuclear cells from the bone marrow infused in the territory hepatic portal remaining segments (II and III) to be performed while contralateral portal embolization provides progenitor cells hepatic regenerative capacity that would shorten the time of liver regeneration and increase residual volume, facilitating the realization of an extended hepatectomy with greater assurance of maintaining proper residual function and adequate surgical margins."
       }
     }
   },
   "sigir-201418": {
-    "patient_summary": "A 6-month-old male infant presents with oliguria, generalized edema, elevated blood urea nitrogen and serum creatinine levels, and abnormal urinalysis findings following major surgery. These symptoms suggest acute kidney injury (AKI) possibly due to post-surgical complications.",
+    "patient_summary": "The patient is a 6-month-old male infant with oliguria, generalized edema, hypertension, tachycardia, elevated blood urea nitrogen, elevated serum creatinine, hematuria, granular casts in urine, and high fractional excretion of sodium, indicating acute kidney injury likely due to acute tubular necrosis following major surgery.",
     "trials": {
       "NCT00557219": {
-        "matching_score": 0.7499999998125,
-        "agg_score": 1.6,
-        "trial_score": 2.3499999998125,
+        "matching_score": 0.2499999999375,
+        "agg_score": 0.8,
+        "trial_score": 1.0499999999375,
         "brief_summary": "The purpose of the study is to compare the effect of fenoldopam and ketanserin on kidney function preservation in patients at high risk for renal failure after cardiac surgery. Acute, oliguric renal failure develops in up to 2% of patients undergoing cardiac surgery. Some of them require renal replacement therapy and despite that mortality in this group exceeds 30-60%. The investigators await that the use of fenoldopam and/or ketanserin may decrease the rate of severe renal failure."
       },
       "NCT01260883": {
@@ -306,29 +306,29 @@
     }
   },
   "sigir-201419": {
-    "patient_summary": "A 52-year-old African American man with a history of heavy smoking and drinking presents with progressive dysphagia, initially with solid foods and now including liquids, along with significant weight loss of 25 pounds.",
+    "patient_summary": "The patient is a 52-year-old African American man with a history of heavy smoking and drinking, experiencing progressive dysphagia and significant weight loss.",
     "trials": {
       "NCT00256529": {
         "matching_score": 0.6666666664444444,
-        "agg_score": 1.6,
-        "trial_score": 2.2666666664444444,
+        "agg_score": 1.75,
+        "trial_score": 2.4166666664444443,
         "brief_summary": "This is a prospective descriptive cross sectional study to determine the percentage of patients presenting with dysphagia who are found to have eosinophilic esophagitis (EoE) and to establish which presenting factors warrant esophageal biopsies. We hypothesize that a greater than expected percentage of patients who are biopsies will have histologic changes consistent with EE."
       },
       "NCT02509286": {
-        "matching_score": 0.29999999997,
+        "matching_score": 0.18181818180165288,
         "agg_score": 0.5,
-        "trial_score": 0.79999999997,
+        "trial_score": 0.6818181818016529,
         "brief_summary": "The trial is designed to investigate differences in outcome of patients with esophageal adenocarcinoma and junctional adenocarcinoma treated with perioperative (neoadjuvant + adjuvant) chemotherapy (FLOT) plus surgical resection versus neoadjuvant chemoradiation (CROSS) plus surgical resection."
       }
     }
   },
   "sigir-201420": {
-    "patient_summary": "A 32-year-old woman involved in a car accident with multiple extremity fractures and abdominal tenderness, guarding, rebound tenderness, and absent bowel sounds, indicating potential internal injuries.",
+    "patient_summary": "A 32-year-old woman with multiple extremity fractures and signs of abdominal trauma following a car accident.",
     "trials": {
       "NCT01594385": {
         "matching_score": 0.9999999996666666,
-        "agg_score": 1.8,
-        "trial_score": 2.7999999996666665,
+        "agg_score": 1.7,
+        "trial_score": 2.699999999666667,
         "brief_summary": "The goal of this study is to test the effects of Seprafilm adhesion barrier on patients who are undergoing open abdomen damage control management for traumatic injuries when compared to no adhesion barrier use. Specifically, the researchers wish to study the effects of Seprafilm adhesion barrier on:~the number and intensity of adhesions,~whether there is any difference between treatment groups (Seprafilm vs. no Seprafilm) who go on to successful definitive abdominal closure,~rate of occurrence of secondary complications (such as abscesses) associated with short- and long-term beneficial effects of reducing adhesion formation,and~whether there is any difference between treatment groups regarding patient functional recovery."
       },
       "NCT02255487": {
@@ -340,109 +340,109 @@
     }
   },
   "sigir-201421": {
-    "patient_summary": "The patient is a 21-year-old female presenting with progressive arthralgias, malaise, alopecia, a facial rash, non-palpable purpura, and joint swelling. Laboratory findings indicate normocytic anemia, thrombocytopenia, positive ANA and anti-dsDNA, and proteinuria with RBC casts, suggesting a possible autoimmune condition, likely systemic lupus erythematosus (SLE).",
+    "patient_summary": "The patient is a 21-year-old female with symptoms and lab findings suggestive of systemic lupus erythematosus (SLE), including progressive arthralgias, malaise, alopecia, malar rash, purpura, joint swelling, normocytic anemia, thrombocytopenia, positive ANA and anti-dsDNA, and renal involvement with proteinuria and RBC casts.",
     "trials": {
       "NCT01520155": {
         "matching_score": 0.9999999989999999,
-        "agg_score": 1.8,
-        "trial_score": 2.7999999989999997,
+        "agg_score": 2.0,
+        "trial_score": 2.999999999,
         "brief_summary": "The key of this prospective study is to identify a potentially increased cardiovascular risk in patients with systemic Lupus erythematodes, with and without renal affection. Three groups of patients will be compared."
       },
       "NCT00997100": {
-        "matching_score": 0.49999999995833333,
-        "agg_score": 1.45,
-        "trial_score": 1.9499999999583333,
+        "matching_score": 0.6363636363057851,
+        "agg_score": 1.7,
+        "trial_score": 2.336363636305785,
         "brief_summary": "This is an exploratory open label single arm study to evaluate changes in disease activity and biomarkers in patients with mild active SLE, during treatment with ABR-215757 given as add-on to standard therapy. To be eligible for the study SLE patients should present with symptoms from skin, mouth and/or joints. After a screening period of one week patients will be treated with ABR-215757 for 12 weeks. The initial dose of ABR-215757 will be 1.5 mg/day. There will be an option to increase the dose to 3.0 mg/day following 28 days of treatment. Follow-up visits will take place 4 weeks and 8 weeks after last day of treatment. Disease activity during treatment will be studied using the Systemic Lupus Erythematosus disease Activity Index (SLEDAI-2K) as well as organ system specific disease activity indexes (CLASI for skin involvement and number of swollen/tender joints using 28- and 66/68-joint counts). At specified time points during the study, blood samples and biopsies will be collected for analysis of established and exploratory biomarkers of SLE. Concomitant SLE treatment allowed include: prednisolone or equivalent at a dose of \u226415 mg/day, hydroxychloroquine, azathioprine, methotrexate and mycophenolate mofetil, all at stable doses from specified timepoints prior to the study and throughout the study."
       }
     }
   },
   "sigir-201422": {
-    "patient_summary": "A 15-year-old girl presents with gradual onset abdominal pain, initially periumbilical and localizing to the right lower quadrant, accompanied by loss of appetite and localized rebound tenderness. An abdominal ultrasound shows a markedly edematous appendix, indicating possible appendicitis.",
+    "patient_summary": "The patient is a 15-year-old girl with symptoms and ultrasound findings suggestive of acute appendicitis.",
     "trials": {
       "NCT00723788": {
         "matching_score": 0.9999999989999999,
-        "agg_score": 1.75,
-        "trial_score": 2.749999999,
+        "agg_score": 1.85,
+        "trial_score": 2.849999999,
         "brief_summary": "Study to find out if MRI can diagnose appendicitis in children as well as or better than CT scan and/or ultrasound scan performed at the same time. No additional contrast material or sedation will be used to perform the MRI."
       },
       "NCT00236912": {
         "matching_score": -0.6666666667777779,
-        "agg_score": 1.25,
-        "trial_score": 0.5833333332222221,
+        "agg_score": 1.2,
+        "trial_score": 0.5333333332222221,
         "brief_summary": "The purpose of this study is to compare the efficacy and safety of two treatment regimens in treating patients with complicated appendicitis. Appendicitis requires antibiotic treatment when the appendix ruptures (complicated appendicitis). This is a study comparing intravenous (IV) antibiotic therapy of levofloxacin/metronidazole versus piperacillin/tazobactam for 4 to 14 days. Patients may be switched to oral therapy after 48 hours, at the doctor's discretion."
       }
     }
   },
   "sigir-201423": {
-    "patient_summary": "A 63-year-old man with a history of heavy smoking presents with cough, shortness of breath, and cyanosis. He has a past medical history of spinal stenosis, diabetes, hypothyroidism, and mild psoriasis. His symptoms include productive cough with purulent sputum and difficulty breathing, requiring home oxygen. Chest x-ray shows hyperinflation of the lungs.",
+    "patient_summary": "A 63-year-old man with a history of heavy smoking, spinal stenosis, diabetes, hypothyroidism, mild psoriasis, and a family history of early onset dementia presents with cough, shortness of breath, and cyanosis. He has been using home oxygen due to difficulty breathing. Examination reveals a barrel-shaped chest and diffuse rales, with chest x-ray showing hyperinflation.",
     "trials": {
+      "NCT00170222": {
+        "matching_score": 0.9999999996666666,
+        "agg_score": 1.9,
+        "trial_score": 2.8999999996666666,
+        "brief_summary": "The role of antibiotic therapy in patients with COPD remains controversial. While the outcome of several clinical trials is in favour of antibiotics, the quality of these studies in insufficient. In this study the efficacy of doxycycline is compared to placebo. All concommitant treatment (steroids, bronchodilator therapy, physiotherapy) is standardized.~The investigators hypothesize that patients with an acute exacerbations will have a better outcome when treated with antibiotics."
+      },
       "NCT02219360": {
         "matching_score": 0.9999999995,
-        "agg_score": 1.7,
-        "trial_score": 2.6999999995,
+        "agg_score": 1.9,
+        "trial_score": 2.8999999995,
         "brief_summary": "Chronic obstructive pulmonary disease has become a serious global health care and public health problems due to its high prevalence, high morbidity and heavy economic burden. Acute exacerbation of chronic obstructive pulmonary disease is one of the most important causes of death in patients with COPD. Systemic corticosteroids therapy is recommended in COPD exacerbations. In clinical practice for the treatment of acute exacerbation of COPD\uff0c antibiotic application is still controversial. Evidence from current guideline is based on strict criteria from randomized controlled trials, thus the given condition is simplified. Patients meet the criteria account for the minority in the real world. Therefore, it is still not clear whether most patients benefit from the recommended treatment. In our design, hospitalized patients with acute exacerbation of COPD will be enrolled, with their treatment, arterial hypoxemia, recovery time and length of hospitalization being observed. The main purpose is to evaluate the benefit effect of current recommended treatment of acute exacerbation of COPD in the real world."
-      },
-      "NCT00170222": {
-        "matching_score": 0.0,
-        "agg_score": 0.6,
-        "trial_score": 0.6,
-        "brief_summary": "The role of antibiotic therapy in patients with COPD remains controversial. While the outcome of several clinical trials is in favour of antibiotics, the quality of these studies in insufficient. In this study the efficacy of doxycycline is compared to placebo. All concommitant treatment (steroids, bronchodilator therapy, physiotherapy) is standardized.~The investigators hypothesize that patients with an acute exacerbations will have a better outcome when treated with antibiotics."
       }
     }
   },
   "sigir-201424": {
-    "patient_summary": "A 33-year-old male athlete with acute abdominal pain following blunt trauma to the left hemi-abdomen, resulting in splenic rupture and extended intraperitoneal hemorrhage. The patient presents with hypotension and tachycardia, indicating possible shock.",
+    "patient_summary": "A 33-year-old male athlete with acute abdominal pain and hypotension due to spleen rupture and intraperitoneal hemorrhage following blunt abdominal trauma.",
     "trials": {
-      "NCT02229695": {
-        "matching_score": 0.9999999989999999,
-        "agg_score": 1.35,
-        "trial_score": 2.349999999,
-        "brief_summary": "This is a prospective comparison trial. Patients that will be included in the trial are those that will have operations in which their abdominal closure is temporary, i.e. patients sustaining trauma or septic abdomen.~Patients will be grouped according to the method of temporarily abdominal closure (TAC) procedure:~Vacuum-assisted closure (VAC)~Bogota bag (BB), a sterile intravenous bag silo closure. The two methods are currently accepted with no clear cut evidence to prefer one on another. At Soroka Medical Center the decision to choose either of the methods is at the surgeon's discretion.~Intra-abdominal pressure will be measured in all patients by the urinary bladder pressure technique at 6 12 24 ant 48 hours post operation. The measurement is a routine procedure done as part of the monitoring processes of critically ill patients in the General Intensive Care Unit (GICU).~Patients will be evaluated for the development of acute intra abdominal hypertension with or without abdominal compartment syndrome."
-      },
       "NCT01771861": {
-        "matching_score": 0.49999999975,
-        "agg_score": 1.25,
-        "trial_score": 1.74999999975,
+        "matching_score": -0.50000000025,
+        "agg_score": 1.275,
+        "trial_score": 0.7749999997499999,
         "brief_summary": "The aim of the study is to establish the predictive properties of our trauma team activation protocol, and its individual criteria, and if possible to suggest changes that reduce over- and undertriage.~The study will also give an overview of the frequency and type of emergency procedures at a university hospital trauma center, which can contribute to optimal resource use and indicate which type of surgical skills are necessary in our trauma emergency procedures."
+      },
+      "NCT02229695": {
+        "matching_score": -1.000000082740371e-09,
+        "agg_score": 0.0,
+        "trial_score": -1.000000082740371e-09,
+        "brief_summary": "This is a prospective comparison trial. Patients that will be included in the trial are those that will have operations in which their abdominal closure is temporary, i.e. patients sustaining trauma or septic abdomen.~Patients will be grouped according to the method of temporarily abdominal closure (TAC) procedure:~Vacuum-assisted closure (VAC)~Bogota bag (BB), a sterile intravenous bag silo closure. The two methods are currently accepted with no clear cut evidence to prefer one on another. At Soroka Medical Center the decision to choose either of the methods is at the surgeon's discretion.~Intra-abdominal pressure will be measured in all patients by the urinary bladder pressure technique at 6 12 24 ant 48 hours post operation. The measurement is a routine procedure done as part of the monitoring processes of critically ill patients in the General Intensive Care Unit (GICU).~Patients will be evaluated for the development of acute intra abdominal hypertension with or without abdominal compartment syndrome."
       }
     }
   },
   "sigir-201425": {
-    "patient_summary": "An 8-year-old boy experienced a fall resulting in a head injury, leading to drowsiness, vomiting, and altered neurological status. He presented with a low Glasgow Coma Scale score, asymmetrical pupils, and impaired movement in the right limbs, indicating potential intracranial injury or hemorrhage.",
+    "patient_summary": "The patient is an 8-year-old boy who suffered a head injury after falling from a bike, striking his left temple. He initially showed no loss of consciousness and had normal pupil response and limb movement. However, he later became drowsy, pale, and vomited. Upon arrival at the emergency department, he had bradycardia, hypertension, a low Glasgow Coma Scale score, asymmetrical pupils, and impaired movement on the right side, indicating possible traumatic brain injury.",
     "trials": {
       "NCT02378311": {
         "matching_score": 0.99999999975,
-        "agg_score": 1.8,
-        "trial_score": 2.79999999975,
+        "agg_score": 1.9,
+        "trial_score": 2.89999999975,
         "brief_summary": "Cycling injuries are the 3rd most common mechanism of injury in 7-13 year olds[1]. Bicycle injuries have remained one of the commonest causes of paediatric abdominal trauma for over 60 years[2,3]. 15% of child cyclist injuries involve impact with a handlebar; two-thirds of those are abdominal injuries[4]. Handlebar impact is now the commonest mechanism of major paediatric abdominal injury[3]. Serious handlebar injuries often occur after apparently minor falls; they are not unique to riders performing stunts[5].~One small study found that the metal handlebar ends were often exposed on bikes of children sustaining severe abdominal injuries[6]. Most European safety standards do not test grip durability[7-10]. Day-to-day use can damage rubber grips, exposing the underlying metal handlebar tube.~This feasibility study aims to test the research methods that will be used in a subsequent nationwide multicentre study. The main study will investigate the association between injuries and handlebar grip condition.~Children attending study hospitals with any bicycle or kick scooter injury will be invited to participate. Parents of injured children will be invited to complete questionnaires regarding circumstances surrounding the injury and condition of the handlebar ends on the bike or scooter involved. Clinical information regarding the injury will also be collected. The handlebar end condition will be compared between children sustaining a handlebar end injury [Cases] and riders whose injury did not involve the handlebar [Controls].~If exposed handlebar ends are more prevalent amongst riders with handlebar end injuries, injury prevention strategies can focus on methods to prevent damage occurring to grips through day-to-day use. If no such association is found, prevention strategies can be focused elsewhere, such as on design of effective protective clothing.~Data collection for this feasibility study will occur between March 2015 and September 2015.~The Chief Investigator, Mr. Andrew Neilson, funds the feasibility study."
       },
       "NCT00282269": {
         "matching_score": -0.6666666667777779,
-        "agg_score": 0.5,
-        "trial_score": -0.16666666677777786,
+        "agg_score": 1.2,
+        "trial_score": 0.5333333332222221,
         "brief_summary": "The purpose of this study is:~To determine the safety and feasibility of performing an international multi-centre randomized control trial of early and prolonged hypothermia to improve outcome in children with severe traumatic brain injury (TBI).~To determine whether in children with severe traumatic brain injury, prolonged initial hypothermia (minimum 72 hours at 32-33 degrees) improves the proportion of good outcomes 12 months after injury when compared to initial normothermia (36-37 degrees)."
       }
     }
   },
   "sigir-201427": {
-    "patient_summary": "A 21-year-old male with a family history of multiple colonic polyps and adenomas undergoes sigmoidoscopy, revealing dozens of benign adenomas in the rectosigmoid region. His siblings have had total proctocolectomy due to similar findings.",
+    "patient_summary": "The patient is a 21-year-old with a family history of multiple colonic adenomas and siblings who underwent total proctocolectomy. The patient has dozens of small colonic polyps, which are benign adenomas.",
     "trials": {
       "NCT01713881": {
         "matching_score": 0.9999999995,
-        "agg_score": 1.8,
-        "trial_score": 2.7999999995,
+        "agg_score": 1.7,
+        "trial_score": 2.6999999995,
         "brief_summary": "This will be a retrospective chart review of 880-1000 patients who had a colonoscopy and were found to have a tubular adenoma between the years of 2004-2008. We will compare the rate and timing of completion of repeat colonoscopies pre and post establishment of a polyp registry (tracking system) in 2006. Each group will be composed of up to 500 subjects consecutively identified from all the patients who underwent colonoscopy and were found to have a tubular adenoma (Group 1-2004 to 2006, Group 2 2007-2008)."
       },
       "NCT01187901": {
-        "matching_score": -0.75000000003125,
-        "agg_score": 1.2,
-        "trial_score": 0.44999999996874995,
+        "matching_score": -0.37500000007812495,
+        "agg_score": 1.45,
+        "trial_score": 1.0749999999218751,
         "brief_summary": "The purpose of this study is to determine in a randomized, placebo-controlled, phase II trial if the combination of sulindac and erlotinib causes a significant regression of duodenal and colorectal adenomas in familial adenomatous polyposis (FAP) and attenuated FAP (AFAP) patients."
       }
     }
   },
   "sigir-201429": {
-    "patient_summary": "The patient is a 51-year-old woman with osteoporosis concerns, a history of significant hypertension, diet-controlled diabetes mellitus, and current smoking. She is menopausal and is particularly worried about the risk of hip fractures as she ages.",
+    "patient_summary": "51-year-old woman with osteoporosis, hypertension, diet-controlled diabetes, smoking habit, and recent menopause.",
     "trials": {
       "NCT01978834": {
         "matching_score": 0.9999999995,
@@ -451,20 +451,20 @@
         "brief_summary": "This study is designed for clinical validation of the novel ultrasound device (Bindex\u00ae, Bone Index Finland Ltd.). In a preliminary study technique has been validated in Finnish elderly woman population with 285 healthy and 56 osteoporotic subjects (n = 341 in total). Significant and good correlation was observed between Density Index (DI) determined with Bindex and femoral bone mineral density determined with DXA (r = 0.65 - 0.70). In addition, with determination of 90% sensitivity and specificity thresholds, significant number (65-75%) of patients could be diagnosed without additional verification with DXA.~First, the thresholds for DI will be determined by measuring 70 osteoporotic and 70 healthy patients (n = 140) with Bindex and DXA within four decades of age; age 50 to 59 years, age 60 to 69 years, age 70 to 79 years, and age 80 to 89 years. The feasibility of DI for diagnostics of osteoporosis and evaluation of bone mineral density (BMD) will be assessed. The thresholds for the BMD estimate obtained with DI will be determined for osteoporotic and non-osteoporotic patients. For fracture risk assessment, DI measurements are used to predict the outcome of currently available fracture risk assessment tools.~To investigate optimal configuration of ultrasound parameters and patient characteristics for prediction of proximal femur and lumbar spine BMD for women in each four decades of age; 50 to 59 years, 60 to 69 years, 70 to 79 years, and 80-89 years.~To develop national diagnostic thresholds for DI in prediction of osteoporosis status with a reference female population (American-Caucasian) in each four decades of age; 50 to 59 years, 60 to 69 years, 70 to 79 years, and 80-89 years."
       },
       "NCT00703417": {
-        "matching_score": -1.7500000000625,
-        "agg_score": 0.1,
-        "trial_score": -1.6500000000625,
+        "matching_score": -1.0,
+        "agg_score": 0.25,
+        "trial_score": -0.75,
         "brief_summary": "For this cross-sectional case control pilot study 30 women, 55-75 years old with type II diabetes will be recruited. Diabetes will be defined as self-report of diabetes previously diagnosed by a physician, use of hypoglycemic medications, or fasting glucose > 126 mg/dl (7.0mM) in accordance with the American Diabetes Association criteria. The diabetic patient population will be divided into 2 groups: patients with status post low energy fractures of the proximal humerus, the proximal femur, the ankle and the foot (n=10) versus diabetic patients with no fractures or low energy trauma fracture history (n=10). An additional group of 10 diabetic postmenopausal women will be recruited and will have magnetic resonance imaging (MRI) of the lower back only. Caucasian, Asian and Hispanic women will be combined since a previous study suggested that BMD is very similar in these 3 population and that ethnic differences are minimal. In addition a population of 10 age-matched, BMI-matched, race-matched healthy women, without osteoporotic fractures will be examined. In all of these volunteers a medical history will be obtained to ensure good health status and rule out chronic diseases that would have an impact on bone metabolism. Patients will undergo MRI, QCT and high-resolution peripheral quantitative computed tomography (HR-pQCT) examinations to determine bone mineral density and bone structure/quality.~The hypothesis of this pilot project is that type II diabetic patients with and without low-energy fractures have a different trabecular bone architecture and composition, which is also different when compared to normal age-matched healthy patients. Architectural differences in these three patient groups may be visualized with high resolution MRI and high-resolution peripheral quantitative computed tomography (HR-pQCT) and will be most pronounced at the calcaneus and the distal tibia. Analyzing structure parameters obtained from high resolution MRI and spectroscopy may improve our understanding of the pathophysiology of diabetic bone disease and the prediction of fracture risk in an elderly diabetic population."
       }
     }
   },
   "sigir-201430": {
-    "patient_summary": "The patient is a 72-year-old man with increasing calf pain when walking uphill, indicative of possible claudication. He has a history of myocardial infarction and transient ischemic attack, and his blood pressure has worsened despite treatment. Physical examination reveals elevated blood pressure, a carotid bruit, and diminished pulses in the lower extremities.",
+    "patient_summary": "The patient is a 72-year-old man with peripheral artery disease, a history of myocardial infarction, transient ischemic attack, and hypertension. He experiences calf pain when walking uphill, indicating possible claudication.",
     "trials": {
       "NCT00721006": {
-        "matching_score": 0.59999999988,
-        "agg_score": 1.55,
-        "trial_score": 2.14999999988,
+        "matching_score": -0.60000000008,
+        "agg_score": 1.0,
+        "trial_score": 0.39999999992,
         "brief_summary": "The purpose of this research study is to compare in patients with double-sided claudication if the transplant of a combination of stem cells obtained from the bone marrow of the same patient will contribute to the formation of new blood vessels in one of the severly diseased ischemic limbs(legs)versus the control limb that receives a placebo product.~Limb Ischemia (LI) is a severe obstruction of the arteries which seriously decrease blood flow to the extremities (mainly feet and legs) and has progressed to the point of severe pain and even skin ulcers or sores.~LI needs comprehensive treatment since the condition will not improve on its own. The overall goal of treatment is to reduce pain and increase blood flow to improve symptoms or save the leg and feet. In many cases, current options for treatment including medications, surgery or endovascular procedures have not been successful.~In the last few years, investigators have explored therapies aimed to increase blood flow to the ischemic vessel by transplanting cells that will promote the development of new vessels in the diseased leg.~The study hypothesis is based on the concept that the process of formation of new blood vessels is complex and requires the participation of several types of stem cells and growth factors. The lack of any of these components will produce vessels which are immature and unable to provide appropriated blood supply to the leg.~Patients eligible to participate in the this study are those suffering from double-sided claudication with poor circulation or severe leg blockages, which are not candidates for surgical procedures.~Once the mixture of stem cells is prepared and the patient's bone marrow is ready, cells will be transplanted into the calf muscle of one the the diseased legs while the other diseased leg will receive the placebo. Clinical study to evaluate and compare the efficacy of the stem cell transplant will be performed for six months post cell transplant."
       },
       "NCT02273232": {
@@ -476,154 +476,154 @@
     }
   },
   "sigir-20151": {
-    "patient_summary": "The patient is a 44-year-old male presenting with signs of significant gastrointestinal bleeding, indicated by coffee ground vomiting, along with hypotension and tachycardia, suggesting hypovolemic shock. He has decreased mental status and cool extremities, necessitating ICU admission for intensive monitoring and treatment.",
+    "patient_summary": "The patient is a 44-year-old male with gastrointestinal bleeding indicated by coffee ground emesis, hypovolemic shock with tachycardia and hypotension, decreased mental status, and cool extremities. He required fluid resuscitation and blood transfusion, and was admitted to the ICU.",
     "trials": {
       "NCT01142245": {
-        "matching_score": -0.500000000125,
-        "agg_score": 0.4,
-        "trial_score": -0.10000000012499999,
+        "matching_score": 0.499999999875,
+        "agg_score": 0.9,
+        "trial_score": 1.399999999875,
         "brief_summary": "The investigators previously showed that the use of a high-dose intravenous PPI regimen after endoscopic control of bleeding from peptic ulcers reduced rate of recurrent bleeding, decreased the need for endoscopic and surgical interventions and in general improved patients' outcomes. A trend towards reduced mortality associated with the use of high-dose intravenous PPI was also observed. Recent clinical trials from Asia have provided evidence that high-dose oral PPIs are associated with a reduction in rebleeding. Current meta-analysis suggests that both high dose (intravenous) and low dose (oral) PPIs effectively reduce rebleeding vs placebo. However, there has been no clinical study to compare IV infusion to oral PPI in this patient population.~The purpose of this clinical study is to compare the efficacy and safety of intravenous and oral Esomeprazole in patients with peptic ulcer hemorrhage who are at risk for recurrent bleeding. The investigators hypothesize that using IV infusion is superior to oral PPI."
       },
       "NCT00843063": {
         "matching_score": -0.7500000000625,
-        "agg_score": 0.5,
-        "trial_score": -0.2500000000625,
+        "agg_score": 0.0,
+        "trial_score": -0.7500000000625,
         "brief_summary": "Low-dose aspirin can prevent cerebral and cardiovascular accidents in individuals with symptomatic atherothrombotic disease, but its use is frequently limited by gastrointestinal side effects.~The position of H2-receptor antagonists as a step-down therapy after healing of peptic ulcer or erosions by proton pump inhibitor is unclear.~The objective of this randomized, double blinded control study was to compare the efficacy of high-dose famotidine with pantoprazole in the prevention of recurrent dyspeptic or complicated ulcer/ erosions in patients taking low-dose aspirin"
       }
     }
   },
   "sigir-20152": {
-    "patient_summary": "The patient is a 62-year-old male with a four-day history of non-productive cough and one day of fever. He is on immunosuppressive medications, including prednisone, and has been admitted to the hospital. A bronchoscopy with bronchoalveolar lavage (BAL) reveals owl's eye inclusion bodies, indicating a viral infection, likely cytomegalovirus (CMV) pneumonia.",
+    "patient_summary": "The patient is a 62-year-old male with a non-productive cough, fever, and is on immunosuppressive medications including prednisone. Bronchoscopy with BAL shows owl's eye inclusion bodies, indicating a possible cytomegalovirus (CMV) infection.",
     "trials": {
       "NCT02532452": {
-        "matching_score": 0.49999999991666666,
+        "matching_score": 0.59999999988,
         "agg_score": 1.6,
-        "trial_score": 2.0999999999166667,
+        "trial_score": 2.19999999988,
         "brief_summary": "The purpose of this study is to demonstrate that viral specific T-cells (a type of white blood cell) can be generated from an unrelated donor and given safely to patients with viral infections."
       },
       "NCT00034437": {
         "matching_score": -3.33333360913457e-10,
-        "agg_score": 0.1,
-        "trial_score": 0.09999999966666664,
+        "agg_score": 0.0,
+        "trial_score": -3.33333360913457e-10,
         "brief_summary": "This study will evaluate immune responses against cytomegalovirus (CMV). About 80 percent of adults have been exposed to this virus. CMV typically remains dormant (inactive) in the body, causing no problems. In people with immune suppression, however, the virus can become reactivated and cause life-threatening pneumonia. The knowledge gained from this study may be useful in developing ways to improve immune responses to CMV in stem cell transplant recipients.~Healthy normal volunteers between 18 and 65 years of age who have been exposed to cytomegalovirus are eligible for this study. Candidates will be screened with a medical history and blood tests. Those enrolled will provide a 30-milliliter (6-tablespoon) blood sample once a week for 4 weeks and a final sample 2 months later. The blood will be used to design a test to detect immune responses against CMV and determine the differences in these responses among healthy individuals."
       }
     }
   },
   "sigir-20153": {
-    "patient_summary": "A 65-year-old male with acute onset of shortness of breath, tachypnea, and left-sided chest pain following recent right total hip replacement surgery, with additional symptoms of right calf pain.",
+    "patient_summary": "65-year-old male with acute onset of shortness of breath, tachypnea, and pleuritic chest pain following recent right total hip replacement, with right calf pain suggestive of possible deep vein thrombosis and pulmonary embolism.",
     "trials": {
       "NCT01139632": {
         "matching_score": 0.2857142856734694,
-        "agg_score": 0.8,
-        "trial_score": 1.0857142856734694,
+        "agg_score": 0.6,
+        "trial_score": 0.8857142856734694,
         "brief_summary": "The most common cause of death in patients with NAFLD(Nonalcoholic Fatty Liver Disease) is CAD(Coronary Artery Disease). NAFLD patients have 65% more mortality than general population. The aim of the investigators study is to diagnose early coronary artery disease in NAFLD patient by measuring of PLA2. The investigators expect that PLA2 will higher in patients with patients with combination of CAD, unstable plaque and NAFLD."
       },
       "NCT01326507": {
-        "matching_score": 0.0,
-        "agg_score": 0.7,
-        "trial_score": 0.7,
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
         "brief_summary": "The patients presenting with acute pulmonary embolism and right ventricular dysfunction are at high risk for life-threatening events and must be identified in the emergency department for adequate care and hospital admission. Echocardiography can identify right ventricular dysfunction, but this test is not always available, and echocardiographic criteria of right ventricular dysfunction vary among published studies. The primary purpose of this protocol is to study the prognostic value of a cardiac biomarker, h-FABP (heart-type Fatty Acid-Binding Protein) , to identify in the emergency department the patients presenting with high risk pulmonary embolism. As secondary outcomes, H-FABP results will be compared to other cardiac biomarkers (BNP, troponin) and clinical score performances that have been previously studied to stratify the prognosis of patients with pulmonary embolism in the emergency department."
       }
     }
   },
   "sigir-20154": {
-    "patient_summary": "An 82-year-old woman with a history of hypertension, renal-artery stenosis, chronic renal insufficiency, hypercholesterolemia, osteoporosis, and dementia presents with chest pain and shortness of breath. She exhibits signs of acute coronary syndrome with ST-segment elevations and left ventricular dysfunction, but coronary angiography shows no significant stenosis.",
+    "patient_summary": "An 82-year-old woman with chest pain and shortness of breath, history of hypertension, renal-artery stenosis with chronic renal insufficiency, hypercholesterolemia, osteoporosis, and dementia. She presents with elevated cardiac enzymes, ST-segment elevations, and severe segmental left ventricular dysfunction, but no coronary stenosis.",
     "trials": {
       "NCT00844987": {
         "matching_score": 0.99999999975,
-        "agg_score": 1.8,
-        "trial_score": 2.79999999975,
+        "agg_score": 1.9,
+        "trial_score": 2.89999999975,
         "brief_summary": "The main aim of the study is a comparison of serum and plasma concentration of VEGF (Vascular Endothelial Growth Factor), HGF (Hepatocyte Growth Factor) and PDGF (Platelet Derived Growth Factor) with markers of myocardial injury as troponin I, hsCRP, CK-MB and NT-proBNP assessed in patients with first episode of acute coronary syndrome (ACS) in their lives and the estimation of assumed value of VEGF, HGF and PDGF in prognosis of cardiovascular complications at 3 months follow up especially with respect to myocardial infarction (MI), exacerbation of angina, reintervention (PTCA,CABG), symptoms of heart failure, stroke, rehospitalization due to cardiovascular reasons and death. The dynamics of changes in serum and plasma concentration of growth factors in comparison with values of myocardial injury markers will be checked. For the realization of the purpose of the study biochemical measurements will be performed twice i.e. just after admission to hospital and 24h later. Area of a myocardial injury will be estimated by echocardiography examination."
       },
       "NCT01243255": {
-        "matching_score": -1.0,
-        "agg_score": 0.3,
-        "trial_score": -0.7,
+        "matching_score": 0.0,
+        "agg_score": 0.7,
+        "trial_score": 0.7,
         "brief_summary": "The purpose of the survey is to evaluate the efficacy of treatment of hypercholesterolemia in Polish patients who are currently on lipid- lowering pharmacological therapy . Efficient treatment is defined as achievement of the LDL cholesterol level goals according to the European Society of Cardiology 2007 guidlines."
       }
     }
   },
   "sigir-20155": {
-    "patient_summary": "A 31-year-old woman presents with a 2-week history of joint pain, fatigue, intermittent fevers, and chest pain. Initial symptoms included right ankle swelling and difficulty walking, which resolved. Current symptoms involve pain, swelling, and stiffness in knees, hips, and right elbow.",
+    "patient_summary": "A 31-year-old woman with recent onset of joint pain, swelling, and stiffness in multiple joints, intermittent fevers, and chest pain.",
     "trials": {
-      "NCT02407106": {
-        "matching_score": 0.0,
-        "agg_score": 0.0,
-        "trial_score": 0.0,
-        "brief_summary": "The purpose of this study is to determine whether daily treatment with Streptococcus Salivarius BLIS K-12 prevents streptococcal throat infection in children that have had an episode of rheumatic fever."
-      },
       "NCT02118818": {
         "matching_score": -1.0,
-        "agg_score": 0.3,
-        "trial_score": -0.7,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
         "brief_summary": "Rheumatic fever (RF) is an autoimmune disease that is mediated by the cellular and humoral immune response that follows an untreated pharyngeal Streptococcus pyogenes infection. The most serious complication is rheumatic heart disease (RHD), one of the most common problems facing children and young adults worldwide, which leads to chronic valvular lesions. It is estimated that 60% of all acute rheumatic fever cases will develop RHD.~The pathogenesis of RHD is complex with both environmental and genetic factors contributing to its etiology. The investigators know little about the genetic etiology, cellular events and modifiers of progression of RHD, and there exists a wide range of disease severity and progression to severe valve pathology.~Thus, the investigators will study the genetics of RHD in Rwanda, a country with a very high incidence of RHD, using a combination of next-generation targeted exome capture, transcriptomics, and expressed quantitative trait loci (eQTL) analysis."
+      },
+      "NCT02407106": {
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
+        "brief_summary": "The purpose of this study is to determine whether daily treatment with Streptococcus Salivarius BLIS K-12 prevents streptococcal throat infection in children that have had an episode of rheumatic fever."
       }
     }
   },
   "sigir-20156": {
-    "patient_summary": "The patient is a 46-year-old woman with a 9-month history of significant weight loss, sweating, insomnia, diarrhea, increased appetite, and episodes of tachycardia. Physical examination reveals warm, sweaty hands, an irregular pulse at 110 bpm, hyperreflexia, and mild exophthalmia, suggesting possible hyperthyroidism or another endocrine disorder.",
+    "patient_summary": "The patient is a 46-year-old woman with symptoms suggestive of hyperthyroidism, including weight loss, sweating, insomnia, diarrhea, increased appetite, palpitations, warm and sweaty hands, irregular pulse, hyperreflexia, and mild exophthalmia.",
     "trials": {
-      "NCT01717352": {
-        "matching_score": 0.3333333332222222,
-        "agg_score": 0.6,
-        "trial_score": 0.9333333332222222,
-        "brief_summary": "The present study will test the effectiveness of two different approaches for preparing overweight/obese individuals for weight loss: 1)providing important information about weight control, including dispelling common myths; or 2) developing a consistent sleep and eating routine to prepare for the challenges of a weight control intervention."
-      },
       "NCT02375451": {
-        "matching_score": 0.0,
-        "agg_score": 0.3,
-        "trial_score": 0.3,
+        "matching_score": -0.50000000025,
+        "agg_score": 1.0,
+        "trial_score": 0.49999999975,
         "brief_summary": "Radioiodine (I-131) therapy for thyroid disease is known to decrease salivary function in adult patients. The impact of pediatric I-131 exposure on salivary function is unknown. The investigators goals are to answer this question by measuring salivary gland function before and after I-131 administration in children who receive radioiodine therapy at our hospital for thyroid disease."
+      },
+      "NCT01717352": {
+        "matching_score": -0.6666666667777779,
+        "agg_score": 0.0,
+        "trial_score": -0.6666666667777779,
+        "brief_summary": "The present study will test the effectiveness of two different approaches for preparing overweight/obese individuals for weight loss: 1)providing important information about weight control, including dispelling common myths; or 2) developing a consistent sleep and eating routine to prepare for the challenges of a weight control intervention."
       }
     }
   },
   "sigir-20157": {
-    "patient_summary": "A 20-year-old female college student presents with fatigue, increased sleep and appetite, difficulty concentrating, loss of interest in social activities, and feelings of guilt. Physical exam and lab tests are normal.",
+    "patient_summary": "The patient is a 20-year-old female experiencing fatigue, increased sleep and appetite, difficulty concentrating, anhedonia, and feelings of guilt, with normal physical exam and lab results.",
     "trials": {
       "NCT01632319": {
-        "matching_score": 0.499999999875,
-        "agg_score": 1.2,
-        "trial_score": 1.699999999875,
+        "matching_score": -0.500000000125,
+        "agg_score": 0.8,
+        "trial_score": 0.29999999987500003,
         "brief_summary": "The purpose of this study is to investigate the effectiveness of 2 different therapy courses for undergraduate college students who binge drink and experience depressive symptoms."
       },
       "NCT02633449": {
         "matching_score": -1.0,
-        "agg_score": 0.0,
-        "trial_score": -1.0,
+        "agg_score": 0.8,
+        "trial_score": -0.19999999999999996,
         "brief_summary": "The study will investigate whether cognitive behavioral psychotherapy (CBT) combined with prefrontal transcranial direct current stimulation (tDCS) is more efficacious with regard to symptom reduction in depressed patients than CBT combined with sham-tDCS or CBT alone."
       }
     }
   },
   "sigir-20158": {
-    "patient_summary": "A 10-year-old boy experiencing nighttime snoring, pauses in breathing, restlessness with nighttime awakenings, excessive sleepiness during the day, and declining academic performance. There is no history of headaches or night terrors.",
+    "patient_summary": "The patient is a 10-year-old boy experiencing nighttime snoring, pauses in breathing, restlessness with nighttime awakenings, declining grades, lack of attention, and excessive sleepiness during class.",
     "trials": {
       "NCT00393913": {
-        "matching_score": 0.49999999975,
-        "agg_score": 1.55,
-        "trial_score": 2.04999999975,
+        "matching_score": 0.9999999995,
+        "agg_score": 1.9,
+        "trial_score": 2.8999999995,
         "brief_summary": "Obstructive sleep apnea (OSA) is a serious sleep disorder in which a person repeatedly stops breathing, or experiences shallow breathing for short periods of time during sleep. Daytime sleepiness is a common symptom of OSA and may affect an individual's level of alertness throughout the day. The primary purpose of this study is to evaluate the relationship between the severity of sleep-disordered breathing and levels of daytime alertness at baseline (untreated state) in a group of subjects with and without sleep apnea. In addition the change in daytime sleepiness in subjects with sleep apnea being treated with a continuous positive airway pressure (CPAP) machine, a common treatment for OSA will also be assessed."
       },
       "NCT02562040": {
-        "matching_score": 0.0,
-        "agg_score": 0.7,
-        "trial_score": 0.7,
+        "matching_score": 0.16666666663888888,
+        "agg_score": 0.9,
+        "trial_score": 1.0666666666388889,
         "brief_summary": "The purpose of this study is to evaluate the effects of early adenotonsillectomy (eAT) on the behavior, sleep-disordered breathing symptoms and quality of life for children who snore, but do not have obstructive sleep apnea, as well as identify factors that moderate responses to the surgery. Half of participants will receive eAT, while the other half will be observed with watchful waiting and supportive care."
       }
     }
   },
   "sigir-20159": {
-    "patient_summary": "A 10-year-old child presents with myalgia, cough, shortness of breath, fever, abdominal pain, diarrhea, cyanosis, neck stiffness, and marked periorbital edema. Recent history includes a stay on a farm with pigs. Laboratory findings show elevated white blood cell count with eosinophilia.",
+    "patient_summary": "The patient is a 10-year-old child presenting with myalgia, cough, shortness of breath, fever, abdominal pain, diarrhea, cyanosis, neck stiffness, and periorbital edema. The patient has a history of recent travel to a farm with domestic pigs. Lab results show leukocytosis with eosinophilia.",
     "trials": {
       "NCT01766830": {
-        "matching_score": -0.50000000025,
-        "agg_score": 0.4,
-        "trial_score": -0.10000000025,
+        "matching_score": -5.000000413701855e-10,
+        "agg_score": 0.0,
+        "trial_score": -5.000000413701855e-10,
         "brief_summary": "Tropical fevers have been a diagnostic challenge from the antiquity. Nowadays, despite the availability of good diagnostic capacities, undifferentiated febrile illnesses continue to be a thorny problem for travel physicians. In developing countries, the scarcity of skilled personnel and adequate laboratory facilities makes the differential diagnosis of fevers even more complex. Health care workers must often rely on syndrome-oriented empirical approaches to treatment and might overestimate or underestimate the likelihood of certain diseases. For instance Neglected Tropical Diseases (NTD) contribute substantially to the burden of persistent (more than 1 week) fevers in the Tropics, causing considerable mortality and major disability. These diseases are however rarely diagnosed at primary health care (PHC) level. The difficulty in establishing the cause of febrile illnesses has resulted in omission or delays in treatment, irrational prescriptions with polytherapy, increasing cost and development of drug resistance.~In resource-limited settings, clinical algorithms constitute a valuable aid to health workers, as they facilitate the therapeutic decision in the absence of good laboratory capacities. There is a critical lack of appropriate diagnostic tools to guide treatment of NTDs. While clinical algorithms have been developed for some NTDs, in most cases they remain empirical. Besides, they rarely take into account local prevalence data, do not adequately represent the spectrum of patients and differential diagnosis at the primary care level and often have not been properly validated. The purpose of the study is to develop evidence-based Rapid Diagnostic Test (RDT)-supported diagnostic guidelines for patients with persistent fever (\u2265 1 week) in the Democratic Republic of the Congo (DRC), Sudan, Cambodia and Nepal."
       }
     }
   },
   "sigir-201510": {
-    "patient_summary": "The patient is a 38-year-old woman experiencing severe premenstrual and menstrual pelvic pain, heavy and irregular periods, and occasional spotting between periods. She has a history of infertility treatment and an ectopic pregnancy.",
+    "patient_summary": "The patient is a 38-year-old woman with severe premenstrual and menstrual pelvic pain, heavy and irregular periods, occasional spotting, a history of infertility treatment, and a past ectopic pregnancy.",
     "trials": {
       "NCT02340533": {
         "matching_score": 0.9999999989999999,
@@ -633,150 +633,150 @@
       },
       "NCT01377519": {
         "matching_score": -0.2500000001875,
-        "agg_score": 0.7,
-        "trial_score": 0.44999999981249994,
+        "agg_score": 0.0,
+        "trial_score": -0.2500000001875,
         "brief_summary": "This is a pilot randomized, blinded, placebo-controlled trial of a noninvasive, FDA approved treatment for uterine fibroids called MR Guided Focused Ultrasound (MRgFUS). Our hypothesis is that MRgFUS provides superior relief of fibroid symptoms compared with the placebo, a sham MRgFUS treatment. The investigators will recruit 20 premenopausal women with symptomatic uterine fibroids to participate in the trial. Participants will be randomly assigned in a 2:1 ratio to the active treatment arm (MRgFUS) versus the sham MRgFUS treatment. Participants will remain blinded to their group assignment for 3 months. After 3 months, participants will be told their treatment group and those assigned to the sham group will be offered complimentary MRgFUS if they desire it. Women will be excluded if they are inappropriate candidates for a 3 month delay in fibroid treatment, such as those with significant anemia. The investigators will assess the change from baseline to 1 and 3 months after treatment in fibroid symptoms, quality of life, fibroid volume measured by MRI, and hematocrit."
       }
     }
   },
   "sigir-201511": {
-    "patient_summary": "The patient is a 56-year-old Caucasian female experiencing cold sensitivity, fatigue, decreased appetite, constipation, hyporeflexia, delayed reflex relaxation, and very dry skin, with slow movement and speech.",
+    "patient_summary": "The patient is a 56-year-old Caucasian female with symptoms suggestive of hypothyroidism, including cold intolerance, fatigue, decreased appetite, constipation, hyporeflexia, dry skin, and slow movement and speech.",
     "trials": {
-      "NCT01197183": {
-        "matching_score": 0.9999999989999999,
-        "agg_score": 0.9,
-        "trial_score": 1.8999999989999998,
-        "brief_summary": "This observational survey with prospective and/or retrospective follow-up is designed to study practices for the initial treatment of hypothyroidism in France without modifying subject treatment."
-      },
       "NCT01862510": {
-        "matching_score": 0.0,
-        "agg_score": 0.6,
-        "trial_score": 0.6,
+        "matching_score": 0.9999999989999999,
+        "agg_score": 1.7,
+        "trial_score": 2.699999999,
         "brief_summary": "The study evaluates whether hypothyroid patients requiring elevated doses of levothyroxine to maintain a euthyroid state are at increased risk of having celiac disease. It also attempts to determine if there is a threshold level of levothyroxine needed to maintain a euthyroid state in patients with hypothyroidism that should prompt serologic testing for celiac disease."
+      },
+      "NCT01197183": {
+        "matching_score": -0.50000000025,
+        "agg_score": 0.9,
+        "trial_score": 0.39999999975,
+        "brief_summary": "This observational survey with prospective and/or retrospective follow-up is designed to study practices for the initial treatment of hypothyroidism in France without modifying subject treatment."
       }
     }
   },
   "sigir-201512": {
-    "patient_summary": "The patient is a 44-year-old man who sustained a skull fracture from an automobile accident. He is experiencing clear fluid drainage from the nose, severe headache, fever, and nuchal rigidity, indicating potential complications such as cerebrospinal fluid leak and meningitis.",
+    "patient_summary": "The patient is a 44-year-old man who sustained a skull fracture in an automobile accident, followed by clear fluid rhinorrhea, severe headache, fever, and nuchal rigidity, suggesting possible cerebrospinal fluid leak and meningitis.",
     "trials": {
       "NCT02418169": {
-        "matching_score": 0.0,
-        "agg_score": 1.2,
-        "trial_score": 1.2,
+        "matching_score": 0.9999999989999999,
+        "agg_score": 1.8,
+        "trial_score": 2.7999999989999997,
         "brief_summary": "This study evaluates the association between traumatic brain injuries and craniofacial or/and skull fractures. Purpose is to find out the amount of missed diagnoses and improve primary diagnostics of trauma patients."
       },
       "NCT02467309": {
-        "matching_score": -1.0,
+        "matching_score": 0.0,
         "agg_score": 0.0,
-        "trial_score": -1.0,
+        "trial_score": 0.0,
         "brief_summary": "The purpose of this study is to determine whether deficiency of Vitamin D has association with outcomes of children with bacterial meningitis."
       }
     }
   },
   "sigir-201513": {
-    "patient_summary": "A 5-year-old boy with progressively worsening dysphagia, drooling, fever, vocal changes, toxic appearance, and a muffled voice, likely indicating a serious upper airway obstruction or infection. The history of delayed vaccinations raises concern for potential vaccine-preventable infections.",
+    "patient_summary": "The patient is a 5-year-old boy with progressively worsening dysphagia, drooling, fever, vocal changes, and a toxic appearance. He presents with a muffled 'hot potato' voice and leans forward while sitting. There is a history of delayed vaccinations.",
     "trials": {
       "NCT01255670": {
         "matching_score": 0.19999999996,
-        "agg_score": 0.2,
-        "trial_score": 0.39999999996,
+        "agg_score": 0.0,
+        "trial_score": 0.19999999996,
         "brief_summary": "Treatment of peritonsillar abscess varies. To study whether broad spectrum antibiotics are required in addition to abscess drainage, a prospective, double blind, placebo-controlled, randomized study on 200 adult patients with peritonsillar abscess is performed. 100 patients are given penicillin and metronidazole and 100 patients get penicillin and placebo. Recovery and recurrence are analyzed."
       },
       "NCT00315042": {
-        "matching_score": -0.8750000000156251,
+        "matching_score": -0.75000000003125,
         "agg_score": 0.0,
-        "trial_score": -0.8750000000156251,
+        "trial_score": -0.75000000003125,
         "brief_summary": "This is a multinational, randomized (1:1), double blind, double dummy, comparator-controlled, 2 parallel treatment group study in subjects from 6 months to < 13 years of age, with Streptococcus pyogenes tonsillitis/pharyngitis (T/P).Each subject will receive either telithromycin 25 mg/kg once daily for 5 days or penicillin V, 13.3 mg/kg three times daily for 10 days. Matching placebo for telithromycin and penicillin V will also be dispensed for 5 and 10 days respectively, to provide blinding to the different treatment regimens. A positive rapid identification test for streptococcal Group A antigen will be required for all subjects at Visit 1 (Day 1) for entry into the study. Throat swab specimens for bacterial culture, identification, and antibiotic-susceptibility testing will be taken at Visits 1, 3 and 4."
       }
     }
   },
   "sigir-201514": {
-    "patient_summary": "A 27-year-old woman at 11 weeks gestation presents with anemia (Hb 9.0 g/dL), mild iron deficiency, and thrombocytopenia (platelet count 119 x 10^9/L). Despite iron supplementation, her hemoglobin levels have decreased further (Hb 8.9 g/dL). She has difficulty swallowing, elevated reticulocyte count, elevated LDH, and signs of hemolysis with no fragments or agglutination in the blood smear. A hematology consult is requested due to these findings.",
+    "patient_summary": "A 27-year-old pregnant woman at 11 weeks gestation with anemia (Hb 8.9 g/dL), thrombocytopenia (platelet count 108 x 10^9/L), macrocytosis (MCV 109 fL), mild iron deficiency, elevated reticulocyte count, elevated LDH, difficulty swallowing, and hemosiderinuria.",
     "trials": {
       "NCT01308112": {
         "matching_score": 0.9999999995,
-        "agg_score": 1.8,
-        "trial_score": 2.7999999995,
+        "agg_score": 1.4,
+        "trial_score": 2.3999999995,
         "brief_summary": "The purpose of this study is to compare the presence of Plasmodium infection in parturient women who antenatally received a combination of iron-fortified foods with iron supplements versus iron-fortified foods only."
       },
       "NCT00827463": {
         "matching_score": 0.0,
-        "agg_score": 1.4,
-        "trial_score": 1.4,
+        "agg_score": 1.2,
+        "trial_score": 1.2,
         "brief_summary": "Estimate the efficiency of a strategy of premature screening of the maternal anaemia during the first quarter of pregnancy versus the usual strategy of screening of the anaemia during the sixth month."
       }
     }
   },
   "sigir-201515": {
-    "patient_summary": "Karen is a 72-year-old woman with a history of hypertension and type 2 diabetes. She was recently hospitalized for a cryptogenic stroke, which was treated with thrombolytic therapy. Currently, she has normal blood pressure, normal glucose levels, and normal sinus rhythm, but reports occasional palpitations, shortness of breath, and transient chest pain.",
+    "patient_summary": "Karen is a 72-year-old woman with hypertension, type 2 diabetes, and a recent cryptogenic stroke. She has a history of occasional palpitations, shortness of breath, and chest pain.",
     "trials": {
-      "NCT01550588": {
-        "matching_score": -0.500000000125,
-        "agg_score": 1.0,
-        "trial_score": 0.499999999875,
-        "brief_summary": "Background and hypothesis:~The appropriate treatment strategy for secondary stroke prevention in patients with cryptogenic stroke and patent foramen ovale (PFO) remains challenging. Clinical and anatomical variables reported to be risk factors associated with stroke recurrence include older age, large PFO, large right-to-left shunting, and combined atrial septal aneurysm (ASA), which, however, were not confirmed by other studies. The investigators hypothesized that percutaneous closure of PFO could be an effective option for secondary prevention in cryptogenic stroke patients with high-risk PFO.~Trial Objective:~The primary objective of this study is to assess whether percutaneous device closure of PFO is superior to conventional antithrombotic treatment in preventing stroke recurrence in the cryptogenic stroke patients with high-risk PFO."
-      },
       "NCT00932425": {
-        "matching_score": -0.3333333335555556,
-        "agg_score": 0.4,
-        "trial_score": 0.06666666644444441,
+        "matching_score": 0.6666666664444444,
+        "agg_score": 1.2,
+        "trial_score": 1.8666666664444445,
         "brief_summary": "Atrial fibrillation (AF) is a common and treatable cause of ischemic stroke, but it can be paroxysmal and asymptomatic, and therefore difficult to detect. Patients with stroke routinely undergo 24 hours of continuous cardiac telemetry during hospitalization for stroke as a means of excluding AF. Small studies indicate that extending the duration of monitoring with portable outpatient telemetry devices detects more cases of AF. However, these studies are small and lack control groups, and cannot demonstrate that prolonged cardiac monitoring detects more cases of AF than routine clinical follow-up. The investigators therefore propose a pilot study to determine the feasibility of randomizing patients to prolonged cardiac monitoring or routine clinical follow-up. The investigators will enroll 40 consecutive adult patients seen at the University of California at San Francisco (UCSF) Neurovascular service with cryptogenic stroke or high-risk TIA (ABCD2 score 4 or greater). Enrolled patients will be randomized in a 1:1 fashion. Group A will be assigned to wear an ambulatory cardiac event monitor for 21 days. Group B will be discharged home without a monitor and will serve as controls during routine clinical follow-up. The investigators' primary outcome will be feasibility, defined as more than 80% of randomized patients completing full clinical follow-up and more than 70% of cardiac monitoring if applicable. The investigators' secondary outcomes will be diagnoses of AF at 90 days and 1 year and diagnoses of recurrent stroke at 1 year."
+      },
+      "NCT01550588": {
+        "matching_score": -0.2500000001875,
+        "agg_score": 0.8,
+        "trial_score": 0.5499999998125,
+        "brief_summary": "Background and hypothesis:~The appropriate treatment strategy for secondary stroke prevention in patients with cryptogenic stroke and patent foramen ovale (PFO) remains challenging. Clinical and anatomical variables reported to be risk factors associated with stroke recurrence include older age, large PFO, large right-to-left shunting, and combined atrial septal aneurysm (ASA), which, however, were not confirmed by other studies. The investigators hypothesized that percutaneous closure of PFO could be an effective option for secondary prevention in cryptogenic stroke patients with high-risk PFO.~Trial Objective:~The primary objective of this study is to assess whether percutaneous device closure of PFO is superior to conventional antithrombotic treatment in preventing stroke recurrence in the cryptogenic stroke patients with high-risk PFO."
       }
     }
   },
   "sigir-201516": {
-    "patient_summary": "A 4-year-old boy with a history of allergic rhinitis presents to the emergency room with sudden onset wheezing after playing in a sandbox. He has no prior history of wheezing, and his oxygen saturation is normal.",
+    "patient_summary": "A 4-year-old boy with a history of allergic rhinitis presents with sudden onset wheezing after playing in a sandbox, with no prior history of wheezing.",
     "trials": {
       "NCT00839124": {
-        "matching_score": -0.90000000001,
-        "agg_score": 0.6,
-        "trial_score": -0.30000000001000005,
+        "matching_score": 0.11111111109876542,
+        "agg_score": 0.5,
+        "trial_score": 0.6111111110987655,
         "brief_summary": "This will be a single center, open label study comparing baseline characteristics of recovered sputum cells (collected on screening day) to those of cells recovered 6 hours after inhalational challenge with 20,000 EU Clinical Center Reference Endotoxin (CCRE, a component of air pollution)) within each group as well as cross group comparisons between individuals with allergic asthma (AA's)and normal volunteers (NV's). The primary objective of this study is to test the hypothesis that persons with allergic asthma will have an increased neutrophil response to challenge with 20,000 EU CCRE compared to normal volunteers. Secondary objectives include post CCRE comparison between AA's and NV's with regard to changes in airway cells and blood as well as changes in mucociliary clearance (MCC) in response to inhalation of 20,000 EU CCRE."
       },
       "NCT00930826": {
         "matching_score": -1.0,
-        "agg_score": 0.3,
-        "trial_score": -0.7,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
         "brief_summary": "Childhood Asthma and Schooling: The Truth Unveiled."
       }
     }
   },
   "sigir-201517": {
-    "patient_summary": "A 32-year-old female with no previous medical history presents with a cytology negative, HPV positive result from her recent pap smear. She reports no complaints and is in general good health.",
+    "patient_summary": "32-year-old female with HPV positive, cytology negative pap smear.",
     "trials": {
       "NCT01231945": {
         "matching_score": 0.9999999998,
-        "agg_score": 1.75,
-        "trial_score": 2.7499999998,
+        "agg_score": 1.6,
+        "trial_score": 2.5999999998,
         "brief_summary": "Background:~- Low-cost molecular human papillomavirus (HPV) testing may offer a more robust alternative to Pap smears and visual inspection for cervical cancer screening of underserved women. Two low-cost molecular tests for human HPV, the HPV E6 Test and the careHPV test, have been developed to detect cervical cancer by testing for HPV DNA. These tests take between 2 and 3 hours to run and may provide point-of-care (diagnostic testing at or near the site of patient care) testing for HPV. Researchers are interested in evaluating both tests to determine the best strategy for HPV testing of women who live in rural or underserved areas that have a high prevalence of cervical cancer diagnoses.~Objectives:~To evaluate the clinical performance of the HPV E6 Test and careHPV in detecting cervical cancer and precancerous lesions.~To evaluate the best low-cost test or combination of tests for women who have been referred for cervical cancer screening or treatment.~To compare the clinical performance of self-collected specimens versus clinician-collected specimens in detecting cervical cancer and precancerous lesions.~Eligibility:~- Women between 25 and 65 years of age who live in rural China.~Design:~This study involves an initial testing visit and a 1-year followup visit for a high-risk subgroup.~Participants will have the HPV E6 test, careHPV, and a visual inspection test for cervical cancer. For comparison, participants will also have the standard HPV test approved by the U.S. Food and Drug Administration.~Participants who test positive for HPV on any of the above tests will also have colposcopy to collect samples of cervical tissue for further study.~A random sample of women who test negative for HPV will also have colposcopy. Participants may also have biopsies if there is visual evidence of cervical abnormalities.~At the 1-year followup visit, participants in the high-risk subgroup will have the same tests as in the previous visit.."
       },
       "NCT01446198": {
-        "matching_score": 0.0,
-        "agg_score": 0.7,
-        "trial_score": 0.7,
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
         "brief_summary": "The objective is to establish that APTIMA HPV Assay performance on the PANTHER System is comparable to performance on the TIGRIS System."
       }
     }
   },
   "sigir-201518": {
-    "patient_summary": "The patient is a 65-year-old African-American male experiencing worsening shortness of breath related to exertion, difficulty breathing when lying flat, and has developed pitting ankle edema and jugular venous distension, indicating possible heart failure or pulmonary issues.",
+    "patient_summary": "The patient is a 65-year-old African-American male experiencing worsening shortness of breath on exertion, orthopnea, bibasilar lung crackles, pitting ankle edema, and jugular venous distension, suggestive of heart failure.",
     "trials": {
       "NCT00534066": {
         "matching_score": 0.6666666664444444,
-        "agg_score": 1.55,
-        "trial_score": 2.2166666664444445,
+        "agg_score": 1.6,
+        "trial_score": 2.2666666664444444,
         "brief_summary": "The purpose of the study is to determine if a series of BNP blood tests performed on patients who present to the Emergency Department with congestive heart failure (CHF) can predict which patients may have adverse outcomes. If the BNP is shown to be predictive of bad outcomes in certain patients, those patients might receive more intensive therapy early to prevent such outcomes. This was a prospective trial enrolling patients who presented to the ED and were diagnosed with heart failure. Subjects had a blood test for BNP, which is elevated in the presence of heart failure, collected twelve hours after their initial clinical BNP was obtained in the ED. Demographics, history, length of hospital stay, and other approved data were collected. At 30 days and 6 months after discharge, a follow up call was made to determine if the subject had required additional emergency care, had been admitted to a hospital, or had died during that period of time."
       },
       "NCT00344513": {
-        "matching_score": 0.49999999975,
-        "agg_score": 1.25,
-        "trial_score": 1.74999999975,
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
         "brief_summary": "This program is designed to improve medical care and education of hospitalized patients with heart failure and accelerate the initiation of evidence-based heart failure guideline recommended therapies by administering them before hospital discharge. A registry component focusing on admission to discharge and 60- to 90-day follow-up is designed to evaluate the demographic, pathophysiologic, clinical, treatment, and outcome characteristics of patients hospitalized with heart failure."
       }
     }
   },
   "sigir-201519": {
-    "patient_summary": "A 66-year-old female with a significant smoking history, chronic cough for two years, and recent progressive shortness of breath. She exhibits moderate respiratory distress, distended neck veins, a barrel-shaped chest, and wheezing on examination.",
+    "patient_summary": "66-year-old female with a significant smoking history, chronic cough, progressive shortness of breath, and signs of respiratory distress, likely related to chronic obstructive pulmonary disease (COPD).",
     "trials": {
       "NCT00806091": {
         "matching_score": -0.50000000025,
@@ -785,94 +785,94 @@
         "brief_summary": "The purpose of this study is to obtain young white blood cells (monocytes) from the investigators donated blood for research into how these cells change into large, mature white blood cells (macrophages) and how smoking causes Chronic Obstructive Pulmonary Disease (COPD)."
       },
       "NCT02213809": {
-        "matching_score": 0.0,
-        "agg_score": 0.6,
-        "trial_score": 0.6,
+        "matching_score": -1.0,
+        "agg_score": 0.0,
+        "trial_score": -1.0,
         "brief_summary": "Background:~COPD is an inflammatory and chronic obstructive lung disease, mainly caused by smoking. Most patients with COPD are discovered and treated in primary health care. Co-morbidity with heart disease, hypertension, diabetes, osteoporosis and underweight is common. It is important to diagnose COPD at an early stage, primarily to motivate smoking cessation, which is the most important factor for decelerating the progress of COPD. In addition, medication and rehabilitation to reduce symptoms of COPD can be given. Previous studies in Sweden have shown poor quality of primary health care provided to patients with COPD.~As general practitioners often deal with multiple medical problems and patients' motivation when diagnosing and treating COPD we hypothesize that case method education (see description under intervention) in COPD has better effect than traditional education (see description under intervention).This study aims to examine the effect of case method education on (1) learning in COPD among general practitioners and on (2) health in their patients with COPD.~Method:~Primary health care centers (PHCC) in Stockholm will be recruited. The PHCCs will be randomized to either case method education (n=9 PHCCs) or traditional education (n=9 PHCCs) in COPD for their general practitioners. The educations will be held during two times (two hours each) within a time range of three months, covering examination and treatment of patients with COPD. At least 10.000 patients should be listed at PHCCs included. Random sampling of 45 patients with COPD at stage 2-3 will be done from each PHCC. The patients will fill in a self-assessment questionnaire including CCQ, CAT and LINQ (see outcome measures) as well as questions about medication, exacerbations and other chronic diseases. The questionnaire will be sent to the patients 1-2 months before the education and 18 months after the education. Differences in assessments in the questionnaire before and after the education will be compared between the patients listed at the PHCCs that have received case method education vs. traditional education. In addition, general practitioners (approximately, n=180) at the PHCCs will fill in a questionnaire, immediately before and 12 months after the education, covering the learning outcomes in order to study differences in learning between the two intervention groups."
       }
     }
   },
   "sigir-201520": {
-    "patient_summary": "An 89-year-old man with progressive cognitive decline, personality changes, poor memory, difficulty with expression, unusual behaviors, and loss of independence in daily activities. Neurological examination reveals paratonic rigidity, myoclonic jerks, and brisk reflexes, indicating possible neurodegenerative disease.",
+    "patient_summary": "An 89-year-old man with progressive cognitive decline, personality changes, memory impairment, difficulty with language, unusual behaviors, and motor symptoms including paratonic rigidity and myoclonic jerks.",
     "trials": {
       "NCT00182832": {
         "matching_score": 0.7499999998125,
-        "agg_score": 1.55,
-        "trial_score": 2.2999999998125,
+        "agg_score": 1.4,
+        "trial_score": 2.1499999998124997,
         "brief_summary": "The purpose of this study is to evaluate the effectiveness of a cognitive screening program coupled with a computerized decision support system in improving the quality of care for hospitalized older adults with cognitive impairment."
       },
       "NCT00880347": {
-        "matching_score": -0.6000000000266666,
+        "matching_score": -0.4705882353252595,
         "agg_score": 1.0,
-        "trial_score": 0.39999999997333335,
+        "trial_score": 0.5294117646747405,
         "brief_summary": "The objective of the study is to define the performance of blood-based signatures for Alzheimer's Disease (AD) in different patients populations including AD, non-AD dementia, and non-demented controls."
       }
     }
   },
   "sigir-201521": {
-    "patient_summary": "The patient is a 32-year-old male experiencing diarrhea, abdominal cramping, flatulence, greasy and foul-smelling stools, loss of appetite, and malaise. He recently returned from a hiking trip where he drank from natural water sources. Stool analysis revealed ellipsoidal cysts, indicating a possible parasitic infection.",
+    "patient_summary": "The patient is a 32-year-old male with symptoms of diarrhea, abdominal cramping, flatulence, greasy and foul-smelling stools, loss of appetite, and malaise. He recently drank water from natural sources during a hiking trip. Stool smear shows ellipsoidal cysts with 2+ nuclei, suggesting a parasitic infection, likely giardiasis.",
     "trials": {
-      "NCT01959048": {
-        "matching_score": 0.7499999998125,
-        "agg_score": 1.0,
-        "trial_score": 1.7499999998125,
-        "brief_summary": "Clostridium difficile has become one of the leading causes of hospital acquired infections, and is associated with increased mortality. Patients with C. difficile associated disease (CDAD) possess deficiencies in 'normal' fecal microbial composition, most likely as a result of earlier antibiotic usage. The current standard of care treatment for severe C. difficile, which consists of antibiotics, does not restore the microbiota. Restoration of the normal colonic microbiota by fecal microbiota transplantation (FMT) may enable reversion colonic microbial population to a more 'normal'state and lead to cure.~A few patients develop severe CDAD which may be complicated by adynamic ileus, or toxic megacolon. The management in this context is based on limited data, and for some the only available option is sub-total colectomy.~Although FMT is by no means a new therapeutic modality, there is limited information on its use for the treatment of acute CDAD, including severe CDAD. Because of the high morbidity and mortality associated with treatment of patients with severe CDAD, and because the evidence supporting the current recommendations is weak and based upon the demonstration that FMT is an effective strategy to re-establish a balanced intestinal microbiota with resultant cure of recurrent CDAD, we propose to study the efficacy and safety of FMT for severe CDAD.~Patients with severe CDAD can be divided into two operational groups; those that have diarrhea and those that suffer from adynamic ileus. We propose to apply FMT through colonoscopy for all patients because current data suggest that the overall success rate of FMT for recurrent CDAD with lower gastrointestinal tract FMT was higher than FMT through the upper gastrointestinal tract. In addition, for patients with adynamic ileus and toxic megacolon (i.e., the population with the highest CDAD-associated morbidity and mortality), intra-colonic FMT administration is the preferred alternative."
-      },
       "NCT02105714": {
-        "matching_score": 0.49999999975,
-        "agg_score": 1.2,
-        "trial_score": 1.69999999975,
+        "matching_score": -0.50000000025,
+        "agg_score": 0.0,
+        "trial_score": -0.50000000025,
         "brief_summary": "NIDIAG is an international collaboration on integrated diagnosis-treatment platforms, funded by the European Commission (EC). NIDIAG aims to develop an improved, patient-centred system for delivering primary health care in resource-constrained settings. NIDIAG will investigate three clinical syndromes, namely (i) persistent digestive disorders, (ii) persistent fever and (iii) neurological disorders, due to neglected tropical diseases (NTDs). The current study focuses on persistent digestive disorders, which are defined as diarrhoea or abdominal pain that last for at least 2 weeks.~While acute diarrhoea has been studied globally, few research activities have focused on the epidemiology, diagnosis and treatment of long-lasting diarrhoeal episodes (2 weeks and longer) in the tropics. The spectrum of possibly involved pathogens includes more than 30 bacterial, parasitic and viral infectious agents. This lack of data may be explained by the fact that people suffering from NTDs might only seek care at a late stage of the disease. Furthermore, health systems in affected regions are often weak and their primary health-care centres are often under-staffed and lack essential diagnostic equipment.~The hypothesis of this study is that development of an evidence-based syndromic approach can lead to better diagnosis and management of NTDs in patients with persistent digestive disorders. The study will be carried out in two West African countries (C\u00f4te d'Ivoire and Mali) and in two Asian countries (Indonesia and Nepal). The study will follow a case-control design and patients and controls will be prospectively enrolled. In order to address the knowledge gaps, three specific objectives will be pursued. First, the contribution of NTDs to the 'persistent digestive disorders syndrome' will be assessed. Second, the value of clinical features and rapid diagnostic tests (RDTs) for the diagnosis of target NTDs that give rise to persistent digestive disorders will be determined. Third, the clinical response to standard empiric and targeted treatment of several NTDs in patients with persistent digestive disorders will be evaluated. These objectives will provide a long-term benefit for the communities by improving the clinical decision-making process for the target NTDs and thus, better diagnostic work-up and patient management can be achieved in the study countries and other similar resource-constrained countries"
+      },
+      "NCT01959048": {
+        "matching_score": -1.3333333335555557,
+        "agg_score": 0.0,
+        "trial_score": -1.3333333335555557,
+        "brief_summary": "Clostridium difficile has become one of the leading causes of hospital acquired infections, and is associated with increased mortality. Patients with C. difficile associated disease (CDAD) possess deficiencies in 'normal' fecal microbial composition, most likely as a result of earlier antibiotic usage. The current standard of care treatment for severe C. difficile, which consists of antibiotics, does not restore the microbiota. Restoration of the normal colonic microbiota by fecal microbiota transplantation (FMT) may enable reversion colonic microbial population to a more 'normal'state and lead to cure.~A few patients develop severe CDAD which may be complicated by adynamic ileus, or toxic megacolon. The management in this context is based on limited data, and for some the only available option is sub-total colectomy.~Although FMT is by no means a new therapeutic modality, there is limited information on its use for the treatment of acute CDAD, including severe CDAD. Because of the high morbidity and mortality associated with treatment of patients with severe CDAD, and because the evidence supporting the current recommendations is weak and based upon the demonstration that FMT is an effective strategy to re-establish a balanced intestinal microbiota with resultant cure of recurrent CDAD, we propose to study the efficacy and safety of FMT for severe CDAD.~Patients with severe CDAD can be divided into two operational groups; those that have diarrhea and those that suffer from adynamic ileus. We propose to apply FMT through colonoscopy for all patients because current data suggest that the overall success rate of FMT for recurrent CDAD with lower gastrointestinal tract FMT was higher than FMT through the upper gastrointestinal tract. In addition, for patients with adynamic ileus and toxic megacolon (i.e., the population with the highest CDAD-associated morbidity and mortality), intra-colonic FMT administration is the preferred alternative."
       }
     }
   },
   "sigir-201522": {
-    "patient_summary": "A 65-year-old male with a history of tuberculosis presents with a productive cough and hemoptysis. Imaging shows a round opaque mass in the left upper lobe, and sputum culture indicates an organism with septated, low-angle branching hyphae, suggesting a possible fungal infection.",
+    "patient_summary": "The patient is a 65-year-old male with a history of tuberculosis, presenting with a productive cough with blood, and imaging shows a round opaque mass in a lung cavity. Sputum culture indicates a fungal infection, likely aspergilloma.",
     "trials": {
-      "NCT02534727": {
-        "matching_score": 0.49999999995,
-        "agg_score": 1.45,
-        "trial_score": 1.94999999995,
-        "brief_summary": "Background:~Many people around the world get tuberculosis (TB) and non-tuberculous mycobacteria (NTM) infections. Sometimes medicine that treats these infections does not get to where the bacteria are in the lungs. Researchers want to find a way to tell if enough medicine is getting to where it is needed in the lungs. They will look at how much medicine is in your sputum (what you cough up) compared to how much is in your blood. They will also investigate a new test to quickly figure out what medicines are likely to treat TB effectively.~Objective:~To determine the relationship between the concentration of TB drugs in plasma and sputum over time.~Eligibility:~People ages 18 and older who have TB or NTM infection that is suspected to be drug resistant. They must be taking TB or NTM medicines.~Design:~Participants will be screened with medical history.~Participants will be in the study for 2 8 days.~Participants will give 3 or more sputum samples over at least 2 different days. They will cough sputum into a cup.~Participants will have blood drawn 4 times a day on 2 different days."
-      },
       "NCT01207128": {
-        "matching_score": -1.500000000125,
-        "agg_score": 0.3,
-        "trial_score": -1.200000000125,
+        "matching_score": 0.6666666664444444,
+        "agg_score": 1.35,
+        "trial_score": 2.0166666664444444,
         "brief_summary": "The purpose of this study is to evaluate the therapeutic effectiveness of combination antifungal therapy (CAT) of voriconazole plus micafungin versus voriconazole plus placebo equivalent as primary therapy for invasive aspergillosis (IA) in patients with hematological cancer."
+      },
+      "NCT02534727": {
+        "matching_score": -0.40000000006,
+        "agg_score": 1.05,
+        "trial_score": 0.64999999994,
+        "brief_summary": "Background:~Many people around the world get tuberculosis (TB) and non-tuberculous mycobacteria (NTM) infections. Sometimes medicine that treats these infections does not get to where the bacteria are in the lungs. Researchers want to find a way to tell if enough medicine is getting to where it is needed in the lungs. They will look at how much medicine is in your sputum (what you cough up) compared to how much is in your blood. They will also investigate a new test to quickly figure out what medicines are likely to treat TB effectively.~Objective:~To determine the relationship between the concentration of TB drugs in plasma and sputum over time.~Eligibility:~People ages 18 and older who have TB or NTM infection that is suspected to be drug resistant. They must be taking TB or NTM medicines.~Design:~Participants will be screened with medical history.~Participants will be in the study for 2 8 days.~Participants will give 3 or more sputum samples over at least 2 different days. They will cough sputum into a cup.~Participants will have blood drawn 4 times a day on 2 different days."
       }
     }
   },
   "sigir-201523": {
-    "patient_summary": "An 18-year-old male presents with sudden onset of high fever, chills, facial flushing, epistaxis, severe headache, and joint pain after returning from Asia. Laboratory findings show leukopenia, increased hematocrit concentration, and thrombocytopenia.",
+    "patient_summary": "18-year-old male with high fever, chills, facial flushing, epistaxis, severe headache, joint pain, leukopenia, increased hematocrit, and thrombocytopenia after returning from Asia.",
     "trials": {
       "NCT02334514": {
-        "matching_score": 0.6666666664444444,
-        "agg_score": 1.55,
-        "trial_score": 2.2166666664444445,
+        "matching_score": -0.6666666667777779,
+        "agg_score": 0.8,
+        "trial_score": 0.13333333322222218,
         "brief_summary": "The purpose of this study is to determine the duration of viral shedding in hospitalized patients with influenza virus, treated with oseltamivir."
       },
       "NCT00084240": {
-        "matching_score": -1.0,
+        "matching_score": -2.0,
         "agg_score": 0.0,
-        "trial_score": -1.0,
+        "trial_score": -2.0,
         "brief_summary": "The primary objective is to confirm the hypothesis that azithromycin (optimal dose once daily for three days) plus chloroquine is non-inferior to sulfadoxine-pyrimethamine plus chloroquine for the treatment of uncomplicated, symptomatic malaria due to P. falciparum."
       }
     }
   },
   "sigir-201524": {
-    "patient_summary": "A 31-year-old male with a recent history of cold symptoms presents with a productive cough, chest pain, fever, and respiratory distress. Physical examination reveals wheezing and decreased breath sounds, particularly in the left lower lung field, suggesting a possible respiratory infection or pneumonia.",
+    "patient_summary": "31-year-old male with acute onset of fever, productive cough, and right-sided chest pain, with lung exam findings suggestive of pneumonia.",
     "trials": {
       "NCT00711399": {
         "matching_score": 0.9999999995,
-        "agg_score": 1.6,
-        "trial_score": 2.5999999995,
+        "agg_score": 1.8,
+        "trial_score": 2.7999999995,
         "brief_summary": "The study goal is to create a database of respiratory sounds recordings, to evaluate and validate the WIM technology and to evaluate the efficacy of a specific treatment by comparing the severity of the respiratory symptoms before and after the administration of the treatment."
       },
       "NCT00540072": {
-        "matching_score": 0.5384615384201183,
+        "matching_score": -0.38461538466272194,
         "agg_score": 1.25,
-        "trial_score": 1.7884615384201183,
+        "trial_score": 0.8653846153372781,
         "brief_summary": "A COMPARASON OF CIDECIN\u2122 (DAPTOMYCIN) TO ROCEPHIN\u00ae (CEFTRIAXONE) IN THE TREATMENT OF MODERATE TO SEVERE COMMUNITY-ACQUIRED ACUTE BACTERIAL PNEUMONIA DUE TO S. PNEUMONIAE"
       }
     }

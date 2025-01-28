@@ -38,7 +38,7 @@ get_last_step() {
 
 # Set variables
 CORPUS="sigir"
-Q_TYPE="gpt-4o-mini"
+Q_TYPE="gpt-4o"
 K=20
 BM25_WEIGHT=1
 MEDCPT_WEIGHT=1
