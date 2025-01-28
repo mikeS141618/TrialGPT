@@ -5,7 +5,6 @@ Conduct the first stage retrieval by the hybrid retriever
 """
 #nltk.download('punkt')
 
-# import tqdm
 import argparse
 import json
 import os
@@ -17,37 +16,35 @@ import torch
 from nltk.tokenize import word_tokenize
 from transformers import AutoModel, AutoTokenizer
 
-from corpus_index import get_bm25_corpus_index, get_medcpt_corpus_index, load_and_format_patient_descriptions
-
 # Add the project root directory to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from common.utils import load_corpus_details
+from corpus_index import get_bm25_corpus_index, get_medcpt_corpus_index, load_and_format_patient_descriptions
 
 
 def parse_arguments():
     """
-    Parse and validate command-line arguments.
+    Parse command-line arguments for the keyword generation script.
+
+    This function sets up the argument parser and defines the required and optional
+    arguments for the script.
 
     Returns:
-        dict: A dictionary containing the parsed arguments.
-
-    Raises:
-        SystemExit: If the correct number of arguments is not provided.
+        argparse.Namespace: An object containing the parsed arguments.
     """
-    if len(sys.argv) != 9:
-        print("Usage: script.py <corpus> <q_type> <k> <bm25_wt> <medcpt_wt> <overwrite> <top_k> <batch_size>")
-        sys.exit(1)
-
-    return {
-        "corpus": sys.argv[1],
-        "q_type": sys.argv[2],
-        "k": int(sys.argv[3]),
-        "bm25_wt": int(sys.argv[4]),
-        "medcpt_wt": int(sys.argv[5]),
-        "overwrite": sys.argv[6].lower() == 'true',
-        "top_k": int(sys.argv[7]),
-        "batch_size": int(sys.argv[8]),
-    }
+    parser = argparse.ArgumentParser(description="Hybrid Fusion Retrieval for Clinical Trials")
+    parser.add_argument("corpus", help="Path to the corpus")
+    parser.add_argument("q_type", help="Model type (e.g., gpt-4o-mini)")
+    parser.add_argument("k", type=int, help="Parameter for score calculation")
+    parser.add_argument("bm25_wt", type=float, help="Weight for BM25 scores")
+    parser.add_argument("medcpt_wt", type=float, help="Weight for MedCPT scores")
+    parser.add_argument("overwrite", type=str, help="Overwrite existing index (true/false)")
+    parser.add_argument("top_k", type=int, help="Top K documents to consider (default: 1000)")
+    parser.add_argument("batch_size", type=int, help="Batch size for processing (default: 32)")
+    parser.add_argument("eligibility_threshold", type=float, help="Score threshold for eligibility (0-1)")
+    parser.add_argument("exclusion_threshold", type=float, help="Score threshold for exclusion (0-1)")
+    return parser.parse_args()
 
 
 def load_queries(corpus, q_type):
@@ -163,37 +160,45 @@ def calculate_scores(bm25_results, medcpt_results, k, bm25_wt, medcpt_wt):
     return nctid2score, nctid2details
 
 
-def assign_relevance_labels(retrieved_trials, percentiles):
+def assign_relevance_labels(retrieved_trials, eligibility_threshold, exclusion_threshold):
+    # TODO: remove this as it's irrelevant at this stage, but must be removed throughout at the same time.
     """
-    Assign relevance labels to retrieved trials based on score percentiles.
+    Assign relevance labels to retrieved trials based on the TREC Clinical Trials track criteria.
 
     Args:
         retrieved_trials (dict): Dictionary of retrieved trials with their scores.
-        percentiles (list): List of two percentile values for thresholding.
+        eligibility_threshold (float): Score threshold for eligibility (0-1).
+        exclusion_threshold (float): Score threshold for exclusion (0-1).
 
     Returns:
         defaultdict: A nested defaultdict where the outer key is the query ID,
-                     the inner key is the relevance label ('0', '1', or '2'),
+                     the inner key is the relevance label (0, 1, or 2),
                      and the value is a list of trials with that label.
 
     Note:
         The function assigns labels as follows:
-        - '2': Trials with scores above the higher percentile threshold
-        - '1': Trials with scores between the two percentile thresholds
-        - '0': Trials with scores below the lower percentile threshold
+        - 2: Eligible - The patient is eligible to enroll in the trial.
+        - 1: Excluded - The patient has the condition that the trial is targeting,
+                        but the exclusion criteria make the patient ineligible.
+        - 0: Not Relevant - The patient is not relevant for the trial in any way.
     """
+    # labeled_trials = defaultdict(lambda: defaultdict(list))
+    # for qid, trials in retrieved_trials.items():
+    #     for trial in trials:
+    #         score = trial['total_score']
+    #         if score >= eligibility_threshold:
+    #             labeled_trials[qid]['2'].append(trial)
+    #         elif score >= exclusion_threshold:
+    #             labeled_trials[qid]['1'].append(trial)
+    #         else:
+    #             labeled_trials[qid]['0'].append(trial)
+    #
+    # return labeled_trials
+
     labeled_trials = defaultdict(lambda: defaultdict(list))
     for qid, trials in retrieved_trials.items():
-        scores = [t['total_score'] for t in trials]
-        thresholds = np.percentile(scores, percentiles)
-        for trial in trials:
-            score = trial['total_score']
-            if score >= thresholds[0]:
-                labeled_trials[qid]['2'].append(trial)
-            elif score >= thresholds[1]:
-                labeled_trials[qid]['1'].append(trial)
-            else:
-                labeled_trials[qid]['0'].append(trial)
+        labeled_trials[qid]['0'] = trials
+
     return labeled_trials
 
 
@@ -242,15 +247,11 @@ def main(args):
             for nctid, score in top_nctids
         ]
 
-    # Save detailed retrieval results
-    # detailed_output_path = f"results/qid2nctids_detailed_{args.q_type}_{args.corpus}_k{args.k}_bm25wt{args.bm25_wt}_medcptwt{args.medcpt_wt}_topk{args.top_k}.json"
-    # with open(detailed_output_path, 'w') as f:
-    #     json.dump(retrieved_trials, f, indent=4)
-
     # Generate retrieved trials with relevance labels
-    labeled_trials = assign_relevance_labels(retrieved_trials, [args.percentile1, args.percentile2])
+    labeled_trials = assign_relevance_labels(retrieved_trials, args.eligibility_threshold, args.exclusion_threshold)
 
     final_output = []
+    # TODO: remove the 2 1 0 loop its irrelevant at this stage, but must be removed throughout at the same time.
     for qid, trials_by_label in labeled_trials.items():
         patient_entry = {
             "patient_id": qid,
@@ -268,21 +269,41 @@ def main(args):
 
     print(f"Retrieved trials saved to {output_path}")
 
+    # Calculate and print the requested statistics
+    total_trials = sum(len(patient['0'] + patient['1'] + patient['2']) for patient in final_output)
+    eligible_count = sum(len(patient['2']) for patient in final_output)
+    excluded_count = sum(len(patient['1']) for patient in final_output)
+    not_relevant_count = sum(len(patient['0']) for patient in final_output)
+
+    print(f"Total trials processed: {total_trials}")
+    print(f"Eligible trials: {eligible_count} ({eligible_count / total_trials:.2%})")
+    print(f"Excluded trials: {excluded_count} ({excluded_count / total_trials:.2%})")
+    print(f"Not relevant trials: {not_relevant_count} ({not_relevant_count / total_trials:.2%})")
+
+    # Calculate total_score distribution
+    all_scores = [trial['total_score'] for patient in final_output for trials in patient.values() if
+                  isinstance(trials, list) for trial in trials]
+    all_scores.sort()
+
+    percentiles = [0, 10, 25, 33, 50, 66, 70, 80, 90, 100]
+    percentile_values = [np.percentile(all_scores, p) for p in percentiles]
+
+    print("\nTotal Score Distribution:")
+    print(f"Min: {min(all_scores):.4f}")
+    print(f"Max: {max(all_scores):.4f}")
+    print(f"Average: {np.mean(all_scores):.4f}")
+
+    # Calculate mode manually
+    from collections import Counter
+    mode_value = Counter(all_scores).most_common(1)[0][0]
+    print(f"Mode: {mode_value:.4f}")
+
+    print("Percentiles:")
+    for p, v in zip(percentiles, percentile_values):
+        print(f"{p}th: {v:.4f}")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Perform hybrid fusion retrieval and generate retrieved trials")
-    parser.add_argument("corpus", help="Corpus name")
-    parser.add_argument("q_type", help="Query type")
-    parser.add_argument("k", type=int, help="k value")
-    parser.add_argument("bm25_wt", type=float, help="BM25 weight")
-    parser.add_argument("medcpt_wt", type=float, help="MedCPT weight")
-    parser.add_argument("overwrite", type=str, help="Overwrite existing index (true/false)")
-    parser.add_argument("top_k", type=int, help="Top K value")
-    parser.add_argument("batch_size", type=int, help="Batch size for MedCPT encoding")
-    parser.add_argument("percentile1", type=float, help="First percentile for relevance labeling")
-    parser.add_argument("percentile2", type=float, help="Second percentile for relevance labeling")
-
-    args = parser.parse_args()
+    args = parse_arguments()
 
     # Convert overwrite string to boolean
     args.overwrite = args.overwrite.lower() == 'true'

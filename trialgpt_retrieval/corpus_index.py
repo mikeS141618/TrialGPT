@@ -2,7 +2,6 @@
 
 import json
 import os
-import sys
 
 import faiss
 import numpy as np
@@ -13,11 +12,25 @@ from rank_bm25 import BM25Okapi
 from tqdm import tqdm
 from transformers import AutoModel, AutoTokenizer
 
-# Add the project root directory to the Python path
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 
 def load_and_format_patient_descriptions(corpus):
+    """
+    Load and format patient descriptions from a specified corpus.
+
+    This function reads patient descriptions from a JSONL file, formats each description
+    by numbering its sentences, and adds a standard closing statement about patient
+    compliance and consent.
+
+    Args:
+        corpus (str): The name of the corpus (e.g., 'trec_2021', 'trec_2022', 'sigir').
+
+    Returns:
+        dict: A dictionary where keys are patient IDs and values are formatted patient descriptions.
+
+    The formatted description includes:
+    - Numbered sentences from the original description.
+    - An additional sentence about patient consent and compliance.
+    """
     query_file = f"dataset/{corpus}/queries.jsonl"
     patients = {}
     with open(query_file, 'r') as f:
@@ -25,8 +38,8 @@ def load_and_format_patient_descriptions(corpus):
             query = json.loads(line)
             text = query['text']
             sentences = sent_tokenize(text)
-            formatted_text = " ".join([f"{i}. {sent}" for i, sent in enumerate(sentences)])
-            formatted_text += f" {len(sentences)}. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+            formatted_text = " ".join([f"<{i}.> {sent}" for i, sent in enumerate(sentences)])
+            formatted_text += f" <{len(sentences)}.> The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
             patients[query['_id']] = formatted_text
     return patients
 
@@ -126,7 +139,6 @@ def batch_encode_corpus(corpus: str, batch_size: int = 32) -> tuple[np.ndarray, 
         Ensure you have sufficient GPU memory for the specified batch size.
 
     """
-
     corpus_nctids = []
     titles = []
     texts = []
@@ -205,7 +217,6 @@ def get_medcpt_corpus_index(corpus: str, overwrite: bool, batch_size: int = 32) 
         - The cached embeddings are stored as '{corpus}_embeds.npy' and '{corpus}_nctids.json' in the 'results' directory.
 
     """
-    # Function implementation...
     corpus_path = f"results/{corpus}_embeds.npy"
     nctids_path = f"results/{corpus}_nctids.json"
 

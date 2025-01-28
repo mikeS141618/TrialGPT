@@ -10,7 +10,7 @@ import math
 import os
 import sys
 import traceback
-
+import numpy as np
 from tqdm import tqdm
 
 # Add the project root directory to the Python path
@@ -86,14 +86,16 @@ def get_matching_score(matching):
 
     score += included / (included + not_inc + no_info_inc + eps)
 
-    if not_inc > 0:
+    # if not_inc > 0:
+    #     score -= 1
+    #
+    # if excluded > 0:
+    #     score -= 1 #note max score is 1 min score is ~-2
+
+    if not_inc > 0 or excluded > 0:
         score -= 1
 
-    if excluded > 0:
-        score -= 1
-
-    return score
-
+    return score #note max score is 1 min score is -1
 
 def get_agg_score(assessment):
     """
@@ -103,18 +105,23 @@ def get_agg_score(assessment):
         assessment (dict): Dictionary containing relevance and eligibility scores.
 
     Returns:
-        float: The calculated aggregation score.
+
     """
     try:
         rel_score = float(assessment["relevance_score_R"])
         eli_score = float(assessment["eligibility_score_E"])
+        rel_explanation = assessment.get("relevance_explanation", "No explanation provided")
+        eli_explanation = assessment.get("eligibility_explanation", "No explanation provided")
     except:
         rel_score = 0
         eli_score = 0
+        rel_explanation = "No explanation provided"
+        eli_explanation = "No explanation provided"
 
-    score = (rel_score + eli_score) / 100
+    # score = (rel_score + eli_score) / 100 # original equation (2>a>0)
+    score = (eli_score) / 100 # I think the model can give -1Excluded, 0Not Relevant, 1Eligible (1>a>-1)
 
-    return score
+    return score, rel_explanation, eli_explanation
 
 
 def main(args):
@@ -169,41 +176,70 @@ def main(args):
                     if patient_id not in agg_results or trial_id not in agg_results[patient_id]:
                         print(f"Patient {patient_id} Trial {trial_id} not in the aggregation results.")
                         agg_score = 0
+                        rel_explanation = "No explanation provided"
+                        eli_explanation = "No explanation provided"
                     else:
-                        agg_score = get_agg_score(agg_results[patient_id][trial_id])
+                        agg_score, rel_explanation, eli_explanation = get_agg_score(agg_results[patient_id][trial_id])
 
-                    trial_score = matching_score + agg_score
+                    trial_score = matching_score + agg_score # (1>m>-2) + (1>a>-1)
+
+                    matching_score = np.round(matching_score, decimals=5)
+                    agg_score = np.round(agg_score, decimals=5)
+                    trial_score = np.round(trial_score, decimals=5)
+
+                    # Generate qrels-like output using the combined score
+                    # Map the combined score to the TREC scoring system
+                    # TODO expose the 0.5 and -0.5 to argparse as ELIGIBILITY/EXCLUSION
+                    if trial_score > 0.5:
+                        qrels_score = 2  # Eligible
+                    elif trial_score > -0.5:
+                        qrels_score = 0  # Not Relevant
+                    else:
+                        qrels_score = 1  # Excluded
+
+                    qrels_output.append(f"{patient_id}\t{trial_id}\t{qrels_score}")
+
                     trial2scores[trial_id] = {
                         "matching_score": matching_score,
                         "agg_score": agg_score,
                         "trial_score": trial_score,
-                        "brief_summary": corpus_details.get(trial_id, {}).get("brief_summary", "No summary available")
+                        "qrels_score": qrels_score,
+                        "brief_summary": corpus_details.get(trial_id, {}).get("brief_summary", "No summary available"),
+                        "relevance_explanation": rel_explanation,
+                        "eligibility_explanation": eli_explanation
                     }
-
-                    # Generate qrels-like output using the combined score
-                    qrels_score = min(2, max(0, math.floor(trial_score)))
-                    qrels_output.append(f"{patient_id}\t{trial_id}\t{qrels_score}")
 
             sorted_trial2scores = sorted(trial2scores.items(), key=lambda x: -x[1]["trial_score"])
 
             # Save to individual text file
+            # Update the individual text file writing section
             output_file = os.path.join(output_dir, f"trialranking_{patient_id}.txt")
             with open(output_file, 'w') as f:
                 f.write(f"Patient ID: {patient_id}\n")
                 f.write(f"Patient Summary: {patient_summary}\n\n")
                 f.write("Clinical trial ranking:\n")
                 for trial, scores in sorted_trial2scores:
-                    f.write(f"{trial}: matching_score={scores['matching_score']:.4f}, "
-                            f"agg_score={scores['agg_score']:.4f}, "
-                            f"trial_score={scores['trial_score']:.4f}\n")
-                    f.write(f"Brief Summary: {scores['brief_summary']}\n\n")
+                    f.write(f"{trial}: matching_score={scores['matching_score']}, "
+                            f"agg_score={scores['agg_score']}, "
+                            f"trial_score={scores['trial_score']}, "
+                            f"qrels_score={scores['qrels_score']}\n")
+                    f.write(f"Brief Summary: {scores['brief_summary']}\n")
+                    f.write(f"Relevance Explanation: {scores['relevance_explanation']}\n")
+                    f.write(f"Eligibility Explanation: {scores['eligibility_explanation']}\n\n")
 
             print(f"Ranking saved to {output_file}")
 
-            # Add to all_rankings dictionary
             all_rankings[patient_id] = {
                 "patient_summary": patient_summary,
-                "trials": dict(sorted_trial2scores)
+                "trials": {trial_id: {
+                    "matching_score": scores["matching_score"],
+                    "agg_score": scores["agg_score"],
+                    "trial_score": scores["trial_score"],
+                    "qrels_score": scores["qrels_score"],
+                    "brief_summary": scores["brief_summary"],
+                    "relevance_explanation": scores["relevance_explanation"],
+                    "eligibility_explanation": scores["eligibility_explanation"]
+                } for trial_id, scores in sorted_trial2scores}
             }
 
         except Exception as e:
