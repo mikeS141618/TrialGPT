@@ -46,7 +46,7 @@ def parse_criteria(criteria: str) -> str:
     output = ""
 
     # Split the criteria into separate lines
-    criteria_lines = criteria.split("\n")
+    criteria_lines = criteria.split("\n\n")
 
     idx = 0
     for line in criteria_lines:

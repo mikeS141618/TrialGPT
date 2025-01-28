@@ -1,0 +1,637 @@
+{
+    "sigir-20141": {
+        "summary": "A 58-year-old African-American woman presents with episodic chest pain, hypertension, and obesity, accompanied by nausea, diaphoresis, and mild dyspnea.",
+        "conditions": [
+            "Hypertension",
+            "Obesity",
+            "Chest Pain",
+            "Nausea",
+            "Diaphoresis",
+            "Dyspnea"
+        ]
+    },
+    "sigir-20142": {
+        "summary": "An 8-year-old male presents with fever, dyspnea, and cough, with bilateral lung infiltrates on chest x-ray, following a recent vacation and loose stools.",
+        "conditions": [
+            "Fever",
+            "Dyspnea",
+            "Cough",
+            "Respiratory Distress",
+            "Bilateral Lung Infiltrates",
+            "Gastroenteritis"
+        ]
+    },
+    "sigir-20143": {
+        "summary": "A 58-year-old female with mild exertional dyspnea, occasional cough, and a left lung mass, also has a solitary mass in the right frontal lobe.",
+        "conditions": [
+            "Lung Mass",
+            "Exertional Dyspnea",
+            "Cough",
+            "Solitary Brain Mass",
+            "Frontal Lobe Mass"
+        ]
+    },
+    "sigir-20144": {
+        "summary": "A 2-year-old boy presents with high fever, irritability, and multiple physical exam findings including conjunctivitis, strawberry tongue, inflammation of hands and feet, desquamation of skin on fingers and toes, and cervical lymphadenopathy. Laboratory tests show elevated liver enzymes, anemia, and leukocyturia.",
+        "conditions": [
+            "Kawasaki disease",
+            "Conjunctivitis",
+            "Hepatomegaly",
+            "Lymphadenopathy",
+            "Anemia",
+            "Leukocyturia",
+            "Elevated liver enzymes",
+            "Fever of unknown origin",
+            "Skin desquamation",
+            "Strawberry tongue",
+            "Coronary artery aneurysm",
+            "Inflammation of hands and feet"
+        ]
+    },
+    "sigir-20145": {
+        "summary": "A 56-year-old female, 20 days post-left mastectomy, presents with shortness of breath, malaise, and tenderness on the left upper thoracic wall and right calf. Laboratory tests reveal an elevated D-dimer, suggesting a possible pulmonary embolism.",
+        "conditions": [
+            "Postoperative Pain",
+            "Fatigue",
+            "Dyspnea",
+            "Pulmonary Embolism",
+            "Deep Vein Thrombosis",
+            "Postoperative Complication",
+            "Mastectomy",
+            "Hypoxia"
+        ]
+    },
+    "sigir-20146": {
+        "summary": "A 64-year-old obese female with uncontrolled Type 2 Diabetes Mellitus, non-compliance with medication and exercise, and a painful skin lesion on the left lower leg.",
+        "conditions": [
+            "Type 2 Diabetes Mellitus",
+            "Obesity",
+            "Non-compliance with medication",
+            "Poor glycemic control",
+            "Diabetic foot ulcer",
+            "Chronic wound",
+            "Skin lesion"
+        ]
+    },
+    "sigir-20147": {
+        "summary": "A 26-year-old obese woman with bipolar disorder, depression, anxiety, and suicidal thoughts, experiencing irritability, sleep disturbances, and agitation.",
+        "conditions": [
+            "Bipolar Disorder",
+            "Depression",
+            "Anxiety Disorder",
+            "Obesity",
+            "Insomnia",
+            "Suicidal Ideation",
+            "Agitation",
+            "Irritability"
+        ]
+    },
+    "sigir-20148": {
+        "summary": "A 62-year-old man presents with progressive memory loss, jerking movements of the lower extremities, severe cognitive deficits, and memory dysfunction, with moderately advanced cerebral atrophy and diffuse vacuolar changes of the gray matter.",
+        "conditions": [
+            "Cognitive Impairment",
+            "Memory Loss",
+            "Cerebral Atrophy",
+            "Periodic Sharp Wave Encephalopathy",
+            "Diffuse Vacuolar Change",
+            "Reactive Astrocytosis",
+            "Jerking Movements",
+            "Severe Cognitive Deficits"
+        ]
+    },
+    "sigir-20149": {
+        "summary": "A 43-year-old woman presents with multiple small, soft, and pedunculated lesions on her neck, varying in color from flesh-colored to slightly hyperpigmented.",
+        "conditions": [
+            "Skin Lesions",
+            "Dermatological Disorder",
+            "Benign Skin Growths"
+        ]
+    },
+    "sigir-201410": {
+        "summary": "A 67-year-old woman developed a pulsatile mass in her right groin and lost distal pulses after cardiac catheterization via the right femoral artery, with a bruit heard over the entry point.",
+        "conditions": [
+            "Pseudoaneurysm",
+            "Arterial Occlusion",
+            "Vascular Injury",
+            "Cardiovascular Disease",
+            "Arterial Thrombosis"
+        ]
+    },
+    "sigir-201411": {
+        "summary": "A 40-year-old woman presents with excruciating pain in her right arm, no past medical history, and symptoms including tachypnea and tachycardia. She is pale, in moderate discomfort, with low blood pressure at 80/60.",
+        "conditions": [
+            "Acute Arm Pain",
+            "Tachypnea",
+            "Tachycardia",
+            "Hypotension",
+            "Acute Limb Pain"
+        ]
+    },
+    "sigir-201412": {
+        "summary": "A 25-year-old woman presents with prolonged fatigue, hair loss, voice changes, weight gain, and cold intolerance, with a prominent anterior cervical mass.",
+        "conditions": [
+            "Hypothyroidism",
+            "Goiter",
+            "Fatigue",
+            "Hair Loss",
+            "Voice Change",
+            "Weight Gain",
+            "Cold Intolerance"
+        ]
+    },
+    "sigir-201413": {
+        "summary": "A 30-year-old woman presents with shortness of breath, apprehensiveness, tachypnea, and tachycardia, 2 hours after onset, 3 weeks postpartum. She has a history of 2 natural abortions and a recent healthy childbirth.",
+        "conditions": [
+            "Shortness of Breath",
+            "Tachypnea",
+            "Tachycardia",
+            "Apprehensiveness",
+            "Hypoxemia",
+            "Postpartum Complications"
+        ]
+    },
+    "sigir-201414": {
+        "summary": "An 85-year-old man presents with a gradual decrease in level of consciousness, stopped walking and eating by himself over the last 3 days, with a history of a car accident 3 weeks prior to admission.",
+        "conditions": [
+            "Altered Level of Consciousness",
+            "Immobililty",
+            "Anorexia",
+            "Traumatic Brain Injury",
+            "Post-Concussive Syndrome"
+        ]
+    },
+    "sigir-201415": {
+        "summary": "A 36-year-old woman presents with 12 weeks of amenorrhea, vaginal spotting, lower abdominal tenderness, nausea, and vomiting, with a tender abdomen and enlarged uterus.",
+        "conditions": [
+            "Amenorrhea",
+            "Vaginal Spotting",
+            "Lower Abdominal Tenderness",
+            "Nausea and Vomiting",
+            "Uterine Enlargement",
+            "Cervical Dilation",
+            "Mole Pregnancy",
+            "Fibroid Degeneration",
+            "Vesicular Mole"
+        ]
+    },
+    "sigir-201416": {
+        "summary": "A 28-year-old female experiencing neck and shoulder pain, paresthesia, and spasticity after a trip to California, with subsequent hospitalization for worsening symptoms including spastic arm movements, agitation, anxiety, and hydrophobia.",
+        "conditions": [
+            "Paresthesia",
+            "Spasticity",
+            "Tremor",
+            "Anxiety Disorder",
+            "Agitation",
+            "Hydrophobia",
+            "Dysphagia",
+            "Muscle Spasm",
+            "Neck Pain",
+            "Shoulder Pain"
+        ]
+    },
+    "sigir-201417": {
+        "summary": "A 48-year-old male with common variable immunodeficiency (CVID) presents with acute abdominal pain, fever, dehydration, and a ruptured liver abscess, which is surgically drained. He has hepatomegaly and abundant free intraperitoneal fluid.",
+        "conditions": [
+            "Common Variable Immunodeficiency (CVID)",
+            "Acute Abdominal Pain",
+            "Fever",
+            "Dehydration",
+            "Tachycardia",
+            "Hypotension",
+            "Hepatomegaly",
+            "Liver Abscess",
+            "Rupture of Liver Abscess",
+            "Free Intraperitoneal Fluid"
+        ]
+    },
+    "sigir-201418": {
+        "summary": "A 6-month-old male infant with acute kidney injury, as indicated by low urine output, generalized edema, and elevated serum creatinine, following major surgery.",
+        "conditions": [
+            "Acute Kidney Injury",
+            "Generalized Edema",
+            "Hypertension",
+            "Tachycardia",
+            "Acute Renal Failure",
+            "Elevated Blood Urea Nitrogen",
+            "Elevated Serum Creatinine"
+        ]
+    },
+    "sigir-201419": {
+        "summary": "A 52-year-old African American man with progressive dysphagia, significant weight loss, and a history of heavy smoking and drinking.",
+        "conditions": [
+            "Dysphagia",
+            "Weight Loss",
+            "Smoking Related Disorder",
+            "Alcohol Use Disorder",
+            "Esophageal Obstruction"
+        ]
+    },
+    "sigir-201420": {
+        "summary": "A 32-year-old woman with multiple injuries from a car accident, including upper and lower extremity fractures, and abdominal tenderness with guarding and rebound, indicating possible internal abdominal injury.",
+        "conditions": [
+            "Multiple Trauma",
+            "Fracture of Upper Extremity",
+            "Fracture of Lower Extremity",
+            "Abdominal Trauma",
+            "Hypertension",
+            "Tachycardia"
+        ]
+    },
+    "sigir-201421": {
+        "summary": "A 21-year-old female presents with progressive arthralgias, malaise, alopecia, rash, purpura, and swelling of wrists and ankles. Lab results show normocytic anemia, thrombocytopenia, positive ANA and anti-dsDNA, proteinuria, and RBC casts.",
+        "conditions": [
+            "Systemic Lupus Erythematosus",
+            "Normocytic Anemia",
+            "Thrombocytopenia",
+            "Proteinuria",
+            "Hematuria",
+            "Alopecia",
+            "Arthralgia",
+            "Anti-dsDNA Antibodies Positivity",
+            "ANAA Positivity",
+            "Lupus Nephritis"
+        ]
+    },
+    "sigir-201422": {
+        "summary": "A 15-year-old girl presents with abdominal pain, localized to the right lower quadrant, and is found to have a markedly edematous appendix on ultrasound.",
+        "conditions": [
+            "Appendicitis",
+            "Abdominal pain",
+            "Rebound tenderness"
+        ]
+    },
+    "sigir-201423": {
+        "summary": "A 63-year-old man with a history of heavy smoking, spinal stenosis, Type 2 Diabetes, hypothyroidism, and mild psoriasis presents with cough, shortness of breath, and difficulty breathing.",
+        "conditions": [
+            "Chronic Obstructive Pulmonary Disease (COPD)",
+            "Type 2 Diabetes",
+            "Hypothyroidism",
+            "Mild Psoriasis",
+            "Spinal Stenosis",
+            "Respiratory Failure",
+            "Hypoxia",
+            "Cyanosis",
+            "Tachypnea",
+            "Productive Cough"
+        ]
+    },
+    "sigir-201424": {
+        "summary": "A 33-year-old male athlete presents with acute abdominal pain following a bike accident, with a history of blunt trauma to the left hemi-abdomen and subsequent mild abdominal pain. The patient has hypotension, tachycardia, and shows signs of abdominal muscle contraction and resistance, with imaging revealing extended intraperitoneal hemorrhage due to spleen rupture.",
+        "conditions": [
+            "Spleen Rupture",
+            "Intraperitoneal Hemorrhage",
+            "Blunt Trauma",
+            "Abdominal Pain",
+            "Hypotension",
+            "Tachycardia",
+            "Muscle Contractions"
+        ]
+    },
+    "sigir-201425": {
+        "summary": "An 8-year-old boy experienced a traumatic head injury from a bike fall, resulting in symptoms such as drowsiness, vomiting, and impaired limb movement, with initial stable vital signs that later deteriorated to show low heart rate, high blood pressure, and decreased level of consciousness as indicated by a low Glasgow Coma Scale score.",
+        "conditions": [
+            "Traumatic Brain Injury",
+            "Concussion",
+            "Cerebral Edema",
+            "Increased Intracranial Pressure",
+            "Traumatic Hemiparesis",
+            "Cerebral Contusion",
+            "Subdural Hematoma",
+            "Epidural Hematoma",
+            "Brain Herniation",
+            "Decresed Level of Consciousness",
+            "Hypotension",
+            "Bradycardia",
+            "Vomiting"
+        ]
+    },
+    "sigir-201427": {
+        "summary": "A 21-year-old college student with a family history of multiple polyps undergoes sigmoidoscopy and is found to have dozens of small colonic polyps, all of which are benign adenomas.",
+        "conditions": [
+            "Colonic Polyps",
+            "Family History of Colonic Polyps",
+            "Benign Adenomas",
+            "Increased Risk of Colorectal Neoplasia"
+        ]
+    },
+    "sigir-201429": {
+        "summary": "A 51-year-old postmenopausal woman with hypertension, type 2 diabetes, and osteoporosis concerns, who smokes 1 pack of cigarettes per day.",
+        "conditions": [
+            "Osteoporosis",
+            "Hypertension",
+            "Type 2 Diabetes",
+            "Menopause",
+            "Tobacco Use Disorder"
+        ]
+    },
+    "sigir-201430": {
+        "summary": "A 72-year-old man with a history of myocardial infarction and transient ischemic attack, experiencing increasing calf pain when walking uphill, with worsening blood pressure and signs of peripheral artery disease.",
+        "conditions": [
+            "Hypertension",
+            "Peripheral Artery Disease",
+            "Myocardial Infarction",
+            "Transient Ischemic Attack",
+            "Hypertensive Heart Disease",
+            "Atherosclerosis",
+            "Intermittent Claudication",
+            "Cardiovascular Disease"
+        ]
+    },
+    "sigir-20151": {
+        "summary": "A 44-year-old male patient presents with severe vomiting, tachycardia, hypotension, and decreased mental status, requiring rapid fluid resuscitation and blood transfusion in the ICU.",
+        "conditions": [
+            "Hematemesis",
+            "Tachycardia",
+            "Hypotension",
+            "Decreased Mental Status",
+            "Hemorrhagic Shock",
+            "Vomiting",
+            "Anemia"
+        ]
+    },
+    "sigir-20152": {
+        "summary": "A 62-year-old male presents with a non-productive cough and fever, and is on immunosuppressive medications. He has owl's eye inclusion bodies in the nuclei of infection cells, suggesting a viral infection, likely cytomegalovirus (CMV) infection.",
+        "conditions": [
+            "Immunosuppression",
+            "Cytomegalovirus (CMV) Infection",
+            "Fever",
+            "Cough",
+            "Immunosuppressive Therapy",
+            "Prednisone Use"
+        ]
+    },
+    "sigir-20153": {
+        "summary": "A 65-year-old male presents with acute onset of shortness of breath, tachypnea, and left-sided chest pain that worsens with inspiration, two weeks after a right total hip replacement surgery.",
+        "conditions": [
+            "Acute Shortness of Breath",
+            "Tachypnea",
+            "Chest Pain",
+            "Recent Surgery",
+            "Total Hip Replacement",
+            "Poor Pain Management",
+            "Right Calf Pain"
+        ]
+    },
+    "sigir-20154": {
+        "summary": "An 82-year-old woman presents with chest pain and shortness of breath, with a history of hypertension, renal artery stenosis, chronic renal insufficiency, hypercholesterolemia, osteoporosis, and dementia. She has severe segmental left ventricular dysfunction and mild mitral regurgitation.",
+        "conditions": [
+            "Hypertension",
+            "Chronic Renal Insufficiency",
+            "Hypercholesterolemia",
+            "Osteoporosis",
+            "Dementia",
+            "Acute Coronary Syndrom",
+            "Myocaridal Infarction",
+            "Left Ventricular Dysfunction",
+            "Mitral Regurgitation",
+            "Renal Artery Stenosis"
+        ]
+    },
+    "sigir-20155": {
+        "summary": "A 31-year-old woman presents with joint pain, fatigue, and intermittent fever, with swelling and stiffness in multiple joints, including knees, hips, and right elbow, as well as chest pain.",
+        "conditions": [
+            "Arthritis",
+            "Fever",
+            "Joint Swelling",
+            "Fatigue",
+            "Chest Pain",
+            "Polyarthritis",
+            "Inflammatory Arthritis",
+            "Septic Arthritis",
+            "Rheumatoid Arthritis",
+            "Osteoarthritis",
+            "Viral Arthritis",
+            "Bacterial Arthritis"
+        ]
+    },
+    "sigir-20156": {
+        "summary": "A 46-year-old woman presents with symptoms of weight loss, sweating, insomnia, diarrhea, irregular pulse, and exophthalmia, suggesting a potential thyroid disorder.",
+        "conditions": [
+            "Hyperthyroidism",
+            "Tachycardia",
+            "Exophthalmia",
+            "Hyperreflexia",
+            "Diarrhea",
+            "Insomnia",
+            "Weight Loss"
+        ]
+    },
+    "sigir-20157": {
+        "summary": "A 20-year-old female college student presents with fatigue, increased sleep and appetite, difficulty concentrating, and decreased interest in social activities, with normal physical and laboratory test results.",
+        "conditions": [
+            "Major Depressive Disorder",
+            "Hypothyroidism",
+            "Anemia",
+            "Iron Deficiency Anemia",
+            "Chronic Fatigue Syndrome",
+            "Depression with Anhedonia",
+            "Bipolar Disorder",
+            "Adjustment Disorder",
+            "Dysthymic Mood Disorder"
+        ]
+    },
+    "sigir-20158": {
+        "summary": "A 10-year-old boy experiencing nighttime snoring, pauses in breathing, restlessness, and nighttime awakenings, leading to excessive sleepiness and lack of attention during the day.",
+        "conditions": [
+            "Obstructive Sleep Apnea Syndrome",
+            "Sleep-Related Breathing Disorders",
+            "Attention Deficit Hyperactivity Disorder",
+            "Excessive Daytime Sleepiness",
+            "Sleep Fragmentation"
+        ]
+    },
+    "sigir-20159": {
+        "summary": "A 10-year-old child presents with myalgia, cough, shortness of breath, and a history of recent viral illness, abdominal pain, diarrhea, and exposure to domestic pigs. The patient has vital signs indicating fever, tachycardia, and tachypnea, with physical exam findings of cyanosis, neck stiffness, and periorbital edema.",
+        "conditions": [
+            "Myalgia",
+            "Cough",
+            "Shortness of breath",
+            "Viral illness",
+            "Fever",
+            "Abdominal pain",
+            "Diarrhea",
+            "Cyanosis",
+            "Neck stiffness",
+            "Periorbital edema",
+            "Tachycardia",
+            "Tachypnea",
+            "Leukocytosis with Eosinophilia"
+        ]
+    },
+    "sigir-201510": {
+        "summary": "A 38-year-old woman experiences severe premenstrual and menstrual pelvic pain, heavy and irregular periods, and occasional spotting between periods, with a history of infertility treatment and an ectopic pregnancy.",
+        "conditions": [
+            "Dysmenorrhea",
+            "Menorrhagia",
+            "Infertility",
+            "Ectopic Pregnancy",
+            "Pelvic Pain"
+        ]
+    },
+    "sigir-201511": {
+        "summary": "A 56-year-old Caucasian female presents with cold sensitivity, fatigue, decreased appetite, constipation, hyporeflexia, and dry skin.",
+        "conditions": [
+            "Hypothyroidism",
+            "Constipation",
+            "Dry Skin",
+            "Hyporeflexia",
+            "Fatigue"
+        ]
+    },
+    "sigir-201512": {
+        "summary": "A 44-year-old man suffered a skull fracture in an automobile accident, presenting with clear fluid dripping from his nose, severe headache, fever, and nuchal rigidity.",
+        "conditions": [
+            "Skull Fracture",
+            "Cerebrospinal Fluid Leak",
+            "Post-Traumatic Headache",
+            "Fever",
+            "Nuchal Rigidity"
+        ]
+    },
+    "sigir-201513": {
+        "summary": "A 5-year-old boy presents with worsening dysphagia, drooling, fever, and vocal changes, appearing toxic and having a muffled voice, with a history of delayed vaccinations.",
+        "conditions": [
+            "Dysphagia",
+            "Hypersalivation",
+            "Fever",
+            "Vocal changes",
+            "Toxid appearance"
+        ]
+    },
+    "sigir-201514": {
+        "summary": "A 27-year-old pregnant woman with mild iron deficiency, anemia, and elevated reticulocyte count, experiencing difficulty swallowing, and having abnormal blood cell counts",
+        "conditions": [
+            "Iron Deficiency Anemia",
+            "Anisocytosis",
+            "Poikilocytosis",
+            "Polychromasia",
+            "Elevated Retiulocyte Count",
+            "Difficulty Swallowing",
+            "Abnormal White Blood Cell Count",
+            "Abnormal Platelet Count",
+            "Elevated LDH",
+            "Hemosiderinuria"
+        ]
+    },
+    "sigir-201515": {
+        "summary": "Karen is a 72-year-old woman with a history of hypertension, type 2 diabetes, and a recent cryptogenic stroke. She has undergone thrombolytic therapy and currently presents with normal blood pressure, glucose, and sinus rhythm, but reports occasional palpitations, shortness of breath, and chest pain.",
+        "conditions": [
+            "Hypertension",
+            "Type 2 Diabetes",
+            "Cryptogenic Stroke",
+            "Palpitations",
+            "Shortness of Breath",
+            "Chest Pain"
+        ]
+    },
+    "sigir-201516": {
+        "summary": "A 4-year-old boy presents with wheezing after a brief coughing episode while playing in a sandbox, with a history of allergic rhinitis.",
+        "conditions": [
+            "Allergic Rhinitis",
+            "Acute Wheezing",
+            "Cough",
+            "Respiratory Distress"
+        ]
+    },
+    "sigir-201517": {
+        "summary": "A 32-year-old female with no previous medical history presents with a cytology negative, HPV positive Pap smear result, and is otherwise in good health.",
+        "conditions": [
+            "Human Papillomavirus (HPV) Infection"
+        ]
+    },
+    "sigir-201518": {
+        "summary": "A 65-year-old African-American male experiencing worsening shortness of breath related to exertion, difficulty breathing when lying flat, and using extra pillows at night, with physical exam findings including bibasilar lung crackles, pitting ankle edema, and jugular venous distension.",
+        "conditions": [
+            "Heart Failure",
+            "Chronic Congestive Heart Failure",
+            "Exertional Dyspnea",
+            "Orthopnea",
+            "Peripheral Edema",
+            "Jugular Venous Distension",
+            "Bibasilar Lung Crackles",
+            "Pulmonary Congestion",
+            "Pitting Edema",
+            "Ankle Edema"
+        ]
+    },
+    "sigir-201519": {
+        "summary": "A 66-year-old female with a significant smoking history presents with progressive shortness of breath, moderate respiratory distress, and physical exam findings suggestive of chronic respiratory disease.",
+        "conditions": [
+            "Chronic Obstructive Pulmonary Disease (COPD)",
+            "Smoking-Related Illness",
+            "Respiratory Insufficiency",
+            "Chronic Cough",
+            "Respiratory Distress"
+        ]
+    },
+    "sigir-201520": {
+        "summary": "An 89-year-old man with progressive cognitive decline, personality changes, and loss of independence in daily activities, exhibiting symptoms such as poor memory, difficulty with speech, and unusual behaviors.",
+        "conditions": [
+            "Dementia",
+            "Cognitive Impairment",
+            "Frontotemporal Dementia",
+            "Aphasia",
+            "Dyscalculia",
+            "Apraxia",
+            "Agnosia",
+            "Impulsivity",
+            "Executive Function Disorder",
+            "Memory Loss",
+            "Personality Changes",
+            "Paratonic Rigidity",
+            "Myoclonus Jerks"
+        ]
+    },
+    "sigir-201521": {
+        "summary": "A 32-year-old male presents with gastrointestinal symptoms including diarrhea, abdominal cramping, flatulence, and greasy stools after drinking water from natural sources on a hiking trip. An iodine-stained stool smear revealed ellipsoidal cysts.",
+        "conditions": [
+            "Giardiasis",
+            "Gastroenteritis",
+            "Diarrhea",
+            "Abdominal cramps",
+            "Flatulence",
+            "Loss of appetite",
+            "Malaise"
+        ]
+    },
+    "sigir-201522": {
+        "summary": "A 65-year-old male with a history of tuberculosis presents with a productive cough with blood, a round opaque mass in the left upper lobe, and a spherical mass that moves within the cavity. Sputum culture reveals an organism with septated, low-angle branching hyphae.",
+        "conditions": [
+            "Tuberculosis",
+            "Hemoptysis",
+            "Pulmonary Mass",
+            "Cavitary Lesion",
+            "Fungal Infection",
+            "Aspergillosis"
+        ]
+    },
+    "sigir-201523": {
+        "summary": "An 18-year-old male presents with high fever, chills, facial flushing, epistaxis, severe headache, joint pain, leukopenia, increased hematocrit concentration, and thrombocytopenia after a recent vacation in Asia.",
+        "conditions": [
+            "Fever",
+            "Leukopenia",
+            "Thrombocytopenia",
+            "Increased Hematocrit Concentration",
+            "Severe Headache",
+            "Joint Pain",
+            "Facial Flushing",
+            "Epistaxis",
+            "Chills"
+        ]
+    },
+    "sigir-201524": {
+        "summary": "A 31-year-old male presents with productive cough, chest pain, and fever, with worsening symptoms over the past two days. He has a history of cold symptoms that were improving until the recent deterioration. Vital signs indicate a high temperature, rapid pulse, and decreased breath sounds.",
+        "conditions": [
+            "Acute Respiratory Infection",
+            "Pneumonia",
+            "Bronchitis",
+            "Pleurisy",
+            "Fever",
+            "Cough",
+            "Respiratory Distress",
+            "Hypoxia",
+            "Tachypnea",
+            "Hypertension"
+        ]
+    }
+}
