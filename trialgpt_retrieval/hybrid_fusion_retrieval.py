@@ -161,7 +161,11 @@ def calculate_scores(bm25_results, medcpt_results, k, bm25_wt, medcpt_wt):
 
 
 def assign_relevance_labels(retrieved_trials, eligibility_threshold, exclusion_threshold):
-    # TODO: remove this as it's irrelevant at this stage, but must be removed throughout at the same time.
+    #TODO: remove this as it's irrelevant at this stage, but must be removed throughout at the same time.
+    #TODO: fix wording everywhere to three-point scale:
+    # 0) Would not refer this patient for this clinical trial
+    # 1) Would consider referring this patient to this clinical trial upon further investigation
+    # 2) Highly likely to refer this patient for this clinical trial
     """
     Assign relevance labels to retrieved trials based on the TREC Clinical Trials track criteria.
 
@@ -217,8 +221,13 @@ def main(args):
     5. Saves the final output as a JSON file
     """
     corpus_details = load_corpus_details(f"dataset/{args.corpus}/corpus.jsonl")
-    bm25, bm25_nctids = get_bm25_corpus_index(args.corpus, args.overwrite)
-    medcpt, medcpt_nctids = get_medcpt_corpus_index(args.corpus, args.overwrite, args.batch_size)
+
+    if args.bm25_wt > 0:
+        bm25, bm25_nctids = get_bm25_corpus_index(args.corpus, args.overwrite)
+
+    if args.medcpt_wt > 0:
+        medcpt, medcpt_nctids = get_medcpt_corpus_index(args.corpus, args.overwrite, args.batch_size)
+
     patient_descriptions = load_and_format_patient_descriptions(args.corpus)
     id2queries = load_queries(args.corpus, args.q_type)
     model, tokenizer = load_medcpt_model()
@@ -227,22 +236,36 @@ def main(args):
     retrieved_trials = {}
     for qid, patient_desc in patient_descriptions.items():
         conditions = id2queries[qid]["conditions"]
-        if not conditions:
+        if not id2queries[qid]["conditions"]:
             retrieved_trials[qid] = []
             continue
 
-        bm25_results = perform_bm25_search(bm25, bm25_nctids, conditions, args.top_k)
-        medcpt_results = perform_medcpt_search(model, tokenizer, medcpt, medcpt_nctids, conditions, args.top_k)
-        nctid2score, nctid2details = calculate_scores(bm25_results, medcpt_results, args.k, args.bm25_wt,
-                                                      args.medcpt_wt)
-        top_nctids = sorted(nctid2score.items(), key=lambda x: -x[1])[:args.top_k]
+        combined_string = (
+                ", ".join(id2queries[qid]["conditions"]) + " " +
+                id2queries[qid]["notes"] + " " +
+                id2queries[qid]["summary"]
+        )
+
+        # conditions = [combined_string]  # Wrap in a list to maintain the expected structure
+
+        if args.bm25_wt > 0 or args.medcpt_wt > 0:
+            # Perform filtering using BM25 and/or MedCPT
+            bm25_results = perform_bm25_search(bm25, bm25_nctids, conditions, args.top_k) if args.bm25_wt > 0 else [[] for _ in conditions]
+            medcpt_results = perform_medcpt_search(model, tokenizer, medcpt, medcpt_nctids, conditions, args.top_k) if args.medcpt_wt > 0 else [[] for _ in conditions]
+            nctid2score, nctid2details = calculate_scores(bm25_results, medcpt_results, args.k, args.bm25_wt, args.medcpt_wt)
+            top_nctids = sorted(nctid2score.items(), key=lambda x: -x[1])[:args.top_k]
+        else:
+            # No filtering: process all trials
+            top_nctids = [(nctid, 1.0) for nctid in corpus_details.keys()]  # Assign a default score of 1.0
+            nctid2details = {nctid: {"bm25_score": 0, "medcpt_score": 0} for nctid in corpus_details.keys()}
+
         retrieved_trials[qid] = [
             {
                 "nct_id": nctid,
                 **corpus_details[nctid],
                 "total_score": score,
-                "bm25_score": nctid2details[nctid]["bm25_score"],
-                "medcpt_score": nctid2details[nctid]["medcpt_score"]
+                "bm25_score": nctid2details[nctid]["bm25_score"] if args.bm25_wt > 0 else 0,
+                "medcpt_score": nctid2details[nctid]["medcpt_score"] if args.medcpt_wt > 0 else 0
             }
             for nctid, score in top_nctids
         ]
@@ -275,6 +298,7 @@ def main(args):
     excluded_count = sum(len(patient['1']) for patient in final_output)
     not_relevant_count = sum(len(patient['0']) for patient in final_output)
 
+    # TODO: fix wording everywhere to three-point scale:
     print(f"Total trials processed: {total_trials}")
     print(f"Eligible trials: {eligible_count} ({eligible_count / total_trials:.2%})")
     print(f"Excluded trials: {excluded_count} ({excluded_count / total_trials:.2%})")

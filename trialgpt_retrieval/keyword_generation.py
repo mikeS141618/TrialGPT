@@ -15,7 +15,50 @@ from tqdm import tqdm
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from common.utils import setup_model, generate_response
+import json
+import logging
 
+# Set up logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+# Also set up a file handler for JSON fix attempts
+fix_logger = logging.getLogger('json_fix_logger')
+fix_logger.setLevel(logging.INFO)
+file_handler = logging.FileHandler('json_fix_attempts.log')
+file_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+fix_logger.addHandler(file_handler)
+
+
+def fix_json_in_conversation(model_type, model_instance, messages, invalid_output, model_name=None, entry_id=None):
+    """Ask the model to fix the JSON output within the existing conversation."""
+    messages.append({"role": "assistant", "content": invalid_output})
+    messages.append({"role": "user", "content": "The JSON is invalid. Please fix any errors and return only the corrected JSON:"})
+
+    fixed_output = generate_response(model_type, model_instance, messages, model_name)
+
+    # Log the fix attempt
+    fix_logger.info(f"JSON fix attempted for entry {entry_id}")
+    fix_logger.info(f"Original output: {invalid_output}")
+    fix_logger.info(f"Fixed output: {fixed_output}")
+
+    return fixed_output.strip()
+
+
+def parse_json_with_conversation_fix(output, model_type, model_instance, messages, model_name=None, entry_id=None):
+    """Parse JSON output with model-based error correction within the conversation."""
+    try:
+        # First, try parsing the output as-is
+        return json.loads(output), False
+    except json.JSONDecodeError:
+        # If parsing fails, ask the model to fix it within the conversation
+        fixed_output = fix_json_in_conversation(model_type, model_instance, messages, output, model_name, entry_id)
+        try:
+            # Try parsing the fixed output
+            return json.loads(fixed_output), True
+        except json.JSONDecodeError:
+            # If it still fails, return None
+            return None, True
 
 def parse_arguments_kg():
     """
@@ -50,30 +93,31 @@ def get_keyword_generation_messages(note):
     Returns:
         list: A list of message dictionaries for the AI model.
     """
-    system = """You are a medical research assistant specializing in clinical trial matching. Your task is to analyze patient descriptions to identify key medical conditions and assist in finding suitable clinical trials. Prioritize accuracy and relevance in your analysis."""
+    system = """You are an AI assistant specializing in clinical trial matching. Your task is to analyze patient descriptions and extract key information that would be relevant for finding suitable clinical trials. Focus on accuracy, relevance, and comprehensive analysis in your assessment."""
 
     prompt = f"""Please analyze the following patient description for clinical trial matching:
 
-    ## {note}
+    {note}
 
     ### Instructions:
-    1. Summarize the patient's main medical issues in 3-5 sentences.
-    2. List up to 20 key medical conditions, ranked by relevance for clinical trial matching.
-    3. Use standardized medical terminology (e.g., "Type 2 Diabetes" instead of "high blood sugar").
-    4. Include conditions only if explicitly mentioned or strongly implied in the description.
+    1. Summarize the patient's clinical presentation, including key demographic information, presenting symptoms, and relevant medical history.
+    2. Enumerate all clinically relevant conditions, characteristics, and factors that could influence clinical trial eligibility or suitability. Use standardized medical terminology. Rank these by clinical significance and relevance to potential trial matching.
+    3. Include any additional clinical notes that might be pertinent for trial matching but don't fit into the main conditions list.
 
     ### Output a JSON object in this format:
     **Provide ONLY a valid JSON object** with the following structure:
     {{
-      "summary": "Brief patient summary",
-      "conditions": ["Condition 1", "Condition 2", ...]
+      "summary": "Concise clinical summary including key demographics, presenting symptoms, and relevant history",
+      "conditions": ["Condition 1", "Condition 2", ...],
+      "notes": "Additional clinically relevant information for trial matching"
     }}
 
-    ### Important Notes:
-    - If you are unsure about a condition, include it only if it is explicitly mentioned or strongly implied in the description.
+    ### Important:
+    - Include only clinical information explicitly stated or strongly implied in the description.
+    - If there is uncertainty about a condition, include it only if it is explicitly mentioned or strongly implied, noting the uncertainty if appropriate.
     - **Do NOT include any text outside of the JSON object.** This means no notes, explanations, headers, or footers outside the JSON.
 
-    Now, please process the patient description and respond with the JSON object.
+    Please process the patient description and respond with the JSON object.
     """
 
     return [
@@ -100,26 +144,39 @@ def main(args):
 
     # Process each query in the input file
     with open(f"dataset/{args.corpus}/queries.jsonl", "r") as f:
+        fix_count = 0
         for line in tqdm(f, total=total_lines, desc=f"Processing {args.corpus} queries"):
             try:
                 entry = json.loads(line)
                 messages = get_keyword_generation_messages(entry["text"])
                 output = generate_response(model_type, model_instance, messages, args.model)
 
-                try:
-                    outputs[entry["_id"]] = json.loads(output)
-                except json.JSONDecodeError:
-                    print(f"Failed to parse JSON for entry {entry['_id']}. Output: {output}")
+                parsed_output, was_fixed = parse_json_with_conversation_fix(output, model_type, model_instance,
+                                                                            messages, args.model, entry["_id"])
+
+                if was_fixed:
+                    fix_count += 1
+
+                if parsed_output is not None:
+                    outputs[entry["_id"]] = parsed_output
+                else:
+                    logger.warning(f"Failed to parse JSON for entry {entry['_id']} even after model fix attempt.")
                     failed_outputs[entry["_id"]] = {
-                        "error": "Failed to parse JSON",
+                        "error": "Failed to parse JSON after model fix attempt",
                         "raw_output": output
                     }
             except Exception as e:
-                print(f"Error processing entry {entry['_id']}: {str(e)}")
+                logger.error(f"Error processing entry {entry['_id']}: {str(e)}")
                 failed_outputs[entry["_id"]] = {
                     "error": str(e),
                     "raw_entry": line
                 }
+
+        # After processing all entries, log the summary
+        logger.info(f"Total entries processed: {len(outputs) + len(failed_outputs)}")
+        logger.info(f"Successful entries: {len(outputs)}")
+        logger.info(f"Failed entries: {len(failed_outputs)}")
+        logger.info(f"Entries requiring JSON fix: {fix_count}")
 
     # Save successful outputs
     output_file = f"results/retrieval_keywords_{args.model}_{args.corpus}.json"

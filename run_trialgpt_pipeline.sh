@@ -78,8 +78,8 @@ get_last_step() {
 }
 
 # Set variables
-CORPUS="sigir" #"sigir_small" "sigir_mini"
-MODEL="gpt-4o" #"gpt-4o-mini" "gpt-4o" "Llama-3.2-3B-Instruct" "Llama-3.3-70B-Instruct"
+CORPUS="mine" #"sigir" #"sigir_small" "sigir_mini"
+MODEL="Llama-3.3-70B-Instruct" #"gpt-4o-mini" "gpt-4o" "Llama-3.2-3B-Instruct" "Llama-3.3-70B-Instruct"
 QUANTIZE=true
 
 K=20
@@ -87,13 +87,13 @@ BM25_WEIGHT=1
 MEDCPT_WEIGHT=1
 
 #overwrites data for the sage, else resumes in the stage
-OVER_WRITE=false #true #'true'
+OVER_WRITE=true #true #'true' false
 
 # critical number, determines how many trials from retrieval to run on per patient
-TOP_K=10
+TOP_K=5000
 
 # batch size for the bert like retrieval model
-BATCH_SIZE=512
+BATCH_SIZE=3072
 
 # these two numbers below don't matter to the final score
 #TODO: move them to TrialGPT/trialgpt_ranking/rank_results.py
@@ -108,6 +108,7 @@ case $MODEL in
         CHECKPOINT_DIR="none"
         ;;
     "Llama-3.2-3B-Instruct")
+    #TODO: fix 1 gpu llama
         NGPUS=1
         CHECKPOINT_DIR="../../models/Llama-3.2-3B-Instruct/"
         QUANTIZE_ARG=$([ "$QUANTIZE" = true ] && echo "-q" || echo "")
@@ -147,44 +148,44 @@ if [ "$LAST_STEP" -lt 2 ]; then
     echo "Step 2: Hybrid Fusion Retrieval and Generate Retrieved Trials"
     measure_time python trialgpt_retrieval/hybrid_fusion_retrieval.py $CORPUS $MODEL $K $BM25_WEIGHT $MEDCPT_WEIGHT $OVER_WRITE $TOP_K $BATCH_SIZE $ELIGIBILITY $EXCLUSION
     duration=$?
-    update_checkpoint "2" $duration
+#    update_checkpoint "2" $duration
 else
     echo "Skipping Step 2: Hybrid Fusion Already completed"
 fi
 
-# Step 3: TrialGPT-Matching
-if [ "$LAST_STEP" -lt 3 ]; then
-    echo "Step 3: TrialGPT-Matching"
-    measure_time python trialgpt_matching/run_matching.py $CORPUS $MODEL $OVER_WRITE -g $NGPUS -d $CHECKPOINT_DIR $QUANTIZE_ARG
-    duration=$?
-    update_checkpoint "3" $duration
-else
-    echo "Skipping Step 3: TrialGPT-Matching Already completed"
-fi
-
-# Step 4: TrialGPT-Ranking - Aggregation
-if [ "$LAST_STEP" -lt 4 ]; then
-    echo "Step 4: TrialGPT-Ranking Aggregation"
-    MATCHING_RESULTS="results/matching_results_${CORPUS}_${MODEL}.json"
-    measure_time python trialgpt_ranking/run_aggregation.py $CORPUS $MODEL $MATCHING_RESULTS $OVER_WRITE -g $NGPUS -d $CHECKPOINT_DIR $QUANTIZE_ARG
-    duration=$?
-    update_checkpoint "4" $duration
-else
-    echo "Skipping Step 4: Aggregation Already completed"
-fi
-
-# Step 5: TrialGPT-Ranking - Final Ranking
-if [ "$LAST_STEP" -lt 5 ]; then
-    echo "Step 5: TrialGPT-Ranking Final Ranking"
-    MATCHING_RESULTS="results/matching_results_${CORPUS}_${MODEL}.json"
-    AGGREGATION_RESULTS="results/aggregation_results_${CORPUS}_${MODEL}.json"
-    measure_time python trialgpt_ranking/rank_results.py $MATCHING_RESULTS $AGGREGATION_RESULTS $OVER_WRITE $CORPUS $MODEL
-    duration=$?
-    update_checkpoint "5" $duration
-else
-    echo "Skipping Step 5: Final Ranking Already completed"
-fi
-
-echo "TrialGPT pipeline completed successfully!"
-echo "Checkpoint file contents:"
-cat "$CHECKPOINT_FILE"
+## Step 3: TrialGPT-Matching
+#if [ "$LAST_STEP" -lt 3 ]; then
+#    echo "Step 3: TrialGPT-Matching"
+#    measure_time python trialgpt_matching/run_matching.py $CORPUS $MODEL $OVER_WRITE -g $NGPUS -d $CHECKPOINT_DIR $QUANTIZE_ARG
+#    duration=$?
+#    update_checkpoint "3" $duration
+#else
+#    echo "Skipping Step 3: TrialGPT-Matching Already completed"
+#fi
+#
+## Step 4: TrialGPT-Ranking - Aggregation
+#if [ "$LAST_STEP" -lt 4 ]; then
+#    echo "Step 4: TrialGPT-Ranking Aggregation"
+#    MATCHING_RESULTS="results/matching_results_${CORPUS}_${MODEL}.json"
+#    measure_time python trialgpt_ranking/run_aggregation.py $CORPUS $MODEL $MATCHING_RESULTS $OVER_WRITE -g $NGPUS -d $CHECKPOINT_DIR $QUANTIZE_ARG
+#    duration=$?
+#    update_checkpoint "4" $duration
+#else
+#    echo "Skipping Step 4: Aggregation Already completed"
+#fi
+#
+## Step 5: TrialGPT-Ranking - Final Ranking
+#if [ "$LAST_STEP" -lt 5 ]; then
+#    echo "Step 5: TrialGPT-Ranking Final Ranking"
+#    MATCHING_RESULTS="results/matching_results_${CORPUS}_${MODEL}.json"
+#    AGGREGATION_RESULTS="results/aggregation_results_${CORPUS}_${MODEL}.json"
+#    measure_time python trialgpt_ranking/rank_results.py $MATCHING_RESULTS $AGGREGATION_RESULTS $OVER_WRITE $CORPUS $MODEL
+#    duration=$?
+#    update_checkpoint "5" $duration
+#else
+#    echo "Skipping Step 5: Final Ranking Already completed"
+#fi
+#
+#echo "TrialGPT pipeline completed successfully!"
+#echo "Checkpoint file contents:"
+#cat "$CHECKPOINT_FILE"
