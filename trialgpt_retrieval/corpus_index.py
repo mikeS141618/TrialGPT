@@ -12,6 +12,7 @@ from rank_bm25 import BM25Okapi
 from tqdm import tqdm
 from transformers import AutoModel, AutoTokenizer
 
+print(torch.cuda.device_count())
 
 def load_and_format_patient_descriptions(corpus):
     """
@@ -84,10 +85,11 @@ def get_bm25_corpus_index(corpus: str, overwrite: bool) -> tuple[BM25Okapi, list
                 corpus_nctids.append(entry["_id"])
 
                 # Tokenize with weighting: 3 * title, 2 * condition, 1 * text
-                tokens = word_tokenize(entry["title"].lower()) * 3
+                tokens = word_tokenize(entry["title"].lower()) #* 3
                 for disease in entry["metadata"]["diseases_list"]:
-                    tokens += word_tokenize(disease.lower()) * 2
-                tokens += word_tokenize(entry["text"].lower())
+                    tokens += word_tokenize(disease.lower()) #* 2
+                tokens += word_tokenize(entry["metadata"]["brief_summary"].lower()+"\n"+
+                                        entry["metadata"]["inclusion_criteria"].lower())
 
                 tokenized_corpus.append(tokens)
 
@@ -111,6 +113,27 @@ def get_bm25_corpus_index(corpus: str, overwrite: bool) -> tuple[BM25Okapi, list
     bm25 = BM25Okapi(tokenized_corpus)
 
     return bm25, corpus_nctids
+
+
+import torch.nn as nn
+from torch.utils.data import DataLoader, TensorDataset
+
+import torch
+import torch.nn as nn
+from torch.utils.data import DataLoader, Dataset
+
+
+class CorpusDataset(Dataset):
+    def __init__(self, titles, texts):
+        self.titles = titles
+        self.texts = texts
+
+    def __len__(self):
+        return len(self.titles)
+
+    def __getitem__(self, idx):
+        return self.titles[idx], self.texts[idx]
+
 
 def batch_encode_corpus(corpus: str, batch_size: int = 32) -> tuple[np.ndarray, list[str]]:
     """
@@ -142,10 +165,24 @@ def batch_encode_corpus(corpus: str, batch_size: int = 32) -> tuple[np.ndarray, 
     corpus_nctids = []
     titles = []
     texts = []
-    embeds = []
 
-    model = AutoModel.from_pretrained("ncbi/MedCPT-Article-Encoder").to("cuda")
-    tokenizer = AutoTokenizer.from_pretrained("ncbi/MedCPT-Article-Encoder")
+    # modelname = 'microsoft/BiomedNLP-BiomedBERT-large-uncased-abstract' AssertionError
+    # modelname = 'microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext' #Missing Score 1: 544 (79.4%) Missing Score 2: 318 (75.5%)
+    modelname = 'ncbi/MedCPT-Article-Encoder' #Missing Score 1: 282 (41.2%) Missing Score 2: 122 (29.0%) p2 Missing Score 1: 289 (42.2%) Missing Score 2: 187 (44.4%)
+    # modelname = 'facebook/muppet-roberta-large' AssertionError
+    # modelname = 'facebook/dragon-roberta-query-encoder'  #Missing Score 1: 677 (98.8%) Missing Score 2: 413 (98.1%) p2 Missing Score 1: 680 (99.3%) Missing Score 2: 413 (98.1%)
+    # modelname = 'facebook/xlm-roberta-xl' AssertionError
+    # modelname = 'facebook/xlm-roberta-xxl'  #?
+    # modelname = 'facebook/roberta-hate-speech-dynabench-r4-target'  # Missing Score 1: 677 (98.8%) Missing Score 2: 418 (99.3%)
+    # modelname = 'facebook/roscoe-512-roberta-base'  # Missing Score 1: 671 (98.0%) Missing Score 2: 411 (97.6%)
+    # modelname = 'FacebookAI/roberta-base' # #g2g
+
+    # Initialize the model and move it to GPU
+    model = AutoModel.from_pretrained(modelname)
+    model = nn.DataParallel(model)  # Wrap the model with DataParallel
+    model = model.cuda()
+
+    tokenizer = AutoTokenizer.from_pretrained(modelname)
 
     with open(f"dataset/{corpus}/corpus.jsonl", "r") as f:
         print("Reading corpus")
@@ -153,14 +190,21 @@ def batch_encode_corpus(corpus: str, batch_size: int = 32) -> tuple[np.ndarray, 
             entry = json.loads(line)
             corpus_nctids.append(entry["_id"])
             titles.append(entry["title"])
-            texts.append(entry["text"])
+            texts.append(entry["metadata"]["brief_summary"].lower() + "\n" +
+                         " ".join(entry["metadata"]["diseases_list"]).lower() + "\n" +
+                         entry["metadata"]["inclusion_criteria"].lower())
 
     print("Encoding the corpus")
-    for i in tqdm(range(0, len(titles), batch_size), desc="Encoding batches"):
-        batch_titles = titles[i:i+batch_size]
-        batch_texts = texts[i:i+batch_size]
 
-        with torch.no_grad():
+    # Create a dataset and dataloader
+    dataset = CorpusDataset(titles, texts)
+    dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=False)
+
+    all_embeds = []
+
+    model.eval()
+    with torch.no_grad():
+        for batch_titles, batch_texts in tqdm(dataloader, desc="Encoding batches"):
             # Tokenize the articles
             encoded = tokenizer(
                 list(zip(batch_titles, batch_texts)),
@@ -172,9 +216,9 @@ def batch_encode_corpus(corpus: str, batch_size: int = 32) -> tuple[np.ndarray, 
 
             # Generate embeddings
             batch_embeds = model(**encoded).last_hidden_state[:, 0, :]
-            embeds.append(batch_embeds.cpu().numpy())
+            all_embeds.append(batch_embeds.cpu().numpy())
 
-    embeds = np.concatenate(embeds, axis=0)
+    embeds = np.concatenate(all_embeds, axis=0)
 
     return embeds, corpus_nctids
 
